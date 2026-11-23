@@ -27,7 +27,13 @@ actor ImageCache {
         if let task = inFlight[url] { return await task.value }
 
         let file = directory.appending(path: Self.fileName(for: url))
+        let bundled = Self.bundledURL(for: url)
         let task = Task<UIImage?, Never> {
+            // 1. Copy shipped inside the app (scripts/images/bundle_artwork.py): works offline.
+            if let bundled, let data = try? Data(contentsOf: bundled) {
+                return Self.downsample(data, maxPixelSize: maxPixelSize)
+            }
+            // 2. Disk cache from an earlier download.
             if let data = try? Data(contentsOf: file) {
                 return Self.downsample(data, maxPixelSize: maxPixelSize)
             }
@@ -64,6 +70,13 @@ actor ImageCache {
 
     private static func fileName(for url: URL) -> String {
         SHA256.hash(data: Data(url.absoluteString.utf8)).map { String(format: "%02x", $0) }.joined()
+    }
+
+    /// Bundled artwork is named sha256(url).jpg, in an "Artwork" folder or at the bundle root.
+    private static func bundledURL(for url: URL) -> URL? {
+        let name = fileName(for: url)
+        return Bundle.main.url(forResource: name, withExtension: "jpg", subdirectory: "Artwork")
+            ?? Bundle.main.url(forResource: name, withExtension: "jpg")
     }
 
     private static func downsample(_ data: Data, maxPixelSize: CGFloat) -> UIImage? {

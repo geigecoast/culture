@@ -115,7 +115,7 @@ Every image in the app carries a licence, a credit, a link to the museum record 
 - The seed images are **public-domain (CC0) works from the Art Institute of Chicago** open-access collection, picked by hand per card (`scripts/images/picks.py`). `python3 scripts/images/apply.py` fetches their metadata, checks that each image actually loads, and writes it into `content/`. `scripts/images/search.py` lists candidates for new cards.
 - The Met's open-access API works, but its image CDN blocks automated requests from build servers. Met images can't be verified there, so none are used yet. An editor can still add Met images by hand in the editor.
 - Event pictures are illustrations (a Degas ballet for a ballet night, for example) and are captioned "Illustration". Swap them for venue press photos once venues license them.
-- Before launch, mirror the images to your own storage (Supabase Storage or a CDN) and point `url` there, so the app doesn't depend on museum servers.
+- **The images ship inside the app** (`App/Resources/Artwork`, about 6 MB, resized to 1000 px) and load offline. The Art Institute's image server blocks some data-centre traffic, including GitHub's build machines, so the app never depends on it. After adding images in the editor, run `python3 scripts/images/bundle_artwork.py` and commit the new files. Images that aren't bundled are downloaded and cached on first view.
 - Some topics have no honest open-access match (the Berlin Wall in 1989, the Strait of Hormuz, NATO and others). Those cards keep their topic artwork until a licensed photo is added, rather than showing a misleading picture.
 
 ## Event-source maintenance
