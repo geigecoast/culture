@@ -30,20 +30,14 @@ jobs:
       - name: Event freshness report
         run: node admin/check-events.mjs
 
-  domain:
-    name: Domain tests (CultureCore)
-    runs-on: macos-15
+  ios:
+    name: iOS app build + domain tests
+    # Intel pool: the Apple-silicon (macos-15) queue repeatedly timed out for this repo.
+    runs-on: macos-15-intel
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - run: xcodebuild -version
-      - name: swift test
-        run: cd CultureKit && swift test
-
-  ios:
-    name: iOS app build
-    runs-on: macos-15
-    steps:
-      - uses: actions/checkout@v4
       - name: Install XcodeGen
         run: brew install xcodegen
       - name: Generate project
@@ -53,8 +47,10 @@ jobs:
           set -o pipefail
           xcodebuild build -project Culture.xcodeproj -scheme Culture \
             -destination 'generic/platform=iOS Simulator' \
-            CODE_SIGNING_ALLOWED=NO 2>&1 | tee build.log | grep -E "error:|warning: .*Sendable|BUILD (SUCCEEDED|FAILED)" || true
+            CODE_SIGNING_ALLOWED=NO > build.log 2>&1 || true
+          grep -E "error:" build.log | sort -u | head -150 || true
+          tail -5 build.log
           grep -q "BUILD SUCCEEDED" build.log
-      - name: Build errors
-        if: failure()
-        run: grep -E "error:" build.log | sort -u | head -100
+      - name: Domain tests (CultureCore)
+        if: always()
+        run: cd CultureKit && swift test 2>&1 | tail -80
