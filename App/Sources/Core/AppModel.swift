@@ -61,7 +61,7 @@ final class AppModel {
 
     let visibility = BuildConfiguration.contentVisibility
 
-    init(container: ModelContainer, settings: AppSettings = AppSettings()) {
+    init(container: ModelContainer, settings: AppSettings) {
         self.settings = settings
         store = UserDataStore(context: container.mainContext)
         auth = AuthService()
