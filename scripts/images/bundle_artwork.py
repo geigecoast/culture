@@ -14,7 +14,7 @@ OUT = ROOT / "App/Resources/Artwork"
 
 def urls():
     found = set()
-    for t in ["art", "music", "history", "politics", "geopolitics"]:
+    for t in ["art", "music", "history", "politics", "geopolitics", "books", "philosophy"]:
         for c in json.loads((ROOT / f"content/cards/{t}.json").read_text()):
             for img in [c.get("image")] + c.get("gallery", []):
                 if img: found.add(img["url"])

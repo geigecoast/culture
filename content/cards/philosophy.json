@@ -1,0 +1,744 @@
+[
+  {
+    "id": "ph-001",
+    "topic": "philosophy",
+    "kind": "standard",
+    "title": {
+      "fr": "Socrate et la maïeutique",
+      "en": "Socrates and maieutics"
+    },
+    "body": {
+      "fr": "Socrate n'a rien écrit : nous le connaissons par Platon et Xénophon. Dans les rues d'Athènes, il interroge ses interlocuteurs jusqu'à leur faire reconnaître qu'ils ne savent pas ce qu'ils croyaient savoir. Il compare cette méthode, la maïeutique, au métier de sa mère, sage-femme : il aide les esprits à « accoucher » de la vérité. Accusé d'impiété et de corrompre la jeunesse, il est condamné à boire la ciguë en 399 av. J.-C.",
+      "en": "Socrates wrote nothing: we know him through Plato and Xenophon. In the streets of Athens he questioned people until they admitted they did not know what they thought they knew. He compared this method, maieutics, to the work of his mother, a midwife: he helped minds “give birth” to the truth. Accused of impiety and corrupting the young, he was condemned to drink hemlock in 399 BC."
+    },
+    "takeaway": {
+      "fr": "Savoir qu'on ne sait pas est le début de la sagesse.",
+      "en": "Knowing that you do not know is the beginning of wisdom."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Quel poison Socrate dut-il boire ?",
+        "en": "Which poison was Socrates made to drink?"
+      },
+      "options": [
+        {
+          "fr": "L'arsenic",
+          "en": "Arsenic"
+        },
+        {
+          "fr": "La ciguë",
+          "en": "Hemlock"
+        },
+        {
+          "fr": "La belladone",
+          "en": "Belladonna"
+        },
+        {
+          "fr": "La mandragore",
+          "en": "Mandrake"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Platon raconte ses derniers instants dans le Phédon.",
+        "en": "Plato recounts his last moments in the Phaedo."
+      }
+    },
+    "tags": [
+      "antiquité",
+      "grèce",
+      "méthode"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Socrates",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/socrates/"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/19169aa8-0934-a714-9107-a545ceb3f9eb/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "George Baxter, Socrates, 1840 — Art Institute of Chicago (Gift of Henry M. Huxley)",
+      "sourcePage": "https://www.artic.edu/artworks/54083",
+      "altText": {
+        "fr": "Buste de Socrate sur une page de titre gravée par George Baxter (1840)",
+        "en": "Bust of Socrates on a title page engraved by George Baxter (1840)"
+      }
+    },
+    "gallery": []
+  },
+  {
+    "id": "ph-002",
+    "topic": "philosophy",
+    "kind": "standard",
+    "title": {
+      "fr": "Platon et l'allégorie de la caverne",
+      "en": "Plato's allegory of the cave"
+    },
+    "body": {
+      "fr": "Au livre VII de La République, Platon imagine des prisonniers enchaînés au fond d'une caverne, qui prennent pour la réalité les ombres projetées sur la paroi. Libéré, l'un d'eux découvre peu à peu le monde extérieur et le soleil, image du Bien. Redescendu pour libérer les autres, il est moqué, voire menacé. L'allégorie illustre l'éducation philosophique et justifie, chez Platon, que les philosophes gouvernent la cité.",
+      "en": "In Book VII of the Republic, Plato imagines prisoners chained deep in a cave, who take the shadows cast on the wall for reality. Freed, one of them gradually discovers the outside world and the sun, an image of the Good. When he goes back down to free the others, he is mocked, even threatened. The allegory illustrates philosophical education and, for Plato, justifies the rule of philosophers."
+    },
+    "takeaway": {
+      "fr": "Sortir de la caverne : passer des apparences à la vérité.",
+      "en": "Leaving the cave: moving from appearances to truth."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Dans quel ouvrage se trouve l'allégorie de la caverne ?",
+        "en": "In which work is the allegory of the cave found?"
+      },
+      "options": [
+        {
+          "fr": "Le Banquet",
+          "en": "The Symposium"
+        },
+        {
+          "fr": "La République",
+          "en": "The Republic"
+        },
+        {
+          "fr": "Les Lois",
+          "en": "The Laws"
+        },
+        {
+          "fr": "L'Apologie de Socrate",
+          "en": "The Apology"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Livre VII, juste après les images du soleil et de la ligne.",
+        "en": "Book VII, right after the images of the sun and the divided line."
+      }
+    },
+    "tags": [
+      "antiquité",
+      "grèce",
+      "connaissance"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Plato",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/plato/"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/5312062c-fb89-96db-a7a4-b3da9a24c033/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "Jan Saenredam (Dutch, 1565–1607), Plato’s Cave, 1604 — Art Institute of Chicago (Charles Hack and the Hearn Family Trust Collection, purchased with funds provided by the Harry B. and Bessie K. Braude Memorial, Amanda S. Johnson and Marion J. Livingston, anonymous, and Suzanne Searle Dixon endowment funds)",
+      "sourcePage": "https://www.artic.edu/artworks/268711",
+      "altText": {
+        "fr": "Jan Saenredam, La Caverne de Platon (1604), gravure",
+        "en": "Jan Saenredam, Plato's Cave (1604), engraving"
+      }
+    },
+    "gallery": [
+      {
+        "url": "https://www.artic.edu/iiif/2/071329a4-a873-2bd1-0b8b-faf1182c2a7b/full/843,/0/default.jpg",
+        "license": "Domaine public — CC0 (Art Institute of Chicago)",
+        "credit": "Wedgwood Manufactory, Medallion with Plato, Late 18th century — Art Institute of Chicago (The Frank W. Gunsaulus Collection of Old Wedgwood)",
+        "sourcePage": "https://www.artic.edu/artworks/67966",
+        "altText": {
+          "fr": "Wedgwood, médaillon à l'effigie de Platon (fin du XVIIIe siècle)",
+          "en": "Wedgwood, medallion with Plato (late 18th century)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ph-003",
+    "topic": "philosophy",
+    "kind": "standard",
+    "title": {
+      "fr": "Aristote, l'animal politique",
+      "en": "Aristotle, the political animal"
+    },
+    "body": {
+      "fr": "Élève de Platon et précepteur du jeune Alexandre le Grand, Aristote fonde à Athènes son école, le Lycée. Dans la Politique, il affirme que l'homme est « un animal politique » : doué de la parole, il ne s'accomplit que dans la cité. Il classe les régimes selon le nombre de gouvernants et selon qu'ils servent l'intérêt commun ou celui des dirigeants.",
+      "en": "A pupil of Plato and tutor to the young Alexander the Great, Aristotle founded his school in Athens, the Lyceum. In the Politics he states that man is “a political animal”: gifted with speech, he only fulfils himself in the city. He classifies regimes by the number of rulers and by whether they serve the common interest or the rulers' own."
+    },
+    "takeaway": {
+      "fr": "L'homme ne s'accomplit que dans la cité.",
+      "en": "Man only fulfils himself in the city."
+    },
+    "quiz": {
+      "question": {
+        "fr": "De quel futur conquérant Aristote fut-il le précepteur ?",
+        "en": "Which future conqueror did Aristotle tutor?"
+      },
+      "options": [
+        {
+          "fr": "Jules César",
+          "en": "Julius Caesar"
+        },
+        {
+          "fr": "Alexandre le Grand",
+          "en": "Alexander the Great"
+        },
+        {
+          "fr": "Hannibal",
+          "en": "Hannibal"
+        },
+        {
+          "fr": "Périclès",
+          "en": "Pericles"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Il fut appelé à la cour de Macédoine par Philippe II.",
+        "en": "He was called to the Macedonian court by Philip II."
+      }
+    },
+    "tags": [
+      "antiquité",
+      "grèce",
+      "politique"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Aristotle's Political Theory",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/aristotle-politics/"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Aristote (Ἀριστοτέλης)",
+      "year": "IVe siècle av. J.-C.",
+      "originalTitle": "Πολιτικά",
+      "quote": "ἄνθρωπος φύσει πολιτικὸν ζῷον",
+      "quoteTranslation": {
+        "fr": "l'homme est par nature un animal politique",
+        "en": "man is by nature a political animal"
+      },
+      "quoteSource": "Politique, I, 2"
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/dee5b90a-aedc-56be-26fc-2872fd06fa1e/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "Master M.Z., Aristotle and Phyllis, c. 1500 — Art Institute of Chicago (Clarence Buckingham Collection)",
+      "sourcePage": "https://www.artic.edu/artworks/20121",
+      "altText": {
+        "fr": "Maître M. Z., Aristote et Phyllis (vers 1500), légende médiévale du philosophe chevauché",
+        "en": "Master M. Z., Aristotle and Phyllis (c. 1500), the medieval tale of the philosopher ridden"
+      }
+    },
+    "gallery": []
+  },
+  {
+    "id": "ph-004",
+    "topic": "philosophy",
+    "kind": "standard",
+    "title": {
+      "fr": "Les stoïciens",
+      "en": "The Stoics"
+    },
+    "body": {
+      "fr": "Né à Athènes vers 300 av. J.-C., le stoïcisme enseigne à distinguer ce qui dépend de nous, nos jugements et nos actes, de ce qui n'en dépend pas : la santé, la réputation, la fortune. L'esclave affranchi Épictète, le conseiller de Néron Sénèque et l'empereur Marc Aurèle en sont les grandes figures romaines. Leur idéal : la sérénité par l'accord avec la raison et la nature.",
+      "en": "Born in Athens around 300 BC, Stoicism teaches us to tell apart what depends on us, our judgements and our actions, from what does not: health, reputation, fortune. The freed slave Epictetus, Nero's adviser Seneca and the emperor Marcus Aurelius are its great Roman figures. Their ideal: serenity through agreement with reason and nature."
+    },
+    "takeaway": {
+      "fr": "Distinguer ce qui dépend de nous de ce qui n'en dépend pas.",
+      "en": "Tell apart what depends on us from what does not."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Quel empereur romain a écrit des Pensées stoïciennes ?",
+        "en": "Which Roman emperor wrote Stoic Meditations?"
+      },
+      "options": [
+        {
+          "fr": "Auguste",
+          "en": "Augustus"
+        },
+        {
+          "fr": "Néron",
+          "en": "Nero"
+        },
+        {
+          "fr": "Marc Aurèle",
+          "en": "Marcus Aurelius"
+        },
+        {
+          "fr": "Hadrien",
+          "en": "Hadrian"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "fr": "Il les écrivit en grec, pour lui-même, pendant ses campagnes militaires.",
+        "en": "He wrote them in Greek, for himself, during his military campaigns."
+      }
+    },
+    "tags": [
+      "antiquité",
+      "rome",
+      "sagesse"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Stoicism",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/stoicism/"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Épictète (Ἐπίκτητος)",
+      "year": "vers 125",
+      "originalTitle": "Ἐγχειρίδιον",
+      "quote": "Τῶν ὄντων τὰ μέν ἐστιν ἐφ᾽ ἡμῖν, τὰ δὲ οὐκ ἐφ᾽ ἡμῖν.",
+      "quoteTranslation": {
+        "fr": "Parmi les choses, les unes dépendent de nous, les autres n'en dépendent pas.",
+        "en": "Some things are within our power, others are not."
+      },
+      "quoteSource": "Manuel, 1"
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/9b312820-971d-04ba-361d-4b008eaaaccc/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "Roman, minted in Rome, Aureus (Coin) Portraying Marcus Aurelius, 153-154, issued by Antoninus Pius — Art Institute of Chicago (Gift of Martin A. Ryerson)",
+      "sourcePage": "https://www.artic.edu/artworks/5644",
+      "altText": {
+        "fr": "Aureus à l'effigie de Marc Aurèle, Rome (153–154)",
+        "en": "Aureus portraying Marcus Aurelius, Rome (153–154)"
+      }
+    },
+    "gallery": [
+      {
+        "url": "https://www.artic.edu/iiif/2/9cafe06a-e678-f0fc-9f67-a3c758a9513e/full/843,/0/default.jpg",
+        "license": "Domaine public — CC0 (Art Institute of Chicago)",
+        "credit": "Lucas Vorsterman (Flemish, 1595-1675), Seneca, 1638 — Art Institute of Chicago (The Amanda S. Johnson and Marion J. Livingston Fund)",
+        "sourcePage": "https://www.artic.edu/artworks/223289",
+        "altText": {
+          "fr": "Lucas Vorsterman, Sénèque (1638)",
+          "en": "Lucas Vorsterman, Seneca (1638)"
+        }
+      },
+      {
+        "url": "https://www.artic.edu/iiif/2/dd42cb97-b4bd-a95c-12f6-bba45a2d9406/full/843,/0/default.jpg",
+        "license": "Domaine public — CC0 (Art Institute of Chicago)",
+        "credit": "Giovanni Battista Piranesi, The Column of Marcus Aurelius, from Views of Rome, 1750/59 — Art Institute of Chicago (Clarence Buckingham Collection)",
+        "sourcePage": "https://www.artic.edu/artworks/64511",
+        "altText": {
+          "fr": "Giovanni Battista Piranesi, La Colonne de Marc Aurèle, Vues de Rome",
+          "en": "Giovanni Battista Piranesi, The Column of Marcus Aurelius, Views of Rome"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ph-005",
+    "topic": "philosophy",
+    "kind": "standard",
+    "title": {
+      "fr": "Descartes, « Je pense, donc je suis »",
+      "en": "Descartes, “I think, therefore I am”"
+    },
+    "body": {
+      "fr": "Dans le Discours de la méthode (1637), René Descartes décide de douter de tout ce qui peut l'être : les sens qui trompent, et même les raisonnements. Une certitude résiste : pendant qu'il doute, il pense, donc il existe. De ce point fixe, il entend reconstruire tout le savoir sur des idées « claires et distinctes ». La formule latine cogito, ergo sum apparaît dans les Principes de la philosophie (1644).",
+      "en": "In the Discourse on the Method (1637), René Descartes decides to doubt everything that can be doubted: the senses that deceive, and even reasoning. One certainty survives: while he doubts, he thinks, so he exists. From this fixed point he means to rebuild all knowledge on “clear and distinct” ideas. The Latin formula cogito, ergo sum appears in the Principles of Philosophy (1644)."
+    },
+    "takeaway": {
+      "fr": "Le doute méthodique mène à une première certitude : je pense, donc je suis.",
+      "en": "Methodical doubt leads to a first certainty: I think, therefore I am."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Dans quel livre paraît « Je pense, donc je suis » ?",
+        "en": "In which book does “I think, therefore I am” appear?"
+      },
+      "options": [
+        {
+          "fr": "Les Méditations métaphysiques",
+          "en": "Meditations on First Philosophy"
+        },
+        {
+          "fr": "Le Discours de la méthode",
+          "en": "Discourse on the Method"
+        },
+        {
+          "fr": "Les Pensées",
+          "en": "Pensées"
+        },
+        {
+          "fr": "Le Traité des passions",
+          "en": "The Passions of the Soul"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Écrit en français, et non en latin, pour être lu par tous.",
+        "en": "Written in French, not Latin, so that anyone could read it."
+      }
+    },
+    "tags": [
+      "xviie",
+      "france",
+      "raison"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "René Descartes",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "title": "Éditions anciennes numérisées",
+          "publisher": "Gallica — BnF",
+          "url": "https://gallica.bnf.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "René Descartes",
+      "year": "1637",
+      "originalTitle": "Discours de la méthode",
+      "quote": "Je pense, donc je suis.",
+      "quoteTranslation": {
+        "fr": "Je pense, donc je suis.",
+        "en": "I think, therefore I am."
+      },
+      "quoteSource": "4e partie"
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/bc2b2937-e002-8ecb-89f5-d7d82310d135/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "Jean-Baptiste de Grateloup, Descartes, n.d. — Art Institute of Chicago (The Art Institute of Chicago)",
+      "sourcePage": "https://www.artic.edu/artworks/53601",
+      "altText": {
+        "fr": "Jean-Baptiste de Grateloup, Descartes, aquatinte",
+        "en": "Jean-Baptiste de Grateloup, Descartes, aquatint"
+      }
+    },
+    "gallery": []
+  },
+  {
+    "id": "ph-006",
+    "topic": "philosophy",
+    "kind": "standard",
+    "title": {
+      "fr": "Pascal, le roseau pensant",
+      "en": "Pascal, the thinking reed"
+    },
+    "body": {
+      "fr": "Mathématicien et physicien de génie, Blaise Pascal se consacre après sa « nuit de feu » de 1654 à une apologie de la religion chrétienne, restée inachevée. Ses fragments sont publiés après sa mort sous le titre de Pensées (1670). L'homme y apparaît entre grandeur et misère : fragile comme un roseau, mais grand parce qu'il se sait mortel. Le célèbre « pari » invite l'incroyant à miser sur l'existence de Dieu.",
+      "en": "A brilliant mathematician and physicist, Blaise Pascal devoted himself after his “night of fire” in 1654 to a defence of the Christian religion, left unfinished. His fragments were published after his death as the Pensées (1670). Man appears there between greatness and wretchedness: fragile as a reed, yet great because he knows he is mortal. The famous “wager” invites the unbeliever to bet on God's existence."
+    },
+    "takeaway": {
+      "fr": "Grandeur et misère de l'homme : un roseau, mais un roseau pensant.",
+      "en": "Man's greatness and wretchedness: a reed, but a thinking reed."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Comment s'intitule le recueil posthume de Pascal ?",
+        "en": "What is Pascal's posthumous collection called?"
+      },
+      "options": [
+        {
+          "fr": "Les Essais",
+          "en": "The Essays"
+        },
+        {
+          "fr": "Les Pensées",
+          "en": "The Pensées"
+        },
+        {
+          "fr": "Les Maximes",
+          "en": "The Maxims"
+        },
+        {
+          "fr": "Les Provinciales",
+          "en": "The Provincial Letters"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Les Provinciales, publiées de son vivant, défendent les jansénistes.",
+        "en": "The Provincial Letters, published in his lifetime, defend the Jansenists."
+      }
+    },
+    "tags": [
+      "xviie",
+      "france",
+      "foi"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Blaise Pascal",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/pascal/"
+        },
+        {
+          "title": "Éditions anciennes numérisées",
+          "publisher": "Gallica — BnF",
+          "url": "https://gallica.bnf.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Blaise Pascal",
+      "year": "publié en 1670",
+      "originalTitle": "Pensées",
+      "quote": "Le cœur a ses raisons que la raison ne connaît point.",
+      "quoteTranslation": {
+        "fr": "Le cœur a ses raisons que la raison ne connaît point.",
+        "en": "The heart has its reasons, of which reason knows nothing."
+      },
+      "quoteSource": "Pensées"
+    }
+  },
+  {
+    "id": "ph-007",
+    "topic": "philosophy",
+    "kind": "standard",
+    "title": {
+      "fr": "Spinoza, Dieu ou la Nature",
+      "en": "Spinoza, God or Nature"
+    },
+    "body": {
+      "fr": "Exclu de la communauté juive d'Amsterdam en 1656 pour ses idées, Baruch Spinoza gagne sa vie en polissant des lentilles. Son Éthique, publiée après sa mort en 1677, est écrite « selon l'ordre géométrique », avec définitions et démonstrations. Il y identifie Dieu à la Nature elle-même et voit dans la connaissance de nos passions le chemin de la liberté et de la joie.",
+      "en": "Expelled from Amsterdam's Jewish community in 1656 for his ideas, Baruch Spinoza earned his living grinding lenses. His Ethics, published after his death in 1677, is written “in geometrical order”, with definitions and proofs. He identifies God with Nature itself and sees understanding our passions as the path to freedom and joy."
+    },
+    "takeaway": {
+      "fr": "Comprendre ses passions, c'est commencer à s'en libérer.",
+      "en": "To understand one's passions is to begin to be free of them."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Comment l'Éthique est-elle rédigée ?",
+        "en": "How is the Ethics written?"
+      },
+      "options": [
+        {
+          "fr": "En dialogues",
+          "en": "As dialogues"
+        },
+        {
+          "fr": "En aphorismes",
+          "en": "As aphorisms"
+        },
+        {
+          "fr": "Selon l'ordre géométrique",
+          "en": "In geometrical order"
+        },
+        {
+          "fr": "En vers",
+          "en": "In verse"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "fr": "Comme Euclide : définitions, axiomes, propositions et démonstrations.",
+        "en": "Like Euclid: definitions, axioms, propositions and proofs."
+      }
+    },
+    "tags": [
+      "xviie",
+      "pays-bas",
+      "liberté"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Baruch Spinoza",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/spinoza/"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Baruch Spinoza",
+      "year": "publié en 1677",
+      "originalTitle": "Ethica, ordine geometrico demonstrata",
+      "quote": "Deus sive Natura",
+      "quoteTranslation": {
+        "fr": "Dieu, c'est-à-dire la Nature",
+        "en": "God, or Nature"
+      },
+      "quoteSource": "Éthique, IV, préface"
+    }
+  },
+  {
+    "id": "ph-008",
+    "topic": "philosophy",
+    "kind": "standard",
+    "title": {
+      "fr": "Kant, « Ose savoir ! »",
+      "en": "Kant, “Dare to know!”"
+    },
+    "body": {
+      "fr": "En 1784, à Königsberg, Emmanuel Kant répond à la question « Qu'est-ce que les Lumières ? » : c'est la sortie de l'homme hors de l'état de minorité dont il est lui-même responsable. Sa devise : Sapere aude, ose te servir de ton propre entendement. En morale, il formule l'impératif catégorique : agis seulement selon une règle dont tu pourrais vouloir qu'elle devienne une loi universelle.",
+      "en": "In 1784, in Königsberg, Immanuel Kant answered the question “What is Enlightenment?”: it is man's emergence from his self-incurred immaturity. His motto: Sapere aude, dare to use your own understanding. In ethics he formulated the categorical imperative: act only on a rule you could will to become a universal law."
+    },
+    "takeaway": {
+      "fr": "Penser par soi-même : la devise des Lumières.",
+      "en": "Thinking for oneself: the motto of the Enlightenment."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Dans quelle ville Kant a-t-il passé presque toute sa vie ?",
+        "en": "In which city did Kant spend almost his whole life?"
+      },
+      "options": [
+        {
+          "fr": "Berlin",
+          "en": "Berlin"
+        },
+        {
+          "fr": "Königsberg",
+          "en": "Königsberg"
+        },
+        {
+          "fr": "Vienne",
+          "en": "Vienna"
+        },
+        {
+          "fr": "Iéna",
+          "en": "Jena"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Aujourd'hui Kaliningrad, en Russie.",
+        "en": "Today Kaliningrad, in Russia."
+      }
+    },
+    "tags": [
+      "lumières",
+      "allemagne",
+      "morale"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Immanuel Kant",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/kant/"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Immanuel Kant",
+      "year": "1784",
+      "originalTitle": "Beantwortung der Frage: Was ist Aufklärung?",
+      "quote": "Sapere aude! Habe Mut, dich deines eigenen Verstandes zu bedienen!",
+      "quoteTranslation": {
+        "fr": "Sapere aude ! Aie le courage de te servir de ton propre entendement !",
+        "en": "Sapere aude! Have the courage to use your own understanding!"
+      },
+      "quoteSource": "« Qu'est-ce que les Lumières ? »"
+    }
+  },
+  {
+    "id": "ph-009",
+    "topic": "philosophy",
+    "kind": "standard",
+    "title": {
+      "fr": "Nietzsche, la mort de Dieu",
+      "en": "Nietzsche, the death of God"
+    },
+    "body": {
+      "fr": "Dans Le Gai Savoir (1882), Friedrich Nietzsche fait annoncer par un insensé que « Dieu est mort » : non une affirmation théologique, mais le constat que les valeurs héritées du christianisme ont perdu leur fondement. Le risque est le nihilisme. Sa réponse : créer de nouvelles valeurs, figure du surhumain dans Ainsi parlait Zarathoustra, et affirmer la vie à travers la « volonté de puissance ».",
+      "en": "In The Gay Science (1882), Friedrich Nietzsche has a madman announce that “God is dead”: not a theological claim, but the observation that values inherited from Christianity have lost their foundation. The danger is nihilism. His answer: create new values, the figure of the overman in Thus Spoke Zarathustra, and affirm life through the “will to power”."
+    },
+    "takeaway": {
+      "fr": "Après la mort de Dieu, créer ses propres valeurs.",
+      "en": "After the death of God, create one's own values."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Dans quel livre paraît l'annonce « Dieu est mort » ?",
+        "en": "In which book is “God is dead” announced?"
+      },
+      "options": [
+        {
+          "fr": "Ainsi parlait Zarathoustra",
+          "en": "Thus Spoke Zarathustra"
+        },
+        {
+          "fr": "Le Gai Savoir",
+          "en": "The Gay Science"
+        },
+        {
+          "fr": "Par-delà bien et mal",
+          "en": "Beyond Good and Evil"
+        },
+        {
+          "fr": "L'Antéchrist",
+          "en": "The Antichrist"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Paragraphe 125, « L'insensé » ; le thème revient dans Zarathoustra.",
+        "en": "Section 125, “The Madman”; the theme returns in Zarathustra."
+      }
+    },
+    "tags": [
+      "xixe",
+      "allemagne",
+      "valeurs",
+      "pouvoir"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Friedrich Nietzsche",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/nietzsche/"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Friedrich Nietzsche",
+      "year": "1882",
+      "originalTitle": "Die fröhliche Wissenschaft",
+      "quote": "Gott ist todt!",
+      "quoteTranslation": {
+        "fr": "Dieu est mort !",
+        "en": "God is dead!"
+      },
+      "quoteSource": "Le Gai Savoir, § 125"
+    }
+  }
+]

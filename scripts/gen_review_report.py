@@ -6,7 +6,7 @@ from review_notes import NOTES, VENUE_NOTES
 
 root = pathlib.Path(__file__).resolve().parent.parent
 load = lambda p: json.loads((root / "content" / p).read_text())
-topics = ["art", "music", "history", "politics", "geopolitics"]
+topics = ["art", "music", "history", "politics", "geopolitics", "books", "philosophy"]
 cards = [c for t in topics for c in load(f"cards/{t}.json")]
 vocab = load("vocab/vocab.json")
 events = load("events/events.json")

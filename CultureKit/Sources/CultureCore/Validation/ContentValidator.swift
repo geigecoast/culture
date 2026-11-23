@@ -17,6 +17,9 @@ public struct ContentValidator: Sendable {
             if !card.title.isComplete || !card.body.isComplete || !card.takeaway.isComplete {
                 issues.append(Issue(itemID: card.id, message: "missing FR or EN text"))
             }
+            if card.topic == .books && card.book == nil {
+                issues.append(Issue(itemID: card.id, message: "book card without author and year"))
+            }
             if card.topic == .geopolitics && card.factsAsOf == nil {
                 issues.append(Issue(itemID: card.id, message: "geopolitics card without factsAsOf date"))
             }

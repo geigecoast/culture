@@ -23,7 +23,7 @@ enum Fixtures {
                     takeaway: .init(fr: "k", en: "k"), quiz: nil, timeline: nil, image: nil, gallery: nil, imageSuggestion: nil,
                     factsAsOf: topic == .geopolitics ? "2026-11-01" : nil, tags: [],
                     editorial: .init(status: .published, sources: [.init(title: "S")], lastReviewed: "2026-11-01", reviewer: "R"),
-                    premium: nil)
+                    premium: nil, book: nil)
     }
 
     static var utcCalendar: Calendar {

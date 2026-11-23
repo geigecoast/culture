@@ -29,7 +29,7 @@ for f in (root / "App/Sources").rglob("*.swift"):
     for lit in re.findall(r'"([a-zA-Z]+\.[a-zA-Z0-9_.]+)"', f.read_text()):
         if lit.startswith(prefixes):
             used.add(lit)
-dynamic = {f"topic.{t}" for t in ["art", "music", "history", "politics", "geopolitics", "vocabulary"]}
+dynamic = {f"topic.{t}" for t in ["art", "music", "history", "politics", "geopolitics", "books", "philosophy", "vocabulary"]}
 dynamic |= {f"register.{r}" for r in ["courant", "soutenu", "litteraire", "vieilli", "familier"]}
 dynamic |= {f"category.{c}" for c in ["opera_ballet", "classical", "jazz_world", "theatre_dance", "exhibitions", "science", "literature_cinema"]}
 dynamic |= {f"status.{s}" for s in ["scheduled", "cancelled", "moved", "sold_out"]}

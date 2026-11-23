@@ -53,6 +53,21 @@ CARDS = {
  "geo-004": [("aic", 117762, "William Bradford, Paysage marin arctique", "William Bradford, Arctic Seascape")],
  "geo-005": [("aic", 143901, "Louis Oscar Roty, médaille de la Compagnie du canal de Suez (XIXe siècle)", "Louis Oscar Roty, Suez Canal Company medal (19th century)")],
  "geo-008": [("aic", 65937, "Marsden Hartley, Paysage n° 3, mines de Cash Entry, Nouveau-Mexique (1920)", "Marsden Hartley, Landscape No. 3, Cash Entry Mines, New Mexico (1920)")],
+ "bk-001": [("aic", 110759, "Jacopo da Pontormo, Alexandre de Médicis (1534–1535) ; Le Prince est dédié à un autre Médicis, Laurent", "Jacopo da Pontormo, Alessandro de' Medici (1534–35); The Prince is dedicated to another Medici, Lorenzo")],
+ "bk-005": [("aic", 55377, "A. Champion, Napoléon au combat (1822–1826) ; Clausewitz combattit les armées napoléoniennes", "A. Champion, Napoleon in Battle (1822–26); Clausewitz fought Napoleon's armies"),
+            ("aic", 885, "Édouard Detaille, Officier à cheval (1877)", "Édouard Detaille, A Mounted Officer (1877)")],
+ "bk-007": [("aic", 158217, "Théodore Caruelle d'Aligny, L'Acropole d'Athènes (1845)", "Théodore Caruelle d'Aligny, The Acropolis of Athens (1845)")],
+ "bk-009": [("aic", 25361, "Plat en majolique d'Urbino, Horatius Coclès sur le pont (vers 1535)", "Urbino maiolica plate, Horatius at the Bridge (c. 1535)")],
+ "bk-011": [("aic", 108975, "Étienne Ficquet, portrait de Jean-Jacques Rousseau (1764–1772)", "Étienne Ficquet, portrait of Jean-Jacques Rousseau (1764–72)"),
+            ("aic", 149488, "Jean-Michel Moreau, Le Tombeau de Jean-Jacques Rousseau (1778)", "Jean-Michel Moreau, The Tomb of Jean-Jacques Rousseau (1778)")],
+ "ph-001": [("aic", 54083, "Buste de Socrate sur une page de titre gravée par George Baxter (1840)", "Bust of Socrates on a title page engraved by George Baxter (1840)")],
+ "ph-002": [("aic", 268711, "Jan Saenredam, La Caverne de Platon (1604), gravure", "Jan Saenredam, Plato's Cave (1604), engraving"),
+            ("aic", 67966, "Wedgwood, médaillon à l'effigie de Platon (fin du XVIIIe siècle)", "Wedgwood, medallion with Plato (late 18th century)")],
+ "ph-003": [("aic", 20121, "Maître M. Z., Aristote et Phyllis (vers 1500), légende médiévale du philosophe chevauché", "Master M. Z., Aristotle and Phyllis (c. 1500), the medieval tale of the philosopher ridden")],
+ "ph-004": [("aic", 5644, "Aureus à l'effigie de Marc Aurèle, Rome (153–154)", "Aureus portraying Marcus Aurelius, Rome (153–154)"),
+            ("aic", 223289, "Lucas Vorsterman, Sénèque (1638)", "Lucas Vorsterman, Seneca (1638)"),
+            ("aic", 64511, "Giovanni Battista Piranesi, La Colonne de Marc Aurèle, Vues de Rome", "Giovanni Battista Piranesi, The Column of Marcus Aurelius, Views of Rome")],
+ "ph-005": [("aic", 53601, "Jean-Baptiste de Grateloup, Descartes, aquatinte", "Jean-Baptiste de Grateloup, Descartes, aquatint")],
 }
 
 # Events: illustrations only (never presented as the production itself).

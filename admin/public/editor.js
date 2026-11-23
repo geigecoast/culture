@@ -1,12 +1,12 @@
 // Culture editorial UI: a generic form editor over the /content collections.
 const LABELS = {
   'cards:art': 'Art', 'cards:music': 'Musique', 'cards:history': 'Histoire', 'cards:politics': 'Politique',
-  'cards:geopolitics': 'Géopolitique', vocab: 'Vocabulaire', vocabSets: 'Séries de vocabulaire', cities: 'Villes',
+  'cards:geopolitics': 'Géopolitique', 'cards:books': 'Livres', 'cards:philosophy': 'Philosophie', vocab: 'Vocabulaire', vocabSets: 'Séries de vocabulaire', cities: 'Villes',
   venues: 'Lieux', events: 'Événements', placement: 'Test de positionnement',
 };
 const STATUS_LABEL = { draft: 'Brouillon', in_review: 'En relecture', published: 'Publié' };
 const ENUMS = {
-  topic: ['art', 'music', 'history', 'politics', 'geopolitics'], kind: ['standard', 'timeline', 'map', 'complete', 'rewrite'],
+  topic: ['art', 'music', 'history', 'politics', 'geopolitics', 'books', 'philosophy'], kind: ['standard', 'timeline', 'map', 'complete', 'rewrite'],
   register: ['courant', 'soutenu', 'litteraire', 'vieilli', 'familier'],
   category: ['opera_ballet', 'classical', 'jazz_world', 'theatre_dance', 'exhibitions', 'science', 'literature_cinema'],
   status: ['scheduled', 'cancelled', 'moved', 'sold_out'],

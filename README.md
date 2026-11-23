@@ -33,8 +33,8 @@ This is a Phase 1 codebase. CI on GitHub (macOS, Xcode 16) **compiles the app fo
 | Sign in with Apple, magic link, RSVP sync, account deletion, data export | Written against Supabase REST. Needs a Supabase project to test |
 | Widgets | Scaffolded (Phase 2 in the spec) |
 | Editor, validator, bundle builder | Working and tested (`cd admin && npm test`) |
-| Pictures | Image-first feed: 4:5 photo carousels, a full-screen zoomable viewer with credits, 3-column photo grids for saved and liked cards. 29 of 40 cards carry 51 public-domain images (most with a carousel), and 14 of 15 events carry an illustration |
-| Seed content | 40 cards (8 per topic), 63 vocabulary entries, 15 **sample** events. Spec target: 150 cards and 200 entries. Everything is "in review"; nothing is published |
+| Pictures | Image-first feed: 4:5 photo carousels, a full-screen zoomable viewer with credits, 3-column photo grids for saved and liked cards. 39 of 61 cards carry 66 public-domain images (most with a carousel), and 14 of 15 events carry an illustration |
+| Seed content | 61 cards: 8 each for art, music, history, politics and geopolitics, 12 books on power (Machiavelli, Hobbes, La Boétie, Sun Tzu, Clausewitz, Tocqueville…) and 9 philosophy cards (Socrates to Nietzsche); 63 vocabulary entries, 15 **sample** events. Spec target: 150 cards and 200 entries. Everything is "in review"; nothing is published |
 | Install on devices | Through Xcode on a Mac with a free Apple ID ([INSTALL.md](INSTALL.md)). TestFlight needs the paid Apple Developer Program (see [Release](#release)) |
 
 ### Decisions taken (spec §1 and §18: please confirm)

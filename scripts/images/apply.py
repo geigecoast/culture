@@ -33,7 +33,7 @@ def image(src, oid, fr, en):
     if m.get("credit"): credit += f" ({m['credit']})"
     return {"url": m["url"], "license": LICENSE[src], "credit": credit, "sourcePage": m["page"], "altText": {"fr": fr, "en": en}}
 
-for topic in ["art", "music", "history", "politics", "geopolitics"]:
+for topic in ["art", "music", "history", "politics", "geopolitics", "books", "philosophy"]:
     path = ROOT / "content/cards" / f"{topic}.json"
     cards = json.loads(path.read_text())
     for c in cards:

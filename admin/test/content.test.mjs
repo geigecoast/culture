@@ -51,7 +51,7 @@ test('bundle matches the app ContentBundle shape', async () => {
   for (const key of ['version', 'generatedAt', 'cards', 'vocab', 'vocabSets', 'cities', 'venues', 'events', 'placementQuiz']) {
     assert.ok(key in bundle, key);
   }
-  assert.equal(bundle.cards.length, 40);
+  assert.ok(bundle.cards.length >= 40);
 });
 
 test('no lyrics-like or unlicensed image fields slip in', async () => {

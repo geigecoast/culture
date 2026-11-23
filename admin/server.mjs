@@ -39,6 +39,7 @@ const TEMPLATES = {
   card: (topic) => ({
     id: '', topic, kind: 'standard', title: { fr: '', en: '' }, body: { fr: '', en: '' }, takeaway: { fr: '', en: '' },
     quiz: { question: { fr: '', en: '' }, options: [{ fr: '', en: '' }, { fr: '', en: '' }], answerIndex: 0, explanation: { fr: '', en: '' } },
+    ...(topic === 'books' ? { book: { author: '', year: '', originalTitle: '', quote: '', quoteTranslation: { fr: '', en: '' }, quoteSource: '' } } : {}),
     tags: [], imageSuggestion: '',
     image: { url: '', license: 'Domaine public (CC0)', credit: '', sourcePage: '', altText: { fr: '', en: '' } }, gallery: [], ...(topic === 'geopolitics' ? { factsAsOf: today() } : {}),
     editorial: { status: 'draft', sources: [{ title: '', publisher: '', url: '' }], lastReviewed: null, reviewer: null },

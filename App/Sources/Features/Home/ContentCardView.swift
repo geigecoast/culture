@@ -33,11 +33,17 @@ struct ContentCardView: View {
                     Spacer(minLength: 8)
                     LanguageToggle(language: Binding(get: { language }, set: { cardLanguage = $0 }))
                 }
+                if let book = card.book {
+                    BookHeader(book: book)
+                }
                 Text(card.body[language])
                     .font(.body)
                     .foregroundStyle(Theme.ink.opacity(0.88))
                     .lineLimit(compact ? 4 : nil)
                     .fixedSize(horizontal: false, vertical: true)
+                if let book = card.book, let quote = book.quote, !compact {
+                    BookQuote(book: book, quote: quote, language: language)
+                }
                 TakeawayView(text: card.takeaway[language])
                 if card.kind == .timeline, let timeline = card.timeline, !compact {
                     CardTimeline(items: timeline, language: language)
@@ -135,5 +141,43 @@ struct CardTimeline: View {
                 .accessibilityElement(children: .combine)
             }
         }
+    }
+}
+
+/// "Niccolò Machiavelli · 1513 · Il Principe"
+struct BookHeader: View {
+    let book: BookInfo
+    var body: some View {
+        VStack(alignment: .leading, spacing: 2) {
+            Text(book.author).font(.subheadline.weight(.semibold)).foregroundStyle(Theme.gold)
+            Text("\(book.originalTitle) · \(book.year)").font(.caption.italic()).fontDesign(.serif).foregroundStyle(Theme.muted)
+        }
+        .accessibilityElement(children: .combine)
+    }
+}
+
+/// Quotation in the original language, with its translation underneath.
+struct BookQuote: View {
+    @Environment(AppSettings.self) private var settings
+    let book: BookInfo
+    let quote: String
+    let language: AppLanguage
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            SectionLabel(text: settings.t("book.quote"))
+            Text("« \(quote) »").font(.title3.italic()).fontDesign(.serif).foregroundStyle(Theme.ink)
+                .fixedSize(horizontal: false, vertical: true)
+            if let translation = book.quoteTranslation, translation[language] != quote {
+                Text(translation[language]).font(.callout).foregroundStyle(Theme.muted)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            if let source = book.quoteSource {
+                Text("— \(book.author), \(source)").font(.caption).foregroundStyle(Theme.muted)
+            }
+        }
+        .padding(.vertical, 6)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .accessibilityElement(children: .combine)
     }
 }

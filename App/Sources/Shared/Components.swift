@@ -11,6 +11,8 @@ extension Topic {
         case .history: Color(red: 0.76, green: 0.60, blue: 0.36)      // aged gold
         case .politics: Color(red: 0.45, green: 0.55, blue: 0.66)     // slate blue
         case .geopolitics: Color(red: 0.38, green: 0.58, blue: 0.53)  // verdigris
+        case .books: Color(red: 0.62, green: 0.48, blue: 0.36)        // old leather
+        case .philosophy: Color(red: 0.70, green: 0.68, blue: 0.60)   // marble
         case .vocabulary: Color(red: 0.72, green: 0.55, blue: 0.42)   // bronze
         }
     }

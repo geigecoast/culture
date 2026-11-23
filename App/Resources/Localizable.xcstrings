@@ -359,6 +359,40 @@
         }
       }
     },
+    "book.original": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Titre original"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original title"
+          }
+        }
+      }
+    },
+    "book.quote": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Citation"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quotation"
+          }
+        }
+      }
+    },
     "card.factsAsOf": {
       "extractionState": "manual",
       "localizations": {
@@ -3113,6 +3147,23 @@
         }
       }
     },
+    "topic.books": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Livres"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Books"
+          }
+        }
+      }
+    },
     "topic.geopolitics": {
       "extractionState": "manual",
       "localizations": {
@@ -3160,6 +3211,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "Music"
+          }
+        }
+      }
+    },
+    "topic.philosophy": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Philosophie"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Philosophy"
           }
         }
       }

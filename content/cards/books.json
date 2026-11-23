@@ -1,0 +1,987 @@
+[
+  {
+    "id": "bk-001",
+    "topic": "books",
+    "kind": "standard",
+    "title": {
+      "fr": "Machiavel, Le Prince",
+      "en": "Machiavelli, The Prince"
+    },
+    "body": {
+      "fr": "Écrit en 1513, pendant l'exil de Machiavel près de Florence après le retour des Médicis, Le Prince ne paraît qu'en 1532, après sa mort. Machiavel y décrit la politique telle qu'elle se pratique, non telle qu'on la rêve : le prince doit conjuguer la virtù, énergie et habileté, pour dompter la fortuna, le hasard des événements. Le livre a donné le mot « machiavélique », mais Rousseau y voyait au contraire « le livre des républicains », une leçon donnée aux peuples.",
+      "en": "Written in 1513, during Machiavelli's exile near Florence after the Medici returned, The Prince only appeared in 1532, after his death. Machiavelli describes politics as it is practised, not as it is dreamt of: the prince must combine virtù, energy and skill, to master fortuna, the chance of events. The book gave us the word “Machiavellian”, yet Rousseau saw it as “the book of republicans”, a lesson given to peoples."
+    },
+    "takeaway": {
+      "fr": "Virtù contre fortuna : l'art de gouverner face au hasard.",
+      "en": "Virtù against fortuna: the art of ruling in the face of chance."
+    },
+    "quiz": {
+      "question": {
+        "fr": "À qui Le Prince est-il dédié ?",
+        "en": "To whom is The Prince dedicated?"
+      },
+      "options": [
+        {
+          "fr": "César Borgia",
+          "en": "Cesare Borgia"
+        },
+        {
+          "fr": "Laurent de Médicis",
+          "en": "Lorenzo de' Medici"
+        },
+        {
+          "fr": "Le pape Jules II",
+          "en": "Pope Julius II"
+        },
+        {
+          "fr": "Louis XII",
+          "en": "Louis XII"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Il s'agit de Laurent de Médicis, duc d'Urbino. César Borgia est l'un des modèles cités dans le livre.",
+        "en": "It is Lorenzo de' Medici, Duke of Urbino. Cesare Borgia is one of the models discussed in the book."
+      }
+    },
+    "tags": [
+      "pouvoir",
+      "renaissance",
+      "italie"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Niccolò Machiavelli",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/machiavelli/"
+        },
+        {
+          "title": "Éditions anciennes numérisées",
+          "publisher": "Gallica — BnF",
+          "url": "https://gallica.bnf.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Niccolò Machiavelli",
+      "year": "écrit en 1513, publié en 1532",
+      "originalTitle": "Il Principe",
+      "quote": "è molto più sicuro essere temuto che amato, quando si abbia a mancare dell'uno de' dua",
+      "quoteTranslation": {
+        "fr": "il est bien plus sûr d'être craint qu'aimé, quand on doit renoncer à l'un des deux",
+        "en": "it is much safer to be feared than loved, when one of the two must be lacking"
+      },
+      "quoteSource": "chap. XVII"
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/2b751a0e-a492-7fa9-749c-6667cdd1c928/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "Jacopo da Pontormo (Jacopo Carrucci; Italian, 1494-1557), Alessandro de' Medici, 1534–35 — Art Institute of Chicago (Mr. and Mrs. Martin A. Ryerson Collection)",
+      "sourcePage": "https://www.artic.edu/artworks/110759",
+      "altText": {
+        "fr": "Jacopo da Pontormo, Alexandre de Médicis (1534–1535) ; Le Prince est dédié à un autre Médicis, Laurent",
+        "en": "Jacopo da Pontormo, Alessandro de' Medici (1534–35); The Prince is dedicated to another Medici, Lorenzo"
+      }
+    },
+    "gallery": []
+  },
+  {
+    "id": "bk-002",
+    "topic": "books",
+    "kind": "standard",
+    "title": {
+      "fr": "Hobbes, Léviathan",
+      "en": "Hobbes, Leviathan"
+    },
+    "body": {
+      "fr": "Publié en 1651, au sortir des guerres civiles anglaises, le Léviathan part d'une hypothèse : sans pouvoir commun, les hommes vivent dans un « état de nature » qui est une guerre de chacun contre chacun. Pour en sortir, ils consentent à remettre leur pouvoir à un souverain unique, le Léviathan, chargé de garantir la paix. Hobbes fonde ainsi l'État moderne sur un contrat, et non sur le droit divin.",
+      "en": "Published in 1651, as the English civil wars ended, Leviathan starts from a hypothesis: without a common power, men live in a “state of nature” that is a war of every man against every man. To escape it, they agree to hand their power to a single sovereign, the Leviathan, charged with keeping the peace. Hobbes thus founds the modern state on a contract rather than on divine right."
+    },
+    "takeaway": {
+      "fr": "La peur de la mort violente fonde l'obéissance au souverain.",
+      "en": "Fear of violent death is the ground of obedience to the sovereign."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Comment Hobbes décrit-il l'état de nature ?",
+        "en": "How does Hobbes describe the state of nature?"
+      },
+      "options": [
+        {
+          "fr": "Un âge d'or",
+          "en": "A golden age"
+        },
+        {
+          "fr": "Une guerre de chacun contre chacun",
+          "en": "A war of every man against every man"
+        },
+        {
+          "fr": "Une société sans propriété mais pacifique",
+          "en": "A peaceful society without property"
+        },
+        {
+          "fr": "Le règne de la loi divine",
+          "en": "The rule of divine law"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Rousseau, un siècle plus tard, imaginera au contraire un homme naturellement paisible.",
+        "en": "A century later, Rousseau would imagine a naturally peaceful man instead."
+      }
+    },
+    "tags": [
+      "pouvoir",
+      "contrat social",
+      "angleterre"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Hobbes's Moral and Political Philosophy",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/hobbes-moral/"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Thomas Hobbes",
+      "year": "1651",
+      "originalTitle": "Leviathan",
+      "quote": "the life of man, solitary, poore, nasty, brutish, and short",
+      "quoteTranslation": {
+        "fr": "la vie de l'homme est solitaire, misérable, dangereuse, animale et brève",
+        "en": "the life of man, solitary, poor, nasty, brutish, and short"
+      },
+      "quoteSource": "chap. XIII"
+    }
+  },
+  {
+    "id": "bk-003",
+    "topic": "books",
+    "kind": "standard",
+    "title": {
+      "fr": "La Boétie, Discours de la servitude volontaire",
+      "en": "La Boétie, Discourse on Voluntary Servitude"
+    },
+    "body": {
+      "fr": "Étienne de La Boétie écrit ce court texte très jeune, vers 1548 ; il circule en manuscrit et n'est imprimé qu'en 1576. Sa question est vertigineuse : pourquoi tant d'hommes obéissent-ils à un seul, qui n'a de pouvoir que celui qu'on lui donne ? Sa réponse : la coutume, les privilèges distribués de proche en proche, et le renoncement à la liberté. L'ami de Montaigne en conclut qu'il suffirait de cesser de servir pour que le tyran tombe.",
+      "en": "Étienne de La Boétie wrote this short text when very young, around 1548; it circulated in manuscript and was only printed in 1576. His question is dizzying: why do so many obey one man, who has no power but what they give him? His answer: habit, privileges handed down the chain, and the surrender of freedom. Montaigne's friend concludes that ceasing to serve would be enough for the tyrant to fall."
+    },
+    "takeaway": {
+      "fr": "Le tyran ne tient que par le consentement de ceux qui lui obéissent.",
+      "en": "The tyrant stands only through the consent of those who obey him."
+    },
+    "quiz": {
+      "question": {
+        "fr": "De quel écrivain La Boétie fut-il l'ami intime ?",
+        "en": "Which writer was La Boétie's close friend?"
+      },
+      "options": [
+        {
+          "fr": "Rabelais",
+          "en": "Rabelais"
+        },
+        {
+          "fr": "Ronsard",
+          "en": "Ronsard"
+        },
+        {
+          "fr": "Montaigne",
+          "en": "Montaigne"
+        },
+        {
+          "fr": "Calvin",
+          "en": "Calvin"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "fr": "« Parce que c'était lui, parce que c'était moi », écrit Montaigne de cette amitié dans les Essais.",
+        "en": "“Because it was he, because it was I,” Montaigne wrote of this friendship in the Essays."
+      }
+    },
+    "tags": [
+      "pouvoir",
+      "tyrannie",
+      "xvie"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Éditions anciennes numérisées",
+          "publisher": "Gallica — BnF",
+          "url": "https://gallica.bnf.fr"
+        },
+        {
+          "title": "Étienne de La Boétie",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Etienne-de-La-Boetie"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Étienne de La Boétie",
+      "year": "vers 1548, imprimé en 1576",
+      "originalTitle": "Discours de la servitude volontaire",
+      "quote": "Soyez résolus de ne servir plus, et vous voilà libres.",
+      "quoteTranslation": {
+        "fr": "Soyez résolus de ne servir plus, et vous voilà libres.",
+        "en": "Resolve to serve no more, and you are free."
+      },
+      "quoteSource": null
+    }
+  },
+  {
+    "id": "bk-004",
+    "topic": "books",
+    "kind": "standard",
+    "title": {
+      "fr": "Sun Tzu, L'Art de la guerre",
+      "en": "Sun Tzu, The Art of War"
+    },
+    "body": {
+      "fr": "Attribué à Sun Tzu, un stratège chinois du Ve siècle av. J.-C. dont l'existence même est discutée, L'Art de la guerre tient en treize courts chapitres. Il enseigne que la meilleure victoire est celle obtenue sans combat, par la ruse, le renseignement et l'usure de la volonté adverse. Révélé à l'Europe par la traduction du jésuite Joseph-Marie Amiot en 1772, il est aujourd'hui lu autant dans les écoles de commerce que dans les académies militaires.",
+      "en": "Attributed to Sun Tzu, a Chinese strategist of the 5th century BC whose very existence is debated, The Art of War fits into thirteen short chapters. It teaches that the best victory is the one won without fighting, through cunning, intelligence and wearing down the enemy's will. Brought to Europe by the Jesuit Joseph-Marie Amiot's translation in 1772, it is now read in business schools as much as in military academies."
+    },
+    "takeaway": {
+      "fr": "Vaincre sans combattre est le sommet de l'art.",
+      "en": "Winning without fighting is the height of skill."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Qui a traduit L'Art de la guerre pour la première fois en Europe ?",
+        "en": "Who first translated The Art of War in Europe?"
+      },
+      "options": [
+        {
+          "fr": "Voltaire",
+          "en": "Voltaire"
+        },
+        {
+          "fr": "Le jésuite Joseph-Marie Amiot",
+          "en": "The Jesuit Joseph-Marie Amiot"
+        },
+        {
+          "fr": "Napoléon",
+          "en": "Napoleon"
+        },
+        {
+          "fr": "Marco Polo",
+          "en": "Marco Polo"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Sa traduction française paraît à Paris en 1772.",
+        "en": "His French translation appeared in Paris in 1772."
+      }
+    },
+    "tags": [
+      "stratégie",
+      "chine",
+      "guerre"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Sunzi",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Sunzi"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Sun Tzu (孫子)",
+      "year": "Ve siècle av. J.-C. (attribution discutée)",
+      "originalTitle": "孫子兵法",
+      "quote": "不戰而屈人之兵，善之善者也",
+      "quoteTranslation": {
+        "fr": "Soumettre l'ennemi sans combattre, voilà le comble de l'habileté.",
+        "en": "To subdue the enemy without fighting is the supreme excellence."
+      },
+      "quoteSource": "chap. III"
+    }
+  },
+  {
+    "id": "bk-005",
+    "topic": "books",
+    "kind": "standard",
+    "title": {
+      "fr": "Clausewitz, De la guerre",
+      "en": "Clausewitz, On War"
+    },
+    "body": {
+      "fr": "Officier prussien ayant combattu Napoléon, Carl von Clausewitz meurt en 1831 sans avoir achevé son grand traité ; sa veuve, Marie von Brühl, le publie en 1832. Il y montre que la guerre n'a pas de sens en elle-même : elle sert des fins politiques. Il y décrit aussi le « brouillard » de l'incertitude et les « frictions » qui font échouer les plans les mieux conçus.",
+      "en": "A Prussian officer who fought Napoleon, Carl von Clausewitz died in 1831 without finishing his great treatise; his widow, Marie von Brühl, published it in 1832. He shows that war has no meaning in itself: it serves political ends. He also describes the “fog” of uncertainty and the “friction” that wrecks the best-laid plans."
+    },
+    "takeaway": {
+      "fr": "La guerre est subordonnée à la politique.",
+      "en": "War is subordinate to politics."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Qui a publié De la guerre ?",
+        "en": "Who published On War?"
+      },
+      "options": [
+        {
+          "fr": "Clausewitz lui-même",
+          "en": "Clausewitz himself"
+        },
+        {
+          "fr": "Sa veuve, Marie von Brühl",
+          "en": "His widow, Marie von Brühl"
+        },
+        {
+          "fr": "Le roi de Prusse",
+          "en": "The King of Prussia"
+        },
+        {
+          "fr": "Bismarck",
+          "en": "Bismarck"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Le livre paraît en 1832, un an après la mort de l'auteur.",
+        "en": "The book appeared in 1832, a year after the author's death."
+      }
+    },
+    "tags": [
+      "stratégie",
+      "allemagne",
+      "guerre"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Carl von Clausewitz",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Carl-von-Clausewitz"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Carl von Clausewitz",
+      "year": "publié en 1832",
+      "originalTitle": "Vom Kriege",
+      "quote": "Der Krieg ist eine bloße Fortsetzung der Politik mit anderen Mitteln.",
+      "quoteTranslation": {
+        "fr": "La guerre n'est que la simple continuation de la politique par d'autres moyens.",
+        "en": "War is merely the continuation of politics by other means."
+      },
+      "quoteSource": "livre I, chap. 1"
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/11c44457-7a4c-5939-4ce3-d6aa46d68532/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "A. Champion (French, active 1789-1830), Napoleon in Battle, from The Political and Military Life of Napoleon, 1822–26 — Art Institute of Chicago (Gift of Mrs. Chauncey McCormick)",
+      "sourcePage": "https://www.artic.edu/artworks/55377",
+      "altText": {
+        "fr": "A. Champion, Napoléon au combat (1822–1826) ; Clausewitz combattit les armées napoléoniennes",
+        "en": "A. Champion, Napoleon in Battle (1822–26); Clausewitz fought Napoleon's armies"
+      }
+    },
+    "gallery": [
+      {
+        "url": "https://www.artic.edu/iiif/2/9c1e2826-e79b-4b4d-73f9-2ba8c8b00180/full/843,/0/default.jpg",
+        "license": "Domaine public — CC0 (Art Institute of Chicago)",
+        "credit": "Jean Baptiste Edouard Detaille (French, 1848–1912), A Mounted Officer, 1877 — Art Institute of Chicago (Henry Field Memorial Collection)",
+        "sourcePage": "https://www.artic.edu/artworks/885",
+        "altText": {
+          "fr": "Édouard Detaille, Officier à cheval (1877)",
+          "en": "Édouard Detaille, A Mounted Officer (1877)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "bk-006",
+    "topic": "books",
+    "kind": "standard",
+    "title": {
+      "fr": "Tocqueville, De la démocratie en Amérique",
+      "en": "Tocqueville, Democracy in America"
+    },
+    "body": {
+      "fr": "Envoyé aux États-Unis en 1831 pour étudier le système pénitentiaire, le jeune Alexis de Tocqueville en rapporte une étude de la démocratie, publiée en deux volumes, en 1835 et 1840. Il y voit le mouvement irrésistible vers « l'égalité des conditions », mais aussi ses dangers : la tyrannie de la majorité et un despotisme doux, tutélaire, qui dispenserait les citoyens de penser et d'agir par eux-mêmes.",
+      "en": "Sent to the United States in 1831 to study the prison system, the young Alexis de Tocqueville came back with a study of democracy, published in two volumes, in 1835 and 1840. He saw the irresistible movement towards “equality of conditions”, but also its dangers: the tyranny of the majority, and a soft, tutelary despotism that would spare citizens the trouble of thinking and acting for themselves."
+    },
+    "takeaway": {
+      "fr": "La démocratie menace la liberté par la douceur plus que par la force.",
+      "en": "Democracy threatens freedom through softness more than through force."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Pourquoi Tocqueville se rend-il aux États-Unis en 1831 ?",
+        "en": "Why did Tocqueville travel to the United States in 1831?"
+      },
+      "options": [
+        {
+          "fr": "Comme ambassadeur",
+          "en": "As ambassador"
+        },
+        {
+          "fr": "Pour étudier le système pénitentiaire",
+          "en": "To study the prison system"
+        },
+        {
+          "fr": "Pour fuir la révolution de 1830",
+          "en": "To flee the 1830 revolution"
+        },
+        {
+          "fr": "Pour un voyage de noces",
+          "en": "For a honeymoon"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Il voyage avec son ami Gustave de Beaumont.",
+        "en": "He travelled with his friend Gustave de Beaumont."
+      }
+    },
+    "tags": [
+      "démocratie",
+      "états-unis",
+      "xixe"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Alexis de Tocqueville",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/tocqueville/"
+        },
+        {
+          "title": "Éditions anciennes numérisées",
+          "publisher": "Gallica — BnF",
+          "url": "https://gallica.bnf.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Alexis de Tocqueville",
+      "year": "1835 et 1840",
+      "originalTitle": "De la démocratie en Amérique",
+      "quote": "Je veux imaginer sous quels traits nouveaux le despotisme pourrait se produire dans le monde",
+      "quoteTranslation": {
+        "fr": "Je veux imaginer sous quels traits nouveaux le despotisme pourrait se produire dans le monde.",
+        "en": "I want to imagine under what new features despotism could appear in the world."
+      },
+      "quoteSource": "tome II, 4e partie, chap. 6"
+    }
+  },
+  {
+    "id": "bk-007",
+    "topic": "books",
+    "kind": "standard",
+    "title": {
+      "fr": "Thucydide, La Guerre du Péloponnèse",
+      "en": "Thucydides, History of the Peloponnesian War"
+    },
+    "body": {
+      "fr": "Général athénien exilé, Thucydide raconte la guerre qui oppose Athènes à Sparte à partir de 431 av. J.-C. et veut écrire « une acquisition pour toujours ». Dans le dialogue mélien, les Athéniens expliquent aux habitants de l'île de Mélos, qui voulaient rester neutres, que la justice ne vaut qu'entre égaux. Le politologue Graham Allison a popularisé le « piège de Thucydide » : le risque de guerre quand une puissance montante inquiète une puissance établie.",
+      "en": "An exiled Athenian general, Thucydides tells the story of the war between Athens and Sparta from 431 BC and wants to write “a possession for all time”. In the Melian dialogue, the Athenians tell the people of the island of Melos, who wished to stay neutral, that justice only exists between equals. The political scientist Graham Allison popularised the “Thucydides trap”: the risk of war when a rising power alarms an established one."
+    },
+    "takeaway": {
+      "fr": "Le dialogue mélien : la force contre le droit.",
+      "en": "The Melian dialogue: might against right."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Quelle île est au cœur du célèbre dialogue ?",
+        "en": "Which island is at the heart of the famous dialogue?"
+      },
+      "options": [
+        {
+          "fr": "Mélos",
+          "en": "Melos"
+        },
+        {
+          "fr": "Délos",
+          "en": "Delos"
+        },
+        {
+          "fr": "Crète",
+          "en": "Crete"
+        },
+        {
+          "fr": "Lesbos",
+          "en": "Lesbos"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "fr": "Mélos refuse de se soumettre et est conquise en 416 av. J.-C.",
+        "en": "Melos refused to submit and was conquered in 416 BC."
+      }
+    },
+    "tags": [
+      "antiquité",
+      "relations internationales",
+      "guerre"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Thucydides",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/thucydides/"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Thucydide (Θουκυδίδης)",
+      "year": "Ve siècle av. J.-C.",
+      "originalTitle": "Ἱστορίαι",
+      "quote": "δυνατὰ δὲ οἱ προύχοντες πράσσουσι καὶ οἱ ἀσθενεῖς ξυγχωροῦσιν",
+      "quoteTranslation": {
+        "fr": "les forts font ce qui est en leur pouvoir, et les faibles cèdent",
+        "en": "the strong do what they can and the weak give way"
+      },
+      "quoteSource": "livre V, 89"
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/a0c55670-a514-b5ee-d230-b5a7dccd2e87/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "Théodore Caruelle d'Aligny, The Acropolis of Athens, 1845 — Art Institute of Chicago (Mary S. Adams Fund and the Joseph Brooks Fair Memorial Endowment)",
+      "sourcePage": "https://www.artic.edu/artworks/158217",
+      "altText": {
+        "fr": "Théodore Caruelle d'Aligny, L'Acropole d'Athènes (1845)",
+        "en": "Théodore Caruelle d'Aligny, The Acropolis of Athens (1845)"
+      }
+    },
+    "gallery": []
+  },
+  {
+    "id": "bk-008",
+    "topic": "books",
+    "kind": "standard",
+    "title": {
+      "fr": "Weber, Le Savant et le politique",
+      "en": "Weber, Science and Politics as Vocations"
+    },
+    "body": {
+      "fr": "En 1919, à Munich, le sociologue Max Weber prononce une conférence restée célèbre, « La politique comme vocation ». Il y définit l'État comme la communauté humaine qui revendique avec succès le monopole de la violence physique légitime sur un territoire. Il distingue trois sources de légitimité, traditionnelle, charismatique et légale-rationnelle, et oppose l'éthique de conviction à l'éthique de responsabilité.",
+      "en": "In 1919, in Munich, the sociologist Max Weber gave a famous lecture, “Politics as a Vocation”. He defines the state as the human community that successfully claims the monopoly of legitimate physical violence within a territory. He distinguishes three sources of legitimacy, traditional, charismatic and legal-rational, and contrasts the ethic of conviction with the ethic of responsibility."
+    },
+    "takeaway": {
+      "fr": "L'État : le monopole de la violence physique légitime.",
+      "en": "The state: the monopoly of legitimate physical violence."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Laquelle n'est pas une forme de domination légitime selon Weber ?",
+        "en": "Which is not a form of legitimate domination according to Weber?"
+      },
+      "options": [
+        {
+          "fr": "Traditionnelle",
+          "en": "Traditional"
+        },
+        {
+          "fr": "Charismatique",
+          "en": "Charismatic"
+        },
+        {
+          "fr": "Légale-rationnelle",
+          "en": "Legal-rational"
+        },
+        {
+          "fr": "Héréditaire-divine",
+          "en": "Hereditary-divine"
+        }
+      ],
+      "answerIndex": 3,
+      "explanation": {
+        "fr": "Le droit divin relève, chez Weber, de la domination traditionnelle.",
+        "en": "For Weber, divine right falls under traditional domination."
+      }
+    },
+    "tags": [
+      "sociologie",
+      "allemagne",
+      "munich",
+      "pouvoir"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Max Weber",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/weber/"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Max Weber",
+      "year": "1919",
+      "originalTitle": "Wissenschaft als Beruf / Politik als Beruf",
+      "quote": "das Monopol legitimer physischer Gewaltsamkeit",
+      "quoteTranslation": {
+        "fr": "le monopole de la violence physique légitime",
+        "en": "the monopoly of legitimate physical violence"
+      },
+      "quoteSource": "« Politik als Beruf »"
+    }
+  },
+  {
+    "id": "bk-009",
+    "topic": "books",
+    "kind": "standard",
+    "title": {
+      "fr": "Castiglione, Le Livre du courtisan",
+      "en": "Castiglione, The Book of the Courtier"
+    },
+    "body": {
+      "fr": "Publié à Venise en 1528, Le Livre du courtisan met en scène des conversations à la cour d'Urbino sur ce que doit être le parfait gentilhomme : cultivé, élégant, habile aux armes comme à la conversation. Castiglione y invente la sprezzatura, une aisance étudiée qui cache l'effort et donne à tout l'air du naturel. Le livre a façonné les manières des élites européennes pendant des siècles.",
+      "en": "Published in Venice in 1528, The Book of the Courtier stages conversations at the court of Urbino about what the perfect gentleman should be: cultivated, elegant, skilled at arms as at conversation. Castiglione coins sprezzatura, a studied ease that hides effort and makes everything look natural. The book shaped the manners of Europe's elites for centuries."
+    },
+    "takeaway": {
+      "fr": "La sprezzatura : l'art qui cache l'art.",
+      "en": "Sprezzatura: the art that conceals art."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Quelle cour sert de cadre au livre ?",
+        "en": "Which court is the setting of the book?"
+      },
+      "options": [
+        {
+          "fr": "Florence",
+          "en": "Florence"
+        },
+        {
+          "fr": "Urbino",
+          "en": "Urbino"
+        },
+        {
+          "fr": "Versailles",
+          "en": "Versailles"
+        },
+        {
+          "fr": "Mantoue",
+          "en": "Mantua"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "La cour du duc d'Urbino était l'une des plus raffinées de la Renaissance.",
+        "en": "The Duke of Urbino's court was one of the most refined of the Renaissance."
+      }
+    },
+    "tags": [
+      "haute société",
+      "renaissance",
+      "manières"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Baldassare Castiglione",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Baldassare-Castiglione"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Baldassare Castiglione",
+      "year": "1528",
+      "originalTitle": "Il Libro del Cortegiano",
+      "quote": "una certa sprezzatura, che nasconda l'arte",
+      "quoteTranslation": {
+        "fr": "une certaine désinvolture, qui cache l'art",
+        "en": "a certain nonchalance that conceals art"
+      },
+      "quoteSource": "livre I, 26"
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/4e867b8a-1977-5727-da23-4bcaf4eafd25/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "Italian; Urbino, Plate with Horatio at the Bridge, c. 1535 — Art Institute of Chicago (Mr. and Mrs. Martin A. Ryerson Collection)",
+      "sourcePage": "https://www.artic.edu/artworks/25361",
+      "altText": {
+        "fr": "Plat en majolique d'Urbino, Horatius Coclès sur le pont (vers 1535)",
+        "en": "Urbino maiolica plate, Horatius at the Bridge (c. 1535)"
+      }
+    },
+    "gallery": []
+  },
+  {
+    "id": "bk-010",
+    "topic": "books",
+    "kind": "standard",
+    "title": {
+      "fr": "La Rochefoucauld, Maximes",
+      "en": "La Rochefoucauld, Maxims"
+    },
+    "body": {
+      "fr": "Ancien frondeur revenu des intrigues de cour, François de La Rochefoucauld publie en 1665 ses Réflexions ou sentences et maximes morales. En quelques lignes ciselées, il démonte les vertus apparentes pour y montrer l'amour-propre et l'intérêt. Pratiquées dans les salons, notamment chez Madame de Sablé, les maximes sont un modèle de concision et d'élégance française.",
+      "en": "A former Frondeur back from court intrigue, François de La Rochefoucauld published his Reflections or Sentences and Moral Maxims in 1665. In a few chiselled lines, he takes apparent virtues apart to reveal self-love and self-interest. Practised in the salons, notably Madame de Sablé's, maxims are a model of French concision and elegance."
+    },
+    "takeaway": {
+      "fr": "Sous la vertu, l'amour-propre.",
+      "en": "Beneath virtue, self-love."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Dans quel salon le genre de la maxime fut-il cultivé ?",
+        "en": "In whose salon was the maxim cultivated as a genre?"
+      },
+      "options": [
+        {
+          "fr": "Chez Madame de Sablé",
+          "en": "Madame de Sablé's"
+        },
+        {
+          "fr": "Chez Madame Geoffrin",
+          "en": "Madame Geoffrin's"
+        },
+        {
+          "fr": "Chez Madame Récamier",
+          "en": "Madame Récamier's"
+        },
+        {
+          "fr": "Chez George Sand",
+          "en": "George Sand's"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "fr": "Les deux autres salons cités sont plus tardifs (XVIIIe et XIXe siècles).",
+        "en": "The other salons listed are later (18th and 19th centuries)."
+      }
+    },
+    "tags": [
+      "moralistes",
+      "xviie",
+      "salon"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Éditions anciennes numérisées",
+          "publisher": "Gallica — BnF",
+          "url": "https://gallica.bnf.fr"
+        },
+        {
+          "title": "François VI, duc de La Rochefoucauld",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Francois-VI-duc-de-La-Rochefoucauld"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "François de La Rochefoucauld",
+      "year": "1665",
+      "originalTitle": "Réflexions ou sentences et maximes morales",
+      "quote": "Nos vertus ne sont, le plus souvent, que des vices déguisés.",
+      "quoteTranslation": {
+        "fr": "Nos vertus ne sont, le plus souvent, que des vices déguisés.",
+        "en": "Our virtues are, most often, only vices in disguise."
+      },
+      "quoteSource": "épigraphe"
+    }
+  },
+  {
+    "id": "bk-011",
+    "topic": "books",
+    "kind": "standard",
+    "title": {
+      "fr": "Rousseau, Du contrat social",
+      "en": "Rousseau, The Social Contract"
+    },
+    "body": {
+      "fr": "Publié en 1762, Du contrat social cherche une forme d'association où chacun, s'unissant à tous, n'obéisse pourtant qu'à lui-même. La souveraineté appartient au peuple et s'exprime par la « volonté générale », qui vise l'intérêt commun et non la somme des intérêts particuliers. Condamné à Paris et à Genève dès sa parution, le livre inspirera les révolutionnaires de 1789.",
+      "en": "Published in 1762, The Social Contract seeks a form of association in which each person, uniting with all, still obeys only himself. Sovereignty belongs to the people and is expressed through the “general will”, which aims at the common interest rather than the sum of private interests. Condemned in Paris and Geneva as soon as it appeared, the book went on to inspire the revolutionaries of 1789."
+    },
+    "takeaway": {
+      "fr": "La volonté générale vise l'intérêt commun.",
+      "en": "The general will aims at the common interest."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Quel concept est au cœur du Contrat social ?",
+        "en": "Which concept is at the heart of The Social Contract?"
+      },
+      "options": [
+        {
+          "fr": "La main invisible",
+          "en": "The invisible hand"
+        },
+        {
+          "fr": "La volonté générale",
+          "en": "The general will"
+        },
+        {
+          "fr": "La séparation des pouvoirs",
+          "en": "The separation of powers"
+        },
+        {
+          "fr": "La lutte des classes",
+          "en": "Class struggle"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "La séparation des pouvoirs vient de Montesquieu ; la main invisible, d'Adam Smith.",
+        "en": "The separation of powers comes from Montesquieu; the invisible hand from Adam Smith."
+      }
+    },
+    "tags": [
+      "lumières",
+      "souveraineté",
+      "pouvoir"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Jean Jacques Rousseau",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/rousseau/"
+        },
+        {
+          "title": "Éditions anciennes numérisées",
+          "publisher": "Gallica — BnF",
+          "url": "https://gallica.bnf.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Jean-Jacques Rousseau",
+      "year": "1762",
+      "originalTitle": "Du contrat social",
+      "quote": "L'homme est né libre, et partout il est dans les fers.",
+      "quoteTranslation": {
+        "fr": "L'homme est né libre, et partout il est dans les fers.",
+        "en": "Man is born free, and everywhere he is in chains."
+      },
+      "quoteSource": "livre I, chap. 1"
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/c606e56a-e768-bb63-7dc2-8357f9e0c2ef/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "Etienne Ficquet (French, 1719-1794), Jean Jacques Rousseau, 1764/72 — Art Institute of Chicago (The Wallace L. DeWolf and Joseph Brooks Fair Collections)",
+      "sourcePage": "https://www.artic.edu/artworks/108975",
+      "altText": {
+        "fr": "Étienne Ficquet, portrait de Jean-Jacques Rousseau (1764–1772)",
+        "en": "Étienne Ficquet, portrait of Jean-Jacques Rousseau (1764–72)"
+      }
+    },
+    "gallery": [
+      {
+        "url": "https://www.artic.edu/iiif/2/22651088-580e-de2f-8331-1a0f983da9d8/full/843,/0/default.jpg",
+        "license": "Domaine public — CC0 (Art Institute of Chicago)",
+        "credit": "Jean Michel Moreau, Tombeau de Jean Jacques Rousseau (Tomb of Jean Jacques Rosseau), 1778 — Art Institute of Chicago (Gift of Dorothy Braude Edinburg to the Harry B. and Bessie K. Braude Memorial Collection)",
+        "sourcePage": "https://www.artic.edu/artworks/149488",
+        "altText": {
+          "fr": "Jean-Michel Moreau, Le Tombeau de Jean-Jacques Rousseau (1778)",
+          "en": "Jean-Michel Moreau, The Tomb of Jean-Jacques Rousseau (1778)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "bk-012",
+    "topic": "books",
+    "kind": "standard",
+    "title": {
+      "fr": "Gracián, L'Homme de cour",
+      "en": "Gracián, The Art of Worldly Wisdom"
+    },
+    "body": {
+      "fr": "Le jésuite espagnol Baltasar Gracián publie en 1647 l'Oráculo manual y arte de prudencia, trois cents aphorismes sur l'art de réussir dans le monde sans s'y perdre : savoir se taire, se faire désirer, ne jamais montrer toutes ses cartes. Traduit en français en 1684 par Amelot de La Houssaie sous le titre L'Homme de cour, il devient un bréviaire des courtisans, puis inspire Schopenhauer, qui le traduit en allemand.",
+      "en": "In 1647 the Spanish Jesuit Baltasar Gracián published the Oráculo manual y arte de prudencia, three hundred aphorisms on the art of succeeding in the world without losing oneself: knowing when to be silent, making oneself wanted, never showing all one's cards. Translated into French in 1684 by Amelot de La Houssaie as L'Homme de cour, it became a courtier's breviary and later inspired Schopenhauer, who translated it into German."
+    },
+    "takeaway": {
+      "fr": "Trois cents maximes de prudence pour la vie en société.",
+      "en": "Three hundred maxims of prudence for life in society."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Quel philosophe allemand a traduit Gracián ?",
+        "en": "Which German philosopher translated Gracián?"
+      },
+      "options": [
+        {
+          "fr": "Kant",
+          "en": "Kant"
+        },
+        {
+          "fr": "Hegel",
+          "en": "Hegel"
+        },
+        {
+          "fr": "Schopenhauer",
+          "en": "Schopenhauer"
+        },
+        {
+          "fr": "Nietzsche",
+          "en": "Nietzsche"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "fr": "Sa traduction fut publiée après sa mort, en 1862.",
+        "en": "His translation was published after his death, in 1862."
+      }
+    },
+    "tags": [
+      "haute société",
+      "espagne",
+      "moralistes"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Baltasar Gracián",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Baltasar-Gracian"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "book": {
+      "author": "Baltasar Gracián",
+      "year": "1647",
+      "originalTitle": "Oráculo manual y arte de prudencia"
+    }
+  }
+]

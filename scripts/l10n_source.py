@@ -18,6 +18,8 @@ STRINGS = {
  # Topics
  "topic.art": ("Art", "Art"), "topic.music": ("Musique", "Music"), "topic.history": ("Histoire", "History"),
  "topic.politics": ("Politique", "Politics"), "topic.geopolitics": ("Géopolitique", "Geopolitics"),
+ "topic.books": ("Livres", "Books"), "topic.philosophy": ("Philosophie", "Philosophy"),
+ "book.quote": ("Citation", "Quotation"), "book.original": ("Titre original", "Original title"),
  "topic.vocabulary": ("Le mot juste", "Le mot juste"),
  # Home & cards
  "home.forYou": ("Pour toi", "For you"), "home.following": ("Abonnements", "Following"),

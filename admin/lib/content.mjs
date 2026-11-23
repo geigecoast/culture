@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 export const CONTENT_DIR = path.join(ROOT, 'content');
 
-export const TOPICS = ['art', 'music', 'history', 'politics', 'geopolitics'];
+export const TOPICS = ['art', 'music', 'history', 'politics', 'geopolitics', 'books', 'philosophy'];
 export const REGISTERS = ['courant', 'soutenu', 'litteraire', 'vieilli', 'familier'];
 export const CATEGORIES = ['opera_ballet', 'classical', 'jazz_world', 'theatre_dance', 'exhibitions', 'science', 'literature_cinema'];
 export const STATUSES = ['draft', 'in_review', 'published'];
@@ -98,6 +98,10 @@ export function validate(content) {
         c.quiz.options?.forEach((o, i) => { if (!isBilingual(o)) err(id, `quiz option ${i} must be bilingual`); });
       } else warn(id, 'no micro-quiz');
       if (c.kind === 'timeline' && !(c.timeline?.length >= 2)) err(id, 'timeline card needs at least 2 timeline items');
+      if (t === 'books') {
+        if (!c.book?.author || !c.book?.year || !c.book?.originalTitle) err(id, 'book card needs book.author, book.year and book.originalTitle');
+        if (c.book?.quote && !isBilingual(c.book.quoteTranslation)) err(id, 'book quote needs a bilingual translation');
+      }
       if (t === 'geopolitics' && !isISODate(c.factsAsOf)) err(id, 'geopolitics card must have factsAsOf (yyyy-mm-dd)');
       if (c.image) checkImage(id, c.image, 'image');
       else warn(id, 'no licensed image yet');

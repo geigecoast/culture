@@ -1,11 +1,11 @@
 import Foundation
 
 public enum Topic: String, Codable, CaseIterable, Sendable, Identifiable {
-    case art, music, history, politics, geopolitics, vocabulary
+    case art, music, history, politics, geopolitics, books, philosophy, vocabulary
     public var id: String { rawValue }
 
     /// Topics that have cards in the feed (vocabulary has its own deck).
-    public static let feedTopics: [Topic] = [.art, .music, .history, .politics, .geopolitics]
+    public static let feedTopics: [Topic] = [.art, .music, .history, .politics, .geopolitics, .books, .philosophy]
 
     public var localizationKey: String { "topic.\(rawValue)" }
     public var symbolName: String {
@@ -15,6 +15,8 @@ public enum Topic: String, Codable, CaseIterable, Sendable, Identifiable {
         case .history: "hourglass"
         case .politics: "building.columns"
         case .geopolitics: "globe.europe.africa"
+        case .books: "books.vertical"
+        case .philosophy: "lightbulb.max"
         case .vocabulary: "text.book.closed"
         }
     }
@@ -41,6 +43,31 @@ public struct TimelineItem: Codable, Hashable, Sendable {
     public var label: LocalizedText
 }
 
+/// Bibliographic details for cards in the "Livres" topic.
+public struct BookInfo: Codable, Hashable, Sendable {
+    public var author: String
+    /// Date of writing or first publication, as displayed ("1513, publié en 1532").
+    public var year: String
+    /// Title in the original language (never translated).
+    public var originalTitle: String
+    /// A short quotation in the original language, from a public-domain text.
+    public var quote: String?
+    /// Translation of the quotation.
+    public var quoteTranslation: LocalizedText?
+    /// Where the quotation comes from ("chap. XVII").
+    public var quoteSource: String?
+
+    public init(author: String, year: String, originalTitle: String, quote: String? = nil,
+                quoteTranslation: LocalizedText? = nil, quoteSource: String? = nil) {
+        self.author = author
+        self.year = year
+        self.originalTitle = originalTitle
+        self.quote = quote
+        self.quoteTranslation = quoteTranslation
+        self.quoteSource = quoteSource
+    }
+}
+
 public struct ContentCard: Codable, Hashable, Sendable, Identifiable {
     public enum Kind: String, Codable, Sendable { case standard, timeline, map }
 
@@ -62,6 +89,8 @@ public struct ContentCard: Codable, Hashable, Sendable, Identifiable {
     public var tags: [String]
     public var editorial: EditorialInfo
     public var premium: Bool?
+    /// Present on "Livres" cards.
+    public var book: BookInfo?
 
     /// Main image first, then the gallery.
     public var images: [LicensedImage] { (image.map { [$0] } ?? []) + (gallery ?? []) }
