@@ -1,0 +1,21 @@
+[
+  {
+    "venueID": "palais-garnier",
+    "source": "Opéra national de Paris",
+    "programmeURL": "https://www.operadeparis.fr",
+    "method": "to_be_agreed",
+    "termsChecked": null,
+    "contact": null,
+    "notes": "Same programme feed covers Palais Garnier and Opéra Bastille. Ask for a partner feed or licensed listing API before ingesting."
+  },
+  { "venueID": "opera-bastille", "source": "Opéra national de Paris", "programmeURL": "https://www.operadeparis.fr", "method": "to_be_agreed", "termsChecked": null, "contact": null, "notes": "See palais-garnier." },
+  { "venueID": "centre-pompidou", "source": "Centre Pompidou", "programmeURL": "https://www.centrepompidou.fr", "method": "to_be_agreed", "termsChecked": null, "contact": null, "notes": "Building closed for renovation; programme is off-site. Confirm which venues to list." },
+  { "venueID": "cite-sciences", "source": "Universcience", "programmeURL": "https://www.cite-sciences.fr", "method": "to_be_agreed", "termsChecked": null, "contact": null, "notes": "Check whether Paris open data (opendata.paris.fr « Que faire à Paris ? ») covers these listings and under which licence." },
+  { "venueID": "oper-frankfurt", "source": "Oper Frankfurt", "programmeURL": "https://oper-frankfurt.de", "method": "to_be_agreed", "termsChecked": null, "contact": null, "notes": "Spec mentions “Ballett Frankfurt”: the house has had no resident ballet company since 2004. Confirm which dance programme to list." },
+  { "venueID": "staedel", "source": "Städel Museum", "programmeURL": "https://www.staedelmuseum.de", "method": "to_be_agreed", "termsChecked": null, "contact": null, "notes": "" },
+  { "venueID": "senckenberg", "source": "Senckenberg Gesellschaft für Naturforschung", "programmeURL": "https://museumfrankfurt.senckenberg.de", "method": "to_be_agreed", "termsChecked": null, "contact": null, "notes": "" },
+  { "venueID": "bayerische-staatsoper", "source": "Bayerische Staatsoper", "programmeURL": "https://www.staatsoper.de", "method": "to_be_agreed", "termsChecked": null, "contact": null, "notes": "Also covers the Bayerisches Staatsballett." },
+  { "venueID": "alte-pinakothek", "source": "Bayerische Staatsgemäldesammlungen", "programmeURL": "https://www.pinakothek.de", "method": "to_be_agreed", "termsChecked": null, "contact": null, "notes": "Neue Pinakothek is closed for renovation; do not list it as open." },
+  { "venueID": "pinakothek-moderne", "source": "Bayerische Staatsgemäldesammlungen", "programmeURL": "https://www.pinakothek.de", "method": "to_be_agreed", "termsChecked": null, "contact": null, "notes": "" },
+  { "venueID": "deutsches-museum", "source": "Deutsches Museum", "programmeURL": "https://www.deutsches-museum.de", "method": "to_be_agreed", "termsChecked": null, "contact": null, "notes": "" }
+]

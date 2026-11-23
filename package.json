@@ -1,0 +1,13 @@
+{
+  "name": "culture-editor",
+  "private": true,
+  "type": "module",
+  "description": "Editorial interface and content tooling for the Culture app (no dependencies).",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs",
+    "validate": "node validate.mjs",
+    "bundle": "node build-bundle.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}

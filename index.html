@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Culture — Rédaction</title>
+<link rel="stylesheet" href="editor.css">
+</head>
+<body>
+<header class="topbar">
+  <strong class="brand">Culture <span>Rédaction</span></strong>
+  <div class="spacer"></div>
+  <span id="who" class="who"></span>
+  <button id="validateAll" class="ghost">Vérifier tout</button>
+  <button id="buildBundle">Publier un bundle</button>
+</header>
+<div id="login" class="login" hidden>
+  <form id="loginForm">
+    <h2>Connexion</h2>
+    <label>Jeton d'éditeur <input id="token" type="password" autocomplete="current-password" required></label>
+    <button>Se connecter</button>
+    <p id="loginError" class="error"></p>
+  </form>
+</div>
+<main class="layout">
+  <nav id="collections" class="collections" aria-label="Collections"></nav>
+  <section class="list" aria-label="Éléments">
+    <div class="list-tools">
+      <input id="search" type="search" placeholder="Rechercher…" aria-label="Rechercher">
+      <select id="statusFilter" aria-label="Filtrer par statut">
+        <option value="">Tous les statuts</option>
+        <option value="draft">Brouillon</option>
+        <option value="in_review">En relecture</option>
+        <option value="published">Publié</option>
+      </select>
+      <button id="newItem" title="Nouvel élément">＋</button>
+    </div>
+    <ul id="items"></ul>
+  </section>
+  <section class="editor" aria-label="Édition">
+    <div id="empty" class="empty">Choisissez un élément à modifier.</div>
+    <div id="editorPane" hidden>
+      <div class="editor-head">
+        <h2 id="itemTitle"></h2>
+        <span id="itemStatus" class="badge"></span>
+        <div class="spacer"></div>
+        <button id="toDraft" class="ghost">Repasser en brouillon</button>
+        <button id="toReview" class="ghost">Envoyer en relecture</button>
+        <button id="publish">Publier</button>
+      </div>
+      <div id="issues" class="issues"></div>
+      <form id="form" class="form"></form>
+      <details class="raw">
+        <summary>JSON brut</summary>
+        <textarea id="raw" spellcheck="false" rows="16"></textarea>
+        <button id="applyRaw" class="ghost" type="button">Appliquer le JSON</button>
+      </details>
+      <div class="editor-foot">
+        <button id="delete" class="danger ghost" type="button">Supprimer</button>
+        <div class="spacer"></div>
+        <span id="saveState" class="muted"></span>
+        <button id="save" type="button">Enregistrer</button>
+      </div>
+    </div>
+  </section>
+</main>
+<dialog id="report"><form method="dialog"><h2 id="reportTitle"></h2><pre id="reportBody"></pre><button>Fermer</button></form></dialog>
+<script src="editor.js"></script>
+</body>
+</html>
