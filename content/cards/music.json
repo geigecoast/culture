@@ -1,0 +1,668 @@
+[
+  {
+    "id": "mus-001",
+    "topic": "music",
+    "kind": "standard",
+    "title": {
+      "fr": "La fugue",
+      "en": "The fugue"
+    },
+    "body": {
+      "fr": "Une fugue est une pièce polyphonique où un thème court, le « sujet », est énoncé par une voix puis repris successivement par les autres, à des hauteurs différentes. Les voix s'entrelacent selon des règles strictes de contrepoint. Jean-Sébastien Bach en a porté l'art à son sommet, notamment dans Le Clavier bien tempéré, dont chaque livre réunit des préludes et fugues dans toutes les tonalités majeures et mineures.",
+      "en": "A fugue is a polyphonic piece in which a short theme, the “subject”, is stated by one voice and then taken up in turn by the others at different pitches. The voices interweave according to strict rules of counterpoint. Johann Sebastian Bach brought the art to its peak, notably in The Well-Tempered Clavier, each book of which collects preludes and fugues in all the major and minor keys."
+    },
+    "takeaway": {
+      "fr": "Fugue : un sujet imité de voix en voix selon les lois du contrepoint.",
+      "en": "Fugue: a subject imitated from voice to voice under the rules of counterpoint."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Combien de préludes et fugues compte chaque livre du Clavier bien tempéré ?",
+        "en": "How many preludes and fugues are in each book of The Well-Tempered Clavier?"
+      },
+      "options": [
+        {
+          "fr": "12",
+          "en": "12"
+        },
+        {
+          "fr": "24",
+          "en": "24"
+        },
+        {
+          "fr": "32",
+          "en": "32"
+        },
+        {
+          "fr": "48",
+          "en": "48"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Un par tonalité majeure et mineure : 12 × 2 = 24. Les deux livres en totalisent 48.",
+        "en": "One for each major and minor key: 12 × 2 = 24. The two books total 48."
+      }
+    },
+    "tags": [
+      "baroque",
+      "bach",
+      "formes"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Bach-Archiv Leipzig",
+          "publisher": "Bach-Archiv Leipzig",
+          "url": "https://www.bach-leipzig.de"
+        },
+        {
+          "title": "Fugue",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/art/fugue"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "imageSuggestion": "Manuscrit autographe du Clavier bien tempéré (domaine public, Staatsbibliothek zu Berlin)"
+  },
+  {
+    "id": "mus-002",
+    "topic": "music",
+    "kind": "standard",
+    "title": {
+      "fr": "La forme sonate",
+      "en": "Sonata form"
+    },
+    "body": {
+      "fr": "La forme sonate structure le premier mouvement de la plupart des symphonies, sonates et quatuors classiques. L'exposition présente deux thèmes contrastés dans deux tonalités ; le développement les fragmente et les fait voyager ; la réexposition les ramène, cette fois dans la tonalité principale. Haydn, Mozart et Beethoven en ont fait le cadre de leur pensée musicale.",
+      "en": "Sonata form shapes the first movement of most Classical symphonies, sonatas and quartets. The exposition presents two contrasting themes in two keys; the development breaks them up and takes them on a journey; the recapitulation brings them back, this time in the home key. Haydn, Mozart and Beethoven made it the framework of their musical thinking."
+    },
+    "takeaway": {
+      "fr": "Exposition, développement, réexposition : les trois temps de la forme sonate.",
+      "en": "Exposition, development, recapitulation: the three stages of sonata form."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Dans quelle section les thèmes reviennent-ils dans la tonalité principale ?",
+        "en": "In which section do the themes return in the home key?"
+      },
+      "options": [
+        {
+          "fr": "L'exposition",
+          "en": "The exposition"
+        },
+        {
+          "fr": "Le développement",
+          "en": "The development"
+        },
+        {
+          "fr": "La réexposition",
+          "en": "The recapitulation"
+        },
+        {
+          "fr": "Le trio",
+          "en": "The trio"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "fr": "Le trio appartient au menuet, pas à la forme sonate.",
+        "en": "The trio belongs to the minuet, not to sonata form."
+      }
+    },
+    "tags": [
+      "classique",
+      "formes"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Sonata form",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/art/sonata-form"
+        },
+        {
+          "title": "Ressources pédagogiques",
+          "publisher": "Philharmonie de Paris",
+          "url": "https://philharmoniedeparis.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/8f06717c-9ede-f22b-d13b-327a50c22f9c/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "Pierre-Auguste Renoir (French, 1841–1919), Woman at the Piano, 1875–76 — Art Institute of Chicago (Mr. and Mrs. Martin A. Ryerson Collection)",
+      "sourcePage": "https://www.artic.edu/artworks/25825",
+      "altText": {
+        "fr": "Pierre-Auguste Renoir, Femme au piano (1875–1876)",
+        "en": "Pierre-Auguste Renoir, Woman at the Piano (1875–76)"
+      }
+    },
+    "gallery": [
+      {
+        "url": "https://www.artic.edu/iiif/2/4972d96f-5b96-2423-af60-4fe5a6d516f1/full/843,/0/default.jpg",
+        "license": "Domaine public — CC0 (Art Institute of Chicago)",
+        "credit": "James McNeill Whistler, At the Piano, 1873/75 — Art Institute of Chicago (The Charles Deering Collection)",
+        "sourcePage": "https://www.artic.edu/artworks/50768",
+        "altText": {
+          "fr": "James McNeill Whistler, Au piano (1873–1875)",
+          "en": "James McNeill Whistler, At the Piano (1873–75)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mus-003",
+    "topic": "music",
+    "kind": "standard",
+    "title": {
+      "fr": "La Neuvième de Beethoven",
+      "en": "Beethoven's Ninth"
+    },
+    "body": {
+      "fr": "Créée à Vienne en 1824, la Neuvième Symphonie de Beethoven introduit, fait alors inédit, des solistes et un chœur dans son finale, sur l'« Ode à la joie » de Schiller. Le thème de ce finale a été adopté comme hymne par le Conseil de l'Europe en 1972, puis par les institutions européennes en 1985, dans une version instrumentale.",
+      "en": "First performed in Vienna in 1824, Beethoven's Ninth Symphony brought soloists and a choir into its finale, which was unprecedented at the time, setting Schiller's “Ode to Joy”. The finale's theme was adopted as an anthem by the Council of Europe in 1972 and by the European institutions in 1985, in an instrumental version."
+    },
+    "takeaway": {
+      "fr": "L'hymne européen reprend, sans paroles, le finale de la Neuvième.",
+      "en": "The European anthem uses the Ninth's finale, without words."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Sur quel poème est construit le finale ?",
+        "en": "Which poem is the finale built on?"
+      },
+      "options": [
+        {
+          "fr": "Le Roi des aulnes, Goethe",
+          "en": "The Erl-King, Goethe"
+        },
+        {
+          "fr": "Ode à la joie, Schiller",
+          "en": "Ode to Joy, Schiller"
+        },
+        {
+          "fr": "Hymne à la nuit, Novalis",
+          "en": "Hymn to the Night, Novalis"
+        },
+        {
+          "fr": "La Lorelei, Heine",
+          "en": "The Lorelei, Heine"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Beethoven a remanié et abrégé le texte de Schiller.",
+        "en": "Beethoven reworked and shortened Schiller's text."
+      }
+    },
+    "tags": [
+      "romantisme",
+      "beethoven",
+      "europe"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "L'hymne européen",
+          "publisher": "Union européenne",
+          "url": "https://european-union.europa.eu"
+        },
+        {
+          "title": "Beethoven-Haus Bonn",
+          "publisher": "Beethoven-Haus Bonn",
+          "url": "https://www.beethoven.de"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/5e765eca-110e-b939-ef07-d089615acb1e/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "Jean André (French, 1775-1842), Serenade for Violin, Viola and Cello, composed by Ludwig von Beethoven, c. 1801 — Art Institute of Chicago (Harold Joachim Purchase Fund)",
+      "sourcePage": "https://www.artic.edu/artworks/39392",
+      "altText": {
+        "fr": "Page de titre d'une sérénade pour violon, alto et violoncelle de Beethoven (vers 1801)",
+        "en": "Title page of a serenade for violin, viola and cello by Beethoven (c. 1801)"
+      }
+    },
+    "gallery": []
+  },
+  {
+    "id": "mus-004",
+    "topic": "music",
+    "kind": "standard",
+    "title": {
+      "fr": "Les grandes périodes",
+      "en": "The great periods"
+    },
+    "body": {
+      "fr": "On découpe conventionnellement la musique savante occidentale en périodes : baroque (vers 1600–1750), classique (vers 1750–1820), romantique (XIXe siècle), puis moderne et contemporaine. Ces bornes sont des repères, non des ruptures nettes : le style « galant » ou le jeune Beethoven chevauchent les frontières.",
+      "en": "Western art music is conventionally divided into periods: Baroque (about 1600–1750), Classical (about 1750–1820), Romantic (19th century), then modern and contemporary. These dates are signposts rather than clean breaks: the “galant” style or the young Beethoven straddle the boundaries."
+    },
+    "takeaway": {
+      "fr": "Les périodes sont des repères commodes, pas des frontières étanches.",
+      "en": "Periods are convenient signposts, not watertight borders."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Quel événement marque par convention la fin du baroque ?",
+        "en": "Which event conventionally marks the end of the Baroque?"
+      },
+      "options": [
+        {
+          "fr": "La mort de Bach (1750)",
+          "en": "Bach's death (1750)"
+        },
+        {
+          "fr": "La Révolution française (1789)",
+          "en": "The French Revolution (1789)"
+        },
+        {
+          "fr": "La naissance de Mozart (1756)",
+          "en": "Mozart's birth (1756)"
+        },
+        {
+          "fr": "La mort de Haendel (1759)",
+          "en": "Handel's death (1759)"
+        }
+      ],
+      "answerIndex": 0,
+      "explanation": {
+        "fr": "Haendel meurt en 1759, mais c'est 1750 qui sert de repère usuel.",
+        "en": "Handel died in 1759, but 1750 is the usual marker."
+      }
+    },
+    "tags": [
+      "histoire de la musique"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Baroque music",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/art/Baroque-music"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/c8d341af-c3b2-3d04-da9f-42700256c7b7/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "Cornelis Visscher (Dutch, c. 1629-1658), The Hurdy-Gurdy Player, 1648/58 — Art Institute of Chicago (Gift of Horace S. Oakley)",
+      "sourcePage": "https://www.artic.edu/artworks/9387",
+      "altText": {
+        "fr": "Cornelis Visscher, Le Joueur de vielle (1648–1658), époque baroque",
+        "en": "Cornelis Visscher, The Hurdy-Gurdy Player (1648–58), Baroque era"
+      }
+    },
+    "gallery": [
+      {
+        "url": "https://www.artic.edu/iiif/2/7f1ea423-7538-3bc7-3d4a-0766522ab62f/full/843,/0/default.jpg",
+        "license": "Domaine public — CC0 (Art Institute of Chicago)",
+        "credit": "Jan Steen (Dutch, 1626–1679), The Family Concert, 1666 — Art Institute of Chicago (Gift of Timothy B. Blackstone)",
+        "sourcePage": "https://www.artic.edu/artworks/561",
+        "altText": {
+          "fr": "Jan Steen, Le Concert de famille (1666)",
+          "en": "Jan Steen, The Family Concert (1666)"
+        }
+      },
+      {
+        "url": "https://www.artic.edu/iiif/2/7a51257f-cdf0-db42-d06d-d9cd16814eaf/full/843,/0/default.jpg",
+        "license": "Domaine public — CC0 (Art Institute of Chicago)",
+        "credit": "Julia Margaret Cameron, Mr. Joseph Joachim, 1868 — Art Institute of Chicago (Estate of Harold Joachim)",
+        "sourcePage": "https://www.artic.edu/artworks/120125",
+        "altText": {
+          "fr": "Julia Margaret Cameron, le violoniste Joseph Joachim (1868), figure de l'ère romantique",
+          "en": "Julia Margaret Cameron, the violinist Joseph Joachim (1868), a Romantic-era figure"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mus-005",
+    "topic": "music",
+    "kind": "standard",
+    "title": {
+      "fr": "Les débuts de l'opéra",
+      "en": "The beginnings of opera"
+    },
+    "body": {
+      "fr": "L'opéra naît en Italie autour de 1600, lorsque des lettrés florentins cherchent à retrouver l'union de la poésie et de la musique du théâtre antique. L'Orfeo de Claudio Monteverdi, créé à Mantoue en 1607, est souvent présenté comme le premier chef-d'œuvre du genre encore régulièrement joué. Le premier opéra public ouvre à Venise en 1637.",
+      "en": "Opera was born in Italy around 1600, when Florentine scholars sought to recover the union of poetry and music of ancient theatre. Claudio Monteverdi's L'Orfeo, first performed in Mantua in 1607, is often described as the first masterpiece of the genre still regularly staged. The first public opera house opened in Venice in 1637."
+    },
+    "takeaway": {
+      "fr": "L'opéra est né d'un rêve humaniste : ressusciter la tragédie antique.",
+      "en": "Opera grew out of a humanist dream: reviving ancient tragedy."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Où L'Orfeo de Monteverdi a-t-il été créé ?",
+        "en": "Where was Monteverdi's L'Orfeo first performed?"
+      },
+      "options": [
+        {
+          "fr": "Venise",
+          "en": "Venice"
+        },
+        {
+          "fr": "Florence",
+          "en": "Florence"
+        },
+        {
+          "fr": "Mantoue",
+          "en": "Mantua"
+        },
+        {
+          "fr": "Rome",
+          "en": "Rome"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "fr": "Il fut créé à la cour des Gonzague en 1607.",
+        "en": "It premiered at the Gonzaga court in 1607."
+      }
+    },
+    "tags": [
+      "opéra",
+      "baroque"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Opera",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/art/opera-music"
+        },
+        {
+          "title": "Monteverdi, L'Orfeo",
+          "publisher": "Opéra national de Paris",
+          "url": "https://www.operadeparis.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/cb34b0a8-bc51-d063-aab1-47c7debf3a7b/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "Edgar Degas, Ballet at the Paris Opéra, 1877 — Art Institute of Chicago (Gift of Mary and Leigh Block)",
+      "sourcePage": "https://www.artic.edu/artworks/61603",
+      "altText": {
+        "fr": "Edgar Degas, Ballet à l'Opéra de Paris (1877)",
+        "en": "Edgar Degas, Ballet at the Paris Opéra (1877)"
+      }
+    },
+    "gallery": [
+      {
+        "url": "https://www.artic.edu/iiif/2/40927708-ae7a-6f4b-0a5e-ba332c266a0e/full/843,/0/default.jpg",
+        "license": "Domaine public — CC0 (Art Institute of Chicago)",
+        "credit": "Mary Cassatt, In the Opera Box, No. 3, 1880 — Art Institute of Chicago (Purchased with funds provided by Gaylord Donnelley and the  Print and Drawing Club Fund)",
+        "sourcePage": "https://www.artic.edu/artworks/88989",
+        "altText": {
+          "fr": "Mary Cassatt, Dans la loge, n° 3 (1880)",
+          "en": "Mary Cassatt, In the Opera Box, No. 3 (1880)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mus-006",
+    "topic": "music",
+    "kind": "standard",
+    "title": {
+      "fr": "Du jazz Nouvelle-Orléans au bebop",
+      "en": "From New Orleans jazz to bebop"
+    },
+    "body": {
+      "fr": "Le jazz se forme au début du XXe siècle à La Nouvelle-Orléans, au croisement du blues, du ragtime et des fanfares. Louis Armstrong impose le soliste improvisateur. Dans les années 1940, Charlie Parker et Dizzy Gillespie inventent le bebop : tempos rapides, harmonies complexes, une musique d'écoute plutôt que de danse.",
+      "en": "Jazz took shape in early 20th-century New Orleans, where blues, ragtime and brass bands met. Louis Armstrong established the improvising soloist. In the 1940s Charlie Parker and Dizzy Gillespie created bebop: fast tempos, complex harmonies, music for listening rather than dancing."
+    },
+    "takeaway": {
+      "fr": "Le bebop a fait du jazz une musique savante d'improvisation.",
+      "en": "Bebop turned jazz into an art music of improvisation."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Quel style naît dans les années 1940 avec Parker et Gillespie ?",
+        "en": "Which style emerged in the 1940s with Parker and Gillespie?"
+      },
+      "options": [
+        {
+          "fr": "Le swing",
+          "en": "Swing"
+        },
+        {
+          "fr": "Le bebop",
+          "en": "Bebop"
+        },
+        {
+          "fr": "Le free jazz",
+          "en": "Free jazz"
+        },
+        {
+          "fr": "Le jazz modal",
+          "en": "Modal jazz"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Le free jazz apparaît plus tard, vers 1960.",
+        "en": "Free jazz came later, around 1960."
+      }
+    },
+    "tags": [
+      "jazz",
+      "xxe"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Jazz",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/art/jazz"
+        },
+        {
+          "title": "Smithsonian Jazz",
+          "publisher": "Smithsonian National Museum of American History",
+          "url": "https://americanhistory.si.edu"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "imageSuggestion": "Photo d'archives libre de droits (Library of Congress, collection William P. Gottlieb, domaine public)"
+  },
+  {
+    "id": "mus-007",
+    "topic": "music",
+    "kind": "standard",
+    "title": {
+      "fr": "Debussy et le Faune",
+      "en": "Debussy and the Faun"
+    },
+    "body": {
+      "fr": "Créé en 1894, le Prélude à l'après-midi d'un faune de Claude Debussy s'inspire d'un poème de Stéphane Mallarmé. La flûte solo ouvre l'œuvre dans une atmosphère indécise, aux harmonies flottantes. On a qualifié Debussy d'« impressionniste », étiquette qu'il récusait ; Pierre Boulez a vu dans ce prélude le début de la musique moderne.",
+      "en": "First performed in 1894, Claude Debussy's Prelude to the Afternoon of a Faun was inspired by a poem by Stéphane Mallarmé. A solo flute opens the work in a hazy atmosphere of floating harmonies. Debussy was labelled an “Impressionist”, a tag he rejected; Pierre Boulez saw this prelude as the start of modern music."
+    },
+    "takeaway": {
+      "fr": "Debussy rejetait l'étiquette d'« impressionniste » qu'on lui attribuait.",
+      "en": "Debussy rejected the “Impressionist” label he was given."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Quel poète a inspiré le Prélude à l'après-midi d'un faune ?",
+        "en": "Which poet inspired the Prelude to the Afternoon of a Faun?"
+      },
+      "options": [
+        {
+          "fr": "Paul Verlaine",
+          "en": "Paul Verlaine"
+        },
+        {
+          "fr": "Charles Baudelaire",
+          "en": "Charles Baudelaire"
+        },
+        {
+          "fr": "Stéphane Mallarmé",
+          "en": "Stéphane Mallarmé"
+        },
+        {
+          "fr": "Arthur Rimbaud",
+          "en": "Arthur Rimbaud"
+        }
+      ],
+      "answerIndex": 2,
+      "explanation": {
+        "fr": "Debussy a aussi mis en musique de nombreux poèmes de Verlaine.",
+        "en": "Debussy also set many Verlaine poems to music."
+      }
+    },
+    "tags": [
+      "xxe",
+      "debussy"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Claude Debussy",
+          "publisher": "Philharmonie de Paris",
+          "url": "https://philharmoniedeparis.fr"
+        },
+        {
+          "title": "Prelude to the Afternoon of a Faun",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Prelude-to-the-Afternoon-of-a-Faun"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/2e1d98de-f221-5240-9d64-87b746108518/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "Rembrandt van Rijn, The Flute Player, 1642 — Art Institute of Chicago (Clarence Buckingham Collection; Amanda S. Johnson and Marion Livingston Endowment)",
+      "sourcePage": "https://www.artic.edu/artworks/155929",
+      "altText": {
+        "fr": "Rembrandt, Le Joueur de flûte (1642)",
+        "en": "Rembrandt, The Flute Player (1642)"
+      }
+    },
+    "gallery": [
+      {
+        "url": "https://www.artic.edu/iiif/2/5866a03a-a380-e16a-fefb-585cbc99e681/full/843,/0/default.jpg",
+        "license": "Domaine public — CC0 (Art Institute of Chicago)",
+        "credit": "School of Andrea Mantegna, Faun Attacking a Snake, c. 1500 — Art Institute of Chicago (Gift of Mr. and Mrs. Martin A. Ryerson)",
+        "sourcePage": "https://www.artic.edu/artworks/23985",
+        "altText": {
+          "fr": "École d'Andrea Mantegna, Faune attaquant un serpent (vers 1500)",
+          "en": "School of Andrea Mantegna, Faun Attacking a Snake (c. 1500)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mus-008",
+    "topic": "music",
+    "kind": "standard",
+    "title": {
+      "fr": "Wagner et Munich",
+      "en": "Wagner and Munich"
+    },
+    "body": {
+      "fr": "Richard Wagner rêve d'une « œuvre d'art totale » (Gesamtkunstwerk) unissant musique, poésie et scène, et structure ses drames par des leitmotive associés aux personnages et aux idées. Le roi Louis II de Bavière devient son mécène : Tristan et Isolde (1865) et Les Maîtres chanteurs de Nuremberg (1868) sont créés à Munich. Le Festspielhaus de Bayreuth ouvre en 1876 avec la Tétralogie.",
+      "en": "Richard Wagner dreamed of a “total work of art” (Gesamtkunstwerk) uniting music, poetry and stage, and structured his dramas through leitmotifs linked to characters and ideas. King Ludwig II of Bavaria became his patron: Tristan und Isolde (1865) and Die Meistersinger von Nürnberg (1868) premiered in Munich. The Bayreuth Festspielhaus opened in 1876 with the Ring cycle."
+    },
+    "takeaway": {
+      "fr": "Leitmotiv : un motif musical associé à un personnage ou à une idée.",
+      "en": "Leitmotif: a musical motif tied to a character or an idea."
+    },
+    "quiz": {
+      "question": {
+        "fr": "Quel souverain fut le mécène de Wagner ?",
+        "en": "Which monarch was Wagner's patron?"
+      },
+      "options": [
+        {
+          "fr": "Guillaume Ier",
+          "en": "Wilhelm I"
+        },
+        {
+          "fr": "Louis II de Bavière",
+          "en": "Ludwig II of Bavaria"
+        },
+        {
+          "fr": "François-Joseph",
+          "en": "Franz Joseph"
+        },
+        {
+          "fr": "Napoléon III",
+          "en": "Napoleon III"
+        }
+      ],
+      "answerIndex": 1,
+      "explanation": {
+        "fr": "Les deux opéras furent créés au Théâtre national de Munich, aujourd'hui siège de la Bayerische Staatsoper.",
+        "en": "Both operas premiered at Munich's National Theatre, today home of the Bayerische Staatsoper."
+      }
+    },
+    "tags": [
+      "romantisme",
+      "opéra",
+      "munich"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Bayreuther Festspiele",
+          "publisher": "Bayreuther Festspiele",
+          "url": "https://www.bayreuther-festspiele.de"
+        },
+        {
+          "title": "Geschichte",
+          "publisher": "Bayerische Staatsoper",
+          "url": "https://www.staatsoper.de"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "image": {
+      "url": "https://www.artic.edu/iiif/2/57c1fd75-e587-39c7-ba09-9aa121d5e8d2/full/843,/0/default.jpg",
+      "license": "Domaine public — CC0 (Art Institute of Chicago)",
+      "credit": "Pierre Auguste Renoir, Portrait of Richard Wagner, c. 1900 — Art Institute of Chicago (John H. Wrenn Memorial Collection)",
+      "sourcePage": "https://www.artic.edu/artworks/13526",
+      "altText": {
+        "fr": "Pierre-Auguste Renoir, Portrait de Richard Wagner (vers 1900), lithographie",
+        "en": "Pierre-Auguste Renoir, Portrait of Richard Wagner (c. 1900), lithograph"
+      }
+    },
+    "gallery": [
+      {
+        "url": "https://www.artic.edu/iiif/2/55186f47-f941-415b-bd41-bb2fb7204b64/full/843,/0/default.jpg",
+        "license": "Domaine public — CC0 (Art Institute of Chicago)",
+        "credit": "Henri Fantin-Latour, The Anniversary (Homage to Hector Berlioz), 1877 — Art Institute of Chicago (Margaret Day Blake Collection, Harold Joachim and Helen Regenstein Endowments)",
+        "sourcePage": "https://www.artic.edu/artworks/149717",
+        "altText": {
+          "fr": "Henri Fantin-Latour, L'Anniversaire, hommage à Berlioz (1877)",
+          "en": "Henri Fantin-Latour, The Anniversary (Homage to Hector Berlioz) (1877)"
+        }
+      }
+    ]
+  }
+]

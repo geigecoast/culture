@@ -1,0 +1,105 @@
+[
+  {
+    "id": "palais-garnier",
+    "name": "Palais Garnier",
+    "cityID": "paris",
+    "address": "Place de l'Opéra, 75009 Paris",
+    "latitude": 48.872,
+    "longitude": 2.3316,
+    "website": "https://www.operadeparis.fr"
+  },
+  {
+    "id": "opera-bastille",
+    "name": "Opéra Bastille",
+    "cityID": "paris",
+    "address": "Place de la Bastille, 75012 Paris",
+    "latitude": 48.8522,
+    "longitude": 2.37,
+    "website": "https://www.operadeparis.fr"
+  },
+  {
+    "id": "centre-pompidou",
+    "name": "Centre Pompidou",
+    "cityID": "paris",
+    "address": "Place Georges-Pompidou, 75004 Paris",
+    "latitude": 48.8606,
+    "longitude": 2.3522,
+    "website": "https://www.centrepompidou.fr",
+    "note": {
+      "fr": "Bâtiment fermé pour travaux de rénovation (réouverture annoncée vers 2030) ; programmation hors les murs.",
+      "en": "Building closed for renovation (reopening announced for around 2030); programme held off-site."
+    }
+  },
+  {
+    "id": "cite-sciences",
+    "name": "Cité des sciences et de l'industrie",
+    "cityID": "paris",
+    "address": "30 avenue Corentin-Cariou, 75019 Paris",
+    "latitude": 48.8956,
+    "longitude": 2.388,
+    "website": "https://www.cite-sciences.fr"
+  },
+  {
+    "id": "oper-frankfurt",
+    "name": "Oper Frankfurt",
+    "cityID": "frankfurt",
+    "address": "Willy-Brandt-Platz 1, 60311 Frankfurt am Main",
+    "latitude": 50.1078,
+    "longitude": 8.6745,
+    "website": "https://oper-frankfurt.de"
+  },
+  {
+    "id": "staedel",
+    "name": "Städel Museum",
+    "cityID": "frankfurt",
+    "address": "Schaumainkai 63, 60596 Frankfurt am Main",
+    "latitude": 50.1031,
+    "longitude": 8.6741,
+    "website": "https://www.staedelmuseum.de"
+  },
+  {
+    "id": "senckenberg",
+    "name": "Senckenberg Naturmuseum",
+    "cityID": "frankfurt",
+    "address": "Senckenberganlage 25, 60325 Frankfurt am Main",
+    "latitude": 50.1175,
+    "longitude": 8.6518,
+    "website": "https://museumfrankfurt.senckenberg.de"
+  },
+  {
+    "id": "bayerische-staatsoper",
+    "name": "Bayerische Staatsoper — Nationaltheater",
+    "cityID": "munich",
+    "address": "Max-Joseph-Platz 2, 80539 München",
+    "latitude": 48.1394,
+    "longitude": 11.5786,
+    "website": "https://www.staatsoper.de"
+  },
+  {
+    "id": "alte-pinakothek",
+    "name": "Alte Pinakothek",
+    "cityID": "munich",
+    "address": "Barer Straße 27, 80333 München",
+    "latitude": 48.1482,
+    "longitude": 11.57,
+    "website": "https://www.pinakothek.de"
+  },
+  {
+    "id": "pinakothek-moderne",
+    "name": "Pinakothek der Moderne",
+    "cityID": "munich",
+    "address": "Barer Straße 40, 80333 München",
+    "latitude": 48.1473,
+    "longitude": 11.5721,
+    "website": "https://www.pinakothek.de"
+  },
+  {
+    "id": "deutsches-museum",
+    "name": "Deutsches Museum",
+    "cityID": "munich",
+    "address": "Museumsinsel 1, 80538 München",
+    "latitude": 48.1299,
+    "longitude": 11.5834,
+    "website": "https://www.deutsches-museum.de"
+  }
+]
