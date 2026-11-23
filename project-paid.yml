@@ -1,0 +1,17 @@
+# Same project, plus capabilities that need the paid Apple Developer Program.
+# Generate with: xcodegen --spec project-paid.yml
+include: [project.yml]
+targets:
+  Culture:
+    entitlements:
+      path: App/Resources/Culture.entitlements
+      properties:
+        com.apple.developer.applesignin: [Default]
+        com.apple.security.application-groups: [group.com.geigecoast.culture]
+        com.apple.developer.associated-domains: [applinks:culture.app]
+        aps-environment: development
+  CultureWidgets:
+    entitlements:
+      path: Widgets/CultureWidgets.entitlements
+      properties:
+        com.apple.security.application-groups: [group.com.geigecoast.culture]

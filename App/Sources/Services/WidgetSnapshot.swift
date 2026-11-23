@@ -14,7 +14,7 @@ struct WidgetSnapshot: Codable {
     static let fileName = "widget-snapshot.json"
 
     static var url: URL? {
-        FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.app.culture")?.appending(path: fileName)
+        FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.com.geigecoast.culture")?.appending(path: fileName)
     }
 
     static func load() -> WidgetSnapshot? {

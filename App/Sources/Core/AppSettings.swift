@@ -8,7 +8,7 @@ import CultureCore
 @Observable
 @MainActor
 final class AppSettings {
-    static let appGroupID = "group.app.culture"
+    static let appGroupID = "group.com.geigecoast.culture"
     private let defaults: UserDefaults
 
     var language: AppLanguage { didSet { defaults.set(language.rawValue, forKey: Keys.language) } }

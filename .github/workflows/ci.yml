@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * *"   # daily event-freshness report
+
+jobs:
+  content:
+    name: Content, strings & editor
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Validate content
+        run: node admin/validate.mjs
+      - name: Editor tests
+        run: cd admin && npm test
+      - name: Bundle is up to date
+        run: |
+          node admin/build-bundle.mjs
+          git diff --exit-code App/Resources/SeedContent/content-bundle.json
+      - name: String catalog is up to date and complete
+        run: |
+          python3 scripts/gen_strings.py
+          git diff --exit-code App/Resources/Localizable.xcstrings
+      - name: Event freshness report
+        run: node admin/check-events.mjs
+
+  domain:
+    name: Domain tests (CultureCore)
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - run: xcodebuild -version
+      - name: swift test
+        run: cd CultureKit && swift test
+
+  ios:
+    name: iOS app build
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install XcodeGen
+        run: brew install xcodegen
+      - name: Generate project
+        run: xcodegen generate
+      - name: Build for iOS Simulator (iPhone + iPad)
+        run: |
+          set -o pipefail
+          xcodebuild build -project Culture.xcodeproj -scheme Culture \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO 2>&1 | tee build.log | grep -E "error:|warning: .*Sendable|BUILD (SUCCEEDED|FAILED)" || true
+          grep -q "BUILD SUCCEEDED" build.log
+      - name: Build errors
+        if: failure()
+        run: grep -E "error:" build.log | sort -u | head -100
