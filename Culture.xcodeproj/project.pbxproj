@@ -40,6 +40,7 @@
 		ABF62E56B6A441419FFF2EB9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1FEB12DB7F8F22B98B52F88F /* PrivacyInfo.xcprivacy */; };
 		C5E19D5C0BF9C10985D15E9C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 6F8C8AD3C9B586DB5A903D5D /* Localizable.xcstrings */; };
 		C615CFBC14371C55D748353D /* AgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20FE0B2DF4D8F43A255D9B1 /* AgendaView.swift */; };
+		D1A2B1BC8216A671F78ED2D3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC268315A4F8AD19CFD867C /* Theme.swift */; };
 		D34EE34551A696526F4C2C20 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA4AF9655FC2D80ACED2EA5 /* ImageCache.swift */; };
 		EE0CD7AAE0B19A9F6CB0B029 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D97FF205679F44B4BC6DEA /* AuthService.swift */; };
 		EF61897978A174A97267E08D /* content-bundle.json in Resources */ = {isa = PBXBuildFile; fileRef = 38AF85A21DF892240BE2F200 /* content-bundle.json */; };
@@ -121,6 +122,7 @@
 		DB8BB15C9D2CA3BCF3BF58D4 /* ContentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepository.swift; sourceTree = "<group>"; };
 		DBC2B5DD987364852992DA6A /* QuizViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViews.swift; sourceTree = "<group>"; };
 		E20FE0B2DF4D8F43A255D9B1 /* AgendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaView.swift; sourceTree = "<group>"; };
+		ECC268315A4F8AD19CFD867C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F6AE8DE05C1E187B0B3243A7 /* PersistenceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceModels.swift; sourceTree = "<group>"; };
 		F6D97FF205679F44B4BC6DEA /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		FCA9E4358CD94C053E501070 /* CultureKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CultureKit; path = CultureKit; sourceTree = SOURCE_ROOT; };
@@ -250,6 +252,7 @@
 			children = (
 				03ABE12D43B864235EF9CC83 /* Components.swift */,
 				5898B55F5E109DD8B6BE48CA /* ImageViews.swift */,
+				ECC268315A4F8AD19CFD867C /* Theme.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -544,6 +547,7 @@
 				90F143E91C83B9DB3CE8D202 /* ScreenTimeMonitor.swift in Sources */,
 				9AFE0DA15AD29ECCB49E7C44 /* SettingsView.swift in Sources */,
 				F115D15A87BAE3BF35CF4F8A /* SyncService.swift in Sources */,
+				D1A2B1BC8216A671F78ED2D3 /* Theme.swift in Sources */,
 				25B4B1656A72FEA88573487B /* UserDataStore.swift in Sources */,
 				2504542803C76B030005A641 /* VocabViews.swift in Sources */,
 				01227589DA5266F15FB5EC49 /* WidgetSnapshot.swift in Sources */,
