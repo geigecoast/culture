@@ -69,6 +69,11 @@ jobs:
           xcodebuild build -project Culture.xcodeproj -scheme Culture \
             -destination 'generic/platform=iOS Simulator' -derivedDataPath dd \
             CODE_SIGNING_ALLOWED=NO -quiet
+      - name: Can this runner reach the image server?
+        run: |
+          U="https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg"
+          curl -s -o /dev/null -w "plain curl: %{http_code} %{content_type}\n" "$U" || true
+          curl -s -o /dev/null -w "CFNetwork UA: %{http_code} %{content_type}\n" -A "Culture/1 CFNetwork/1568 Darwin/24.0.0" "$U" || true
       - name: Launch and capture
         run: |
           set -x
@@ -86,6 +91,7 @@ jobs:
             xcrun simctl terminate "$UDID" com.geigecoast.culture
             xcrun simctl launch "$UDID" com.geigecoast.culture -skip-onboarding -app-language fr; sleep 30
             xcrun simctl io "$UDID" screenshot "shots/${NAME}-home.png"
+            xcrun simctl spawn "$UDID" log show --last 3m --style compact --predicate 'subsystem == "com.geigecoast.culture"' | tail -20 || true
             xcrun simctl shutdown "$UDID"
           done
           ls -la shots

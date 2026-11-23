@@ -38,7 +38,7 @@ struct ImageCarousel<Placeholder: View>: View {
             .overlay(alignment: .bottom) {
                 if images.count > 1 { PageDots(count: images.count, current: page).padding(.bottom, 10) }
             }
-            .overlay(alignment: .topTrailing) {
+            .overlay(alignment: .bottomTrailing) {
                 if images.count > 1 {
                     Text("\(page + 1)/\(images.count)")
                         .font(.caption.weight(.semibold).monospacedDigit())

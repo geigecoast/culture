@@ -1,6 +1,9 @@
 import SwiftUI
 import ImageIO
 import CryptoKit
+import os
+
+private let imageLog = Logger(subsystem: "com.geigecoast.culture", category: "images")
 
 /// Memory + disk image cache with ImageIO downsampling so large museum images
 /// never get decoded at full resolution on the main thread.
@@ -28,10 +31,23 @@ actor ImageCache {
             if let data = try? Data(contentsOf: file) {
                 return Self.downsample(data, maxPixelSize: maxPixelSize)
             }
-            guard let (data, response) = try? await URLSession.shared.data(from: url),
-                  (response as? HTTPURLResponse)?.statusCode == 200 else { return nil }
-            try? data.write(to: file, options: .atomic)
-            return Self.downsample(data, maxPixelSize: maxPixelSize)
+            do {
+                let (data, response) = try await URLSession.shared.data(from: url)
+                let status = (response as? HTTPURLResponse)?.statusCode ?? 0
+                guard status == 200 else {
+                    imageLog.error("Image HTTP \(status, privacy: .public) for \(url.absoluteString, privacy: .public)")
+                    return nil
+                }
+                guard let image = Self.downsample(data, maxPixelSize: maxPixelSize) else {
+                    imageLog.error("Image decode failed (\(data.count, privacy: .public) bytes) for \(url.absoluteString, privacy: .public)")
+                    return nil
+                }
+                try? data.write(to: file, options: .atomic)
+                return image
+            } catch {
+                imageLog.error("Image load error \(error.localizedDescription, privacy: .public) for \(url.absoluteString, privacy: .public)")
+                return nil
+            }
         }
         inFlight[url] = task
         let image = await task.value
