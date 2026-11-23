@@ -1,0 +1,2937 @@
+[
+  {
+    "id": "voc-001",
+    "term": "souscrire à",
+    "partOfSpeech": "v. tr. ind.",
+    "register": "soutenu",
+    "definition": "Donner son adhésion à une opinion, à un projet.",
+    "gloss": "to subscribe to, endorse",
+    "example": "Je souscris pleinement à votre analyse de la situation.",
+    "nuances": [
+      {
+        "word": "adhérer à",
+        "note": {
+          "fr": "engagement plus durable, souvent à un parti ou une doctrine",
+          "en": "a more lasting commitment, often to a party or doctrine"
+        }
+      },
+      {
+        "word": "approuver",
+        "note": {
+          "fr": "terme courant et neutre",
+          "en": "neutral, everyday word"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Souscrire un abonnement, un emprunt : construction directe, sens différent."
+    ],
+    "sets": [
+      "approbation"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin subscribere, « écrire dessous ».",
+    "exercise": {
+      "kind": "complete",
+      "prompt": "Je ___ sans réserve à votre proposition.",
+      "answers": [
+        "souscris"
+      ]
+    }
+  },
+  {
+    "id": "voc-002",
+    "term": "agréer",
+    "partOfSpeech": "v. tr.",
+    "register": "soutenu",
+    "definition": "Accueillir favorablement, accepter.",
+    "gloss": "to accept, approve (formal)",
+    "example": "Veuillez agréer, Madame, l'expression de mes salutations distinguées.",
+    "nuances": [
+      {
+        "word": "accepter",
+        "note": {
+          "fr": "neutre, sans la nuance de faveur",
+          "en": "neutral, without the nuance of favour"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Ne pas confondre avec « agréger » (réunir en un tout)."
+    ],
+    "sets": [
+      "approbation"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "De « gré », du latin gratum, « ce qui plaît »."
+  },
+  {
+    "id": "voc-003",
+    "term": "plébisciter",
+    "partOfSpeech": "v. tr.",
+    "register": "courant",
+    "definition": "Approuver massivement, à une très large majorité.",
+    "gloss": "to acclaim, approve overwhelmingly",
+    "example": "Le public a plébiscité cette nouvelle mise en scène de Don Giovanni.",
+    "nuances": [
+      {
+        "word": "ovationner",
+        "note": {
+          "fr": "applaudir longuement, sur le moment",
+          "en": "to applaud at length, in the moment"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Réserver le mot à une adhésion massive : « plébisciter » pour « apprécier un peu » l'affaiblit."
+    ],
+    "sets": [
+      "approbation"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin plebiscitum, « décision de la plèbe »."
+  },
+  {
+    "id": "voc-004",
+    "term": "encenser",
+    "partOfSpeech": "v. tr.",
+    "register": "soutenu",
+    "definition": "Couvrir de louanges, parfois avec excès.",
+    "gloss": "to praise lavishly",
+    "example": "La critique a encensé le premier roman de cette jeune autrice.",
+    "nuances": [
+      {
+        "word": "louer",
+        "note": {
+          "fr": "éloge plus mesuré",
+          "en": "more measured praise"
+        }
+      },
+      {
+        "word": "flagorner",
+        "note": {
+          "fr": "flatter bassement, par intérêt (péjoratif)",
+          "en": "to fawn, for gain (pejorative)"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Peut suggérer une admiration excessive : attention au contexte."
+    ],
+    "sets": [
+      "approbation"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "De « encens » : honorer en brûlant de l'encens."
+  },
+  {
+    "id": "voc-005",
+    "term": "dithyrambique",
+    "partOfSpeech": "adj.",
+    "register": "soutenu",
+    "definition": "D'un enthousiasme excessif dans la louange.",
+    "gloss": "rapturous, gushing",
+    "example": "Les comptes rendus, unanimement dithyrambiques, ont fini par éveiller ma méfiance.",
+    "nuances": [
+      {
+        "word": "élogieux",
+        "note": {
+          "fr": "favorable sans excès",
+          "en": "favourable without excess"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Orthographe : dithyrambique, avec « th » et « y »."
+    ],
+    "sets": [
+      "approbation"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du grec dithurambos, hymne en l'honneur de Dionysos.",
+    "exercise": {
+      "kind": "complete",
+      "prompt": "Une critique ___ : l'auteur n'en demandait pas tant.",
+      "answers": [
+        "dithyrambique"
+      ]
+    }
+  },
+  {
+    "id": "voc-006",
+    "term": "adouber",
+    "partOfSpeech": "v. tr.",
+    "register": "soutenu",
+    "definition": "Reconnaître quelqu'un comme digne d'appartenir à un cercle ; le consacrer.",
+    "gloss": "to give one's blessing to, anoint",
+    "example": "Adoubée par ses pairs, elle a pris la direction du festival.",
+    "nuances": [
+      {
+        "word": "consacrer",
+        "note": {
+          "fr": "reconnaissance plus solennelle ou définitive",
+          "en": "a more solemn or definitive recognition"
+        }
+      },
+      {
+        "word": "coopter",
+        "note": {
+          "fr": "désigner un nouveau membre par les membres en place",
+          "en": "to co-opt, chosen by existing members"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Sens propre : armer chevalier ; le sens figuré est moderne et admis."
+    ],
+    "sets": [
+      "approbation"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "De l'ancien français adober, « équiper, armer chevalier », d'origine francique."
+  },
+  {
+    "id": "voc-007",
+    "term": "assentiment",
+    "partOfSpeech": "n. m.",
+    "register": "soutenu",
+    "definition": "Accord, approbation donnée à une proposition.",
+    "gloss": "assent",
+    "example": "Il ne prit aucune décision sans l'assentiment du conseil.",
+    "nuances": [
+      {
+        "word": "consentement",
+        "note": {
+          "fr": "accord pour qu'une chose se fasse, souvent en droit",
+          "en": "agreement that something be done, often legal"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Pas de « assentement »."
+    ],
+    "sets": [
+      "approbation"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin assentire, « donner son accord »."
+  },
+  {
+    "id": "voc-008",
+    "term": "acquiescer",
+    "partOfSpeech": "v. tr. ind.",
+    "register": "soutenu",
+    "definition": "Donner son accord, souvent par un simple signe.",
+    "gloss": "to acquiesce, nod in agreement",
+    "example": "Elle acquiesça d'un léger signe de tête.",
+    "nuances": [
+      {
+        "word": "consentir",
+        "note": {
+          "fr": "accord plus réfléchi, parfois concédé",
+          "en": "a more deliberate, sometimes reluctant agreement"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Orthographe : « acquiescer », avec « sc ». Construction : acquiescer à une demande."
+    ],
+    "sets": [
+      "approbation"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin acquiescere, « se reposer, se ranger à ».",
+    "exercise": {
+      "kind": "complete",
+      "prompt": "Le directeur ___ à notre demande sans discuter.",
+      "answers": [
+        "acquiesça",
+        "acquiesce",
+        "a acquiescé"
+      ]
+    }
+  },
+  {
+    "id": "voc-009",
+    "term": "opiner du chef",
+    "partOfSpeech": "loc. v.",
+    "register": "litteraire",
+    "definition": "Approuver d'un signe de tête.",
+    "gloss": "to nod in agreement",
+    "example": "Le ministre opinait du chef à chaque phrase de son conseiller.",
+    "nuances": [
+      {
+        "word": "acquiescer",
+        "note": {
+          "fr": "plus neutre",
+          "en": "more neutral"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Souvent ironique : suggère une approbation docile."
+    ],
+    "sets": [
+      "approbation",
+      "salon"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "« Chef » au sens ancien de « tête »."
+  },
+  {
+    "id": "voc-010",
+    "term": "abonder dans le sens de",
+    "partOfSpeech": "loc. v.",
+    "register": "soutenu",
+    "definition": "Être entièrement de l'avis de quelqu'un.",
+    "gloss": "to agree wholeheartedly with",
+    "example": "J'abonde dans votre sens : le calendrier est trop serré.",
+    "nuances": [
+      {
+        "word": "se ranger à l'avis de",
+        "note": {
+          "fr": "accord obtenu après hésitation",
+          "en": "agreement reached after hesitation"
+        }
+      }
+    ],
+    "pitfalls": [
+      "On dit « abonder dans le sens de quelqu'un », non « abonder dans son avis »."
+    ],
+    "sets": [
+      "approbation"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "exercise": {
+      "kind": "rewrite",
+      "prompt": "Je suis complètement d'accord avec vous.",
+      "answers": [
+        "J'abonde dans votre sens."
+      ]
+    }
+  },
+  {
+    "id": "voc-011",
+    "term": "décliner",
+    "partOfSpeech": "v. tr.",
+    "register": "soutenu",
+    "definition": "Refuser poliment une offre, une invitation.",
+    "gloss": "to decline",
+    "example": "Je me vois contraint de décliner votre aimable invitation.",
+    "nuances": [
+      {
+        "word": "refuser",
+        "note": {
+          "fr": "plus direct, parfois sec",
+          "en": "more direct, sometimes curt"
+        }
+      }
+    ],
+    "pitfalls": [
+      "« Décliner son identité » signifie la donner : sens tout différent."
+    ],
+    "sets": [
+      "refus"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin declinare, « détourner ».",
+    "exercise": {
+      "kind": "rewrite",
+      "prompt": "Je ne peux pas venir à votre dîner.",
+      "answers": [
+        "Je me vois contraint de décliner votre invitation à dîner."
+      ]
+    }
+  },
+  {
+    "id": "voc-012",
+    "term": "se récuser",
+    "partOfSpeech": "v. pr.",
+    "register": "soutenu",
+    "definition": "Se déclarer incompétent ou refuser de se prononcer.",
+    "gloss": "to recuse oneself; decline to give an opinion",
+    "example": "Sur une question aussi technique, je préfère me récuser.",
+    "nuances": [
+      {
+        "word": "s'abstenir",
+        "note": {
+          "fr": "ne pas prendre part, sans motif d'incompétence",
+          "en": "not to take part, without claiming incompetence"
+        }
+      }
+    ],
+    "pitfalls": [
+      "« Récuser » (transitif) : rejeter un témoin, un argument."
+    ],
+    "sets": [
+      "refus"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin recusare, « refuser »."
+  },
+  {
+    "id": "voc-013",
+    "term": "se dérober",
+    "partOfSpeech": "v. pr.",
+    "register": "soutenu",
+    "definition": "Se soustraire à une obligation, éviter de répondre.",
+    "gloss": "to evade, shy away",
+    "example": "Il s'est dérobé à toutes les questions sur le financement du projet.",
+    "nuances": [
+      {
+        "word": "esquiver",
+        "note": {
+          "fr": "éviter avec adresse",
+          "en": "to dodge deftly"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Connotation négative : à ne pas employer pour décrire son propre refus poli."
+    ],
+    "sets": [
+      "refus"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null
+  },
+  {
+    "id": "voc-014",
+    "term": "il ne m'appartient pas de",
+    "partOfSpeech": "loc.",
+    "register": "soutenu",
+    "definition": "Ce n'est pas mon rôle, ma prérogative de.",
+    "gloss": "it is not for me to",
+    "example": "Il ne m'appartient pas de juger de l'opportunité de cette réforme.",
+    "nuances": [
+      {
+        "word": "ce n'est pas à moi de",
+        "note": {
+          "fr": "équivalent courant",
+          "en": "everyday equivalent"
+        }
+      }
+    ],
+    "pitfalls": [],
+    "sets": [
+      "refus",
+      "salon"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "exercise": {
+      "kind": "rewrite",
+      "prompt": "C'est pas à moi de décider.",
+      "answers": [
+        "Il ne m'appartient pas de décider."
+      ]
+    }
+  },
+  {
+    "id": "voc-015",
+    "term": "à mon grand regret",
+    "partOfSpeech": "loc. adv.",
+    "register": "soutenu",
+    "definition": "Formule de refus courtois.",
+    "gloss": "much to my regret",
+    "example": "À mon grand regret, je ne pourrai assister à la première.",
+    "nuances": [
+      {
+        "word": "hélas",
+        "note": {
+          "fr": "plus bref, plus littéraire",
+          "en": "shorter, more literary"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Éviter le pléonasme « je regrette, à mon grand regret »."
+    ],
+    "sets": [
+      "refus"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null
+  },
+  {
+    "id": "voc-016",
+    "term": "surseoir",
+    "partOfSpeech": "v. tr. ind.",
+    "register": "soutenu",
+    "definition": "Remettre à plus tard, différer.",
+    "gloss": "to postpone, defer",
+    "example": "Le conseil a décidé de surseoir à sa décision jusqu'à la rentrée.",
+    "nuances": [
+      {
+        "word": "différer",
+        "note": {
+          "fr": "plus courant",
+          "en": "more common"
+        }
+      },
+      {
+        "word": "ajourner",
+        "note": {
+          "fr": "renvoyer à une date ultérieure, souvent une séance",
+          "en": "to adjourn, often a meeting"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Conjugaison : je sursois, nous sursoyons ; au futur, le « e » se maintient : je surseoirai."
+    ],
+    "sets": [
+      "refus"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin supersedere, « être assis au-dessus, s'abstenir ».",
+    "exercise": {
+      "kind": "complete",
+      "prompt": "Nous avons décidé de ___ à statuer.",
+      "answers": [
+        "surseoir"
+      ]
+    }
+  },
+  {
+    "id": "voc-017",
+    "term": "éconduire",
+    "partOfSpeech": "v. tr.",
+    "register": "soutenu",
+    "definition": "Repousser quelqu'un, refuser sa demande.",
+    "gloss": "to turn away, rebuff",
+    "example": "Il fut poliment éconduit par la directrice du musée.",
+    "nuances": [
+      {
+        "word": "congédier",
+        "note": {
+          "fr": "renvoyer, mettre fin à un entretien ou un emploi",
+          "en": "to dismiss, end a meeting or job"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Ne pas confondre avec « reconduire » (raccompagner ; renouveler)."
+    ],
+    "sets": [
+      "refus"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null
+  },
+  {
+    "id": "voc-018",
+    "term": "opposer une fin de non-recevoir",
+    "partOfSpeech": "loc. v.",
+    "register": "soutenu",
+    "definition": "Refuser catégoriquement une demande.",
+    "gloss": "to flatly turn down",
+    "example": "La direction a opposé une fin de non-recevoir aux revendications des musiciens.",
+    "nuances": [
+      {
+        "word": "décliner",
+        "note": {
+          "fr": "refus poli et mesuré",
+          "en": "a polite, measured refusal"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Expression d'origine juridique, au ton ferme : peu courtoise."
+    ],
+    "sets": [
+      "refus"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null
+  },
+  {
+    "id": "voc-019",
+    "term": "je crains de ne pouvoir",
+    "partOfSpeech": "formule",
+    "register": "soutenu",
+    "definition": "Formule polie pour annoncer qu'on ne pourra pas faire quelque chose.",
+    "gloss": "I fear I shall not be able to",
+    "example": "Je crains de ne pouvoir me libérer jeudi soir.",
+    "nuances": [
+      {
+        "word": "je ne pourrai pas",
+        "note": {
+          "fr": "équivalent neutre",
+          "en": "neutral equivalent"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Avec « pouvoir », « savoir », « oser » ou « cesser », le « ne » seul suffit en registre soutenu (« ne pouvoir », sans « pas »)."
+    ],
+    "sets": [
+      "refus"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "exercise": {
+      "kind": "rewrite",
+      "prompt": "Je pourrai pas venir samedi.",
+      "answers": [
+        "Je crains de ne pouvoir venir samedi."
+      ]
+    }
+  },
+  {
+    "id": "voc-020",
+    "term": "je vous saurais gré de",
+    "partOfSpeech": "formule",
+    "register": "soutenu",
+    "definition": "Je vous serais reconnaissant de.",
+    "gloss": "I would be grateful if you would",
+    "example": "Je vous saurais gré de bien vouloir me répondre avant vendredi.",
+    "nuances": [
+      {
+        "word": "je vous serais reconnaissant de",
+        "note": {
+          "fr": "équivalent un peu moins solennel",
+          "en": "slightly less solemn equivalent"
+        }
+      }
+    ],
+    "pitfalls": [
+      "On dit « je vous saurais gré » (du verbe savoir), jamais « je vous serais gré »."
+    ],
+    "sets": [
+      "refus",
+      "connecteurs"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        },
+        {
+          "title": "Dire, ne pas dire",
+          "publisher": "Académie française",
+          "url": "https://www.academie-francaise.fr/dire-ne-pas-dire"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "« Savoir gré » : avoir de la reconnaissance.",
+    "exercise": {
+      "kind": "complete",
+      "prompt": "Je vous ___ gré de me tenir informé.",
+      "answers": [
+        "saurais"
+      ]
+    }
+  },
+  {
+    "id": "voc-021",
+    "term": "pusillanime",
+    "partOfSpeech": "adj.",
+    "register": "soutenu",
+    "definition": "Qui manque de courage, d'audace ; craintif.",
+    "gloss": "faint-hearted, timid",
+    "example": "Une politique aussi pusillanime n'aurait rien changé.",
+    "nuances": [
+      {
+        "word": "timoré",
+        "note": {
+          "fr": "qui craint le risque, l'initiative",
+          "en": "afraid of risk or initiative"
+        }
+      },
+      {
+        "word": "couard",
+        "note": {
+          "fr": "lâche (péjoratif fort)",
+          "en": "cowardly (strongly pejorative)"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Se dit d'une personne ou d'une attitude, pas d'une chose."
+    ],
+    "sets": [
+      "caractere"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin pusillanimis, « à l'âme petite ».",
+    "exercise": {
+      "kind": "complete",
+      "prompt": "Face à la crise, le gouvernement s'est montré bien ___.",
+      "answers": [
+        "pusillanime"
+      ]
+    }
+  },
+  {
+    "id": "voc-022",
+    "term": "magnanime",
+    "partOfSpeech": "adj.",
+    "register": "soutenu",
+    "definition": "Qui pardonne volontiers ; généreux envers les vaincus.",
+    "gloss": "magnanimous",
+    "example": "Magnanime, le vainqueur salua le talent de son adversaire.",
+    "nuances": [
+      {
+        "word": "clément",
+        "note": {
+          "fr": "qui atténue une sanction",
+          "en": "who lessens a punishment"
+        }
+      }
+    ],
+    "pitfalls": [],
+    "sets": [
+      "caractere"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin magnanimus, « à la grande âme »."
+  },
+  {
+    "id": "voc-023",
+    "term": "affable",
+    "partOfSpeech": "adj.",
+    "register": "soutenu",
+    "definition": "Qui accueille autrui avec bienveillance et courtoisie.",
+    "gloss": "affable, genial",
+    "example": "Le conservateur, fort affable, nous a fait visiter les réserves.",
+    "nuances": [
+      {
+        "word": "aimable",
+        "note": {
+          "fr": "équivalent courant",
+          "en": "everyday equivalent"
+        }
+      },
+      {
+        "word": "amène",
+        "note": {
+          "fr": "littéraire, insiste sur la douceur",
+          "en": "literary, stresses gentleness"
+        }
+      }
+    ],
+    "pitfalls": [],
+    "sets": [
+      "caractere"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin affabilis, « à qui l'on peut parler »."
+  },
+  {
+    "id": "voc-024",
+    "term": "amène",
+    "partOfSpeech": "adj.",
+    "register": "litteraire",
+    "definition": "Aimable, d'une douceur agréable.",
+    "gloss": "pleasant, amiable",
+    "example": "Ses propos, toujours amènes, désarmaient les plus critiques.",
+    "nuances": [
+      {
+        "word": "affable",
+        "note": {
+          "fr": "insiste sur l'accueil",
+          "en": "stresses welcome"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Souvent employé à la forme négative : « des propos peu amènes » (désagréables, hostiles)."
+    ],
+    "sets": [
+      "caractere"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin amoenus, « agréable ».",
+    "exercise": {
+      "kind": "complete",
+      "prompt": "Le critique a eu des mots peu ___ pour la mise en scène.",
+      "answers": [
+        "amènes"
+      ]
+    }
+  },
+  {
+    "id": "voc-025",
+    "term": "sagace",
+    "partOfSpeech": "adj.",
+    "register": "soutenu",
+    "definition": "Doué d'une grande finesse d'esprit, perspicace.",
+    "gloss": "shrewd, perceptive",
+    "example": "Une lectrice sagace aura relevé l'allusion à Proust.",
+    "nuances": [
+      {
+        "word": "perspicace",
+        "note": {
+          "fr": "qui voit ce qui échappe aux autres",
+          "en": "who sees what others miss"
+        }
+      },
+      {
+        "word": "clairvoyant",
+        "note": {
+          "fr": "qui juge lucidement de l'avenir ou d'une situation",
+          "en": "lucid about the future or a situation"
+        }
+      }
+    ],
+    "pitfalls": [],
+    "sets": [
+      "caractere"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin sagax, « qui a l'odorat subtil »."
+  },
+  {
+    "id": "voc-026",
+    "term": "obséquieux",
+    "partOfSpeech": "adj.",
+    "register": "soutenu",
+    "definition": "Poli et empressé à l'excès, jusqu'à la servilité.",
+    "gloss": "obsequious",
+    "example": "Le maître d'hôtel, un peu trop obséquieux, nous mit mal à l'aise.",
+    "nuances": [
+      {
+        "word": "courtois",
+        "note": {
+          "fr": "poli, sans excès (positif)",
+          "en": "polite without excess (positive)"
+        }
+      },
+      {
+        "word": "servile",
+        "note": {
+          "fr": "soumission dégradante",
+          "en": "degrading submissiveness"
+        }
+      }
+    ],
+    "pitfalls": [],
+    "sets": [
+      "caractere"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin obsequiosus, « complaisant »."
+  },
+  {
+    "id": "voc-027",
+    "term": "outrecuidant",
+    "partOfSpeech": "adj.",
+    "register": "litteraire",
+    "definition": "D'une confiance en soi excessive et impertinente.",
+    "gloss": "presumptuous, overweening",
+    "example": "Sa réponse outrecuidante a jeté un froid dans l'assistance.",
+    "nuances": [
+      {
+        "word": "présomptueux",
+        "note": {
+          "fr": "qui surestime ses capacités",
+          "en": "who overrates their abilities"
+        }
+      },
+      {
+        "word": "arrogant",
+        "note": {
+          "fr": "qui affiche du mépris",
+          "en": "who displays contempt"
+        }
+      }
+    ],
+    "pitfalls": [],
+    "sets": [
+      "caractere"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "De « outre » et de l'ancien verbe « cuider », « penser, croire »."
+  },
+  {
+    "id": "voc-028",
+    "term": "ombrageux",
+    "partOfSpeech": "adj.",
+    "register": "soutenu",
+    "definition": "Qui se froisse facilement ; susceptible.",
+    "gloss": "touchy, easily offended",
+    "example": "Ombrageux, le chef d'orchestre supportait mal la moindre remarque.",
+    "nuances": [
+      {
+        "word": "susceptible",
+        "note": {
+          "fr": "équivalent courant",
+          "en": "everyday equivalent"
+        }
+      }
+    ],
+    "pitfalls": [],
+    "sets": [
+      "caractere"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Se disait d'abord d'un cheval qui prend peur de son ombre."
+  },
+  {
+    "id": "voc-029",
+    "term": "versatile",
+    "partOfSpeech": "adj.",
+    "register": "courant",
+    "definition": "Qui change facilement d'opinion ou de parti.",
+    "gloss": "fickle",
+    "example": "L'opinion, versatile, a vite oublié ses idoles.",
+    "nuances": [
+      {
+        "word": "inconstant",
+        "note": {
+          "fr": "qui manque de constance, en amour notamment",
+          "en": "lacking constancy, especially in love"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Faux ami : l'anglais « versatile » signifie « polyvalent » ; en français, le mot est péjoratif."
+    ],
+    "sets": [
+      "caractere",
+      "nuances"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin versatilis, « qui tourne aisément ».",
+    "exercise": {
+      "kind": "rewrite",
+      "prompt": "Il est super polyvalent, il sait tout faire. (sans « versatile » !)",
+      "answers": [
+        "Il est d'une grande polyvalence.",
+        "C'est un esprit polyvalent."
+      ]
+    }
+  },
+  {
+    "id": "voc-030",
+    "term": "pondéré",
+    "partOfSpeech": "adj.",
+    "register": "soutenu",
+    "definition": "Qui fait preuve de mesure et d'équilibre dans ses jugements.",
+    "gloss": "level-headed, measured",
+    "example": "Son jugement pondéré a ramené le calme dans la discussion.",
+    "nuances": [
+      {
+        "word": "modéré",
+        "note": {
+          "fr": "qui évite les excès, notamment en politique",
+          "en": "avoiding extremes, especially in politics"
+        }
+      }
+    ],
+    "pitfalls": [],
+    "sets": [
+      "caractere"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin ponderare, « peser »."
+  },
+  {
+    "id": "voc-031",
+    "term": "condescendant",
+    "partOfSpeech": "adj.",
+    "register": "courant",
+    "definition": "Qui manifeste une bienveillance teintée de supériorité.",
+    "gloss": "condescending",
+    "example": "Il expliqua le livret d'un ton condescendant qui agaça tout le monde.",
+    "nuances": [
+      {
+        "word": "hautain",
+        "note": {
+          "fr": "fier et distant, sans bienveillance affichée",
+          "en": "proud and aloof, without apparent kindness"
+        }
+      }
+    ],
+    "pitfalls": [],
+    "sets": [
+      "caractere"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null
+  },
+  {
+    "id": "voc-032",
+    "term": "en outre",
+    "partOfSpeech": "loc. adv.",
+    "register": "soutenu",
+    "definition": "De plus, par ailleurs.",
+    "gloss": "moreover, furthermore",
+    "example": "Le projet est coûteux ; il est en outre mal calibré.",
+    "nuances": [
+      {
+        "word": "de surcroît",
+        "note": {
+          "fr": "insiste sur l'ajout d'un élément supplémentaire",
+          "en": "stresses an extra element"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Ne pas écrire « en outre de cela » ; dire « outre cela »."
+    ],
+    "sets": [
+      "connecteurs"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null
+  },
+  {
+    "id": "voc-033",
+    "term": "nonobstant",
+    "partOfSpeech": "prép.",
+    "register": "soutenu",
+    "definition": "Malgré, en dépit de.",
+    "gloss": "notwithstanding",
+    "example": "Nonobstant les réserves exprimées, le texte a été adopté.",
+    "nuances": [
+      {
+        "word": "en dépit de",
+        "note": {
+          "fr": "moins administratif",
+          "en": "less bureaucratic"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Très soutenu, voire juridique : à doser à l'oral."
+    ],
+    "sets": [
+      "connecteurs"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "De « non » et du latin obstare, « faire obstacle »."
+  },
+  {
+    "id": "voc-034",
+    "term": "partant",
+    "partOfSpeech": "adv.",
+    "register": "litteraire",
+    "definition": "Par conséquent.",
+    "gloss": "hence, therefore",
+    "example": "Les crédits ont été réduits, et partant, la saison raccourcie.",
+    "nuances": [
+      {
+        "word": "par conséquent",
+        "note": {
+          "fr": "équivalent neutre",
+          "en": "neutral equivalent"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Ne pas confondre avec le participe présent de « partir »."
+    ],
+    "sets": [
+      "connecteurs"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null
+  },
+  {
+    "id": "voc-035",
+    "term": "eu égard à",
+    "partOfSpeech": "loc. prép.",
+    "register": "soutenu",
+    "definition": "En considération de, compte tenu de.",
+    "gloss": "in view of, considering",
+    "example": "Eu égard à son âge, le jury lui a accordé un délai.",
+    "nuances": [
+      {
+        "word": "compte tenu de",
+        "note": {
+          "fr": "plus courant",
+          "en": "more common"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Invariable : toujours « eu égard », jamais « eus égards »."
+    ],
+    "sets": [
+      "connecteurs"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "exercise": {
+      "kind": "complete",
+      "prompt": "___ aux circonstances, la séance est levée.",
+      "answers": [
+        "eu égard",
+        "Eu égard"
+      ]
+    }
+  },
+  {
+    "id": "voc-036",
+    "term": "a fortiori",
+    "partOfSpeech": "loc. adv.",
+    "register": "soutenu",
+    "definition": "À plus forte raison.",
+    "gloss": "all the more so",
+    "example": "Si l'œuvre déroute les spécialistes, a fortiori le grand public.",
+    "nuances": [
+      {
+        "word": "à plus forte raison",
+        "note": {
+          "fr": "équivalent français",
+          "en": "French equivalent"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Sans accent sur le « a » ; en italique dans un texte soigné."
+    ],
+    "sets": [
+      "connecteurs"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Locution latine, « par une raison plus forte »."
+  },
+  {
+    "id": "voc-037",
+    "term": "au demeurant",
+    "partOfSpeech": "loc. adv.",
+    "register": "soutenu",
+    "definition": "Du reste, au fond, en somme.",
+    "gloss": "for that matter, besides",
+    "example": "Un homme exigeant, au demeurant fort aimable.",
+    "nuances": [
+      {
+        "word": "du reste",
+        "note": {
+          "fr": "équivalent un peu moins recherché",
+          "en": "slightly less elevated equivalent"
+        }
+      }
+    ],
+    "pitfalls": [],
+    "sets": [
+      "connecteurs"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null
+  },
+  {
+    "id": "voc-038",
+    "term": "force est de constater",
+    "partOfSpeech": "loc.",
+    "register": "soutenu",
+    "definition": "On est obligé de constater.",
+    "gloss": "one cannot but note",
+    "example": "Force est de constater que la réforme n'a pas atteint ses objectifs.",
+    "nuances": [
+      {
+        "word": "il faut bien reconnaître",
+        "note": {
+          "fr": "équivalent courant",
+          "en": "everyday equivalent"
+        }
+      }
+    ],
+    "pitfalls": [
+      "« Force » est employé sans article : ne pas dire « la force est de constater »."
+    ],
+    "sets": [
+      "connecteurs"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "exercise": {
+      "kind": "rewrite",
+      "prompt": "Faut bien avouer que ça n'a pas marché.",
+      "answers": [
+        "Force est de constater que cela n'a pas fonctionné."
+      ]
+    }
+  },
+  {
+    "id": "voc-039",
+    "term": "quand bien même",
+    "partOfSpeech": "loc. conj.",
+    "register": "soutenu",
+    "definition": "Même si (suivi du conditionnel).",
+    "gloss": "even if",
+    "example": "Quand bien même il l'aurait su, il n'aurait rien dit.",
+    "nuances": [
+      {
+        "word": "même si",
+        "note": {
+          "fr": "suivi de l'indicatif",
+          "en": "followed by the indicative"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Se construit avec le conditionnel, non avec l'indicatif."
+    ],
+    "sets": [
+      "connecteurs"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "exercise": {
+      "kind": "complete",
+      "prompt": "Quand bien même vous ___ raison, la décision est prise.",
+      "answers": [
+        "auriez"
+      ]
+    }
+  },
+  {
+    "id": "voc-040",
+    "term": "dès lors que",
+    "partOfSpeech": "loc. conj.",
+    "register": "soutenu",
+    "definition": "Du moment que, puisque.",
+    "gloss": "since, once",
+    "example": "Dès lors que le budget est voté, rien ne s'oppose au projet.",
+    "nuances": [
+      {
+        "word": "puisque",
+        "note": {
+          "fr": "cause connue de l'interlocuteur",
+          "en": "a cause known to the listener"
+        }
+      }
+    ],
+    "pitfalls": [
+      "« Dès lors que » exprime une condition ou une cause, pas seulement le temps (« depuis que »)."
+    ],
+    "sets": [
+      "connecteurs"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null
+  },
+  {
+    "id": "voc-041",
+    "term": "en l'occurrence",
+    "partOfSpeech": "loc. adv.",
+    "register": "soutenu",
+    "definition": "Dans le cas présent.",
+    "gloss": "in this case, as it happens",
+    "example": "Le responsable, en l'occurrence le directeur artistique, a présenté ses excuses.",
+    "nuances": [
+      {
+        "word": "en l'espèce",
+        "note": {
+          "fr": "terme juridique équivalent",
+          "en": "legal equivalent"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Ne signifie pas « par exemple ». Orthographe : deux « c », deux « r »."
+    ],
+    "sets": [
+      "connecteurs"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null
+  },
+  {
+    "id": "voc-042",
+    "term": "à l'aune de",
+    "partOfSpeech": "loc. prép.",
+    "register": "soutenu",
+    "definition": "En prenant pour mesure, pour critère.",
+    "gloss": "by the yardstick of",
+    "example": "Il faut juger cette politique à l'aune de ses résultats.",
+    "nuances": [
+      {
+        "word": "au regard de",
+        "note": {
+          "fr": "en considérant, en comparaison avec",
+          "en": "in light of, compared with"
+        }
+      }
+    ],
+    "pitfalls": [],
+    "sets": [
+      "connecteurs"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "L'aune était une ancienne mesure de longueur."
+  },
+  {
+    "id": "voc-043",
+    "term": "faire florès",
+    "partOfSpeech": "loc. v.",
+    "register": "soutenu",
+    "definition": "Obtenir un grand succès ; être en vogue.",
+    "gloss": "to be all the rage",
+    "example": "Cette expression fit florès dans les salons du Second Empire.",
+    "nuances": [
+      {
+        "word": "faire fureur",
+        "note": {
+          "fr": "plus courant",
+          "en": "more common"
+        }
+      }
+    ],
+    "pitfalls": [
+      "« Florès » est invariable et prend un accent grave."
+    ],
+    "sets": [
+      "salon"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Origine discutée ; peut-être de l'occitan « faire flori »."
+  },
+  {
+    "id": "voc-044",
+    "term": "à brûle-pourpoint",
+    "partOfSpeech": "loc. adv.",
+    "register": "soutenu",
+    "definition": "Brusquement, sans préparation ni détour.",
+    "gloss": "point-blank, out of the blue",
+    "example": "Elle me demanda à brûle-pourpoint ce que je pensais de son livre.",
+    "nuances": [
+      {
+        "word": "de but en blanc",
+        "note": {
+          "fr": "équivalent proche",
+          "en": "close equivalent"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Signifie « sans détour », non « au dernier moment »."
+    ],
+    "sets": [
+      "salon"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "D'abord : tirer de si près que le coup brûle le pourpoint."
+  },
+  {
+    "id": "voc-045",
+    "term": "trait d'esprit",
+    "partOfSpeech": "n. m.",
+    "register": "soutenu",
+    "definition": "Remarque fine et spirituelle.",
+    "gloss": "witticism, flash of wit",
+    "example": "Ses traits d'esprit faisaient le sel des dîners du jeudi.",
+    "nuances": [
+      {
+        "word": "bon mot",
+        "note": {
+          "fr": "plus léger, parfois un jeu de mots",
+          "en": "lighter, sometimes a pun"
+        }
+      },
+      {
+        "word": "saillie",
+        "note": {
+          "fr": "littéraire, trait vif et inattendu",
+          "en": "literary, a sudden, lively quip"
+        }
+      }
+    ],
+    "pitfalls": [],
+    "sets": [
+      "salon"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null
+  },
+  {
+    "id": "voc-046",
+    "term": "avoir maille à partir avec",
+    "partOfSpeech": "loc. v.",
+    "register": "soutenu",
+    "definition": "Avoir un différend avec quelqu'un.",
+    "gloss": "to have a bone to pick with",
+    "example": "Le compositeur eut souvent maille à partir avec la censure.",
+    "nuances": [
+      {
+        "word": "être en délicatesse avec",
+        "note": {
+          "fr": "brouille plus légère",
+          "en": "a milder falling-out"
+        }
+      }
+    ],
+    "pitfalls": [
+      "« Partir » signifie ici « partager » : ne pas écrire « maille à partie »."
+    ],
+    "sets": [
+      "salon"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "La maille était une petite monnaie, impossible à partager.",
+    "exercise": {
+      "kind": "complete",
+      "prompt": "Il a eu maille à ___ avec son éditeur.",
+      "answers": [
+        "partir"
+      ]
+    }
+  },
+  {
+    "id": "voc-047",
+    "term": "sous le sceau du secret",
+    "partOfSpeech": "loc.",
+    "register": "soutenu",
+    "definition": "À condition que le secret soit gardé.",
+    "gloss": "under the seal of secrecy",
+    "example": "Elle me confia, sous le sceau du secret, le nom du futur directeur.",
+    "nuances": [
+      {
+        "word": "en confidence",
+        "note": {
+          "fr": "plus courant",
+          "en": "more common"
+        }
+      }
+    ],
+    "pitfalls": [
+      "« Sceau » (cachet), et non « seau »."
+    ],
+    "sets": [
+      "salon"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null
+  },
+  {
+    "id": "voc-048",
+    "term": "prendre langue avec",
+    "partOfSpeech": "loc. v.",
+    "register": "soutenu",
+    "definition": "Entrer en relation avec quelqu'un, notamment pour négocier.",
+    "gloss": "to make contact with, open talks with",
+    "example": "Le directeur a pris langue avec l'Opéra de Munich pour une coproduction.",
+    "nuances": [
+      {
+        "word": "contacter",
+        "note": {
+          "fr": "neutre, sans idée de pourparlers",
+          "en": "neutral, without the idea of talks"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Ne signifie pas « apprendre une langue »."
+    ],
+    "sets": [
+      "salon"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null
+  },
+  {
+    "id": "voc-049",
+    "term": "tenir le haut du pavé",
+    "partOfSpeech": "loc. v.",
+    "register": "soutenu",
+    "definition": "Occuper le premier rang, une position dominante.",
+    "gloss": "to hold the place of honour, lead the field",
+    "example": "Dans les années 1900, ce salon tenait le haut du pavé de la vie musicale parisienne.",
+    "nuances": [
+      {
+        "word": "avoir le vent en poupe",
+        "note": {
+          "fr": "connaître une période favorable",
+          "en": "to enjoy a favourable spell"
+        }
+      }
+    ],
+    "pitfalls": [],
+    "sets": [
+      "salon"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Le haut du pavé, partie la plus propre de la rue le long des maisons, revenait aux personnes de rang."
+  },
+  {
+    "id": "voc-050",
+    "term": "de bon aloi",
+    "partOfSpeech": "loc. adj.",
+    "register": "soutenu",
+    "definition": "De bonne qualité, qui mérite l'estime.",
+    "gloss": "of sterling quality, genuine",
+    "example": "Un humour de bon aloi, qui ne blesse personne.",
+    "nuances": [
+      {
+        "word": "de bon goût",
+        "note": {
+          "fr": "insiste sur la convenance",
+          "en": "stresses propriety"
+        }
+      }
+    ],
+    "pitfalls": [],
+    "sets": [
+      "salon"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "L'aloi désignait le titre légal d'un métal précieux."
+  },
+  {
+    "id": "voc-051",
+    "term": "faire fi de",
+    "partOfSpeech": "loc. v.",
+    "register": "soutenu",
+    "definition": "Ne tenir aucun compte de ; dédaigner.",
+    "gloss": "to disregard, scorn",
+    "example": "Elle a fait fi des conventions pour composer une œuvre résolument neuve.",
+    "nuances": [
+      {
+        "word": "passer outre",
+        "note": {
+          "fr": "ignorer un obstacle, une interdiction",
+          "en": "to override an obstacle or a ban"
+        }
+      }
+    ],
+    "pitfalls": [
+      "S'écrit « fi », sans « h » ni accent."
+    ],
+    "sets": [
+      "salon"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "« Fi » est une ancienne interjection de mépris."
+  },
+  {
+    "id": "voc-052",
+    "term": "céans",
+    "partOfSpeech": "adv.",
+    "register": "vieilli",
+    "definition": "Ici, à l'intérieur de cette maison.",
+    "gloss": "herein, in this house",
+    "example": "Le maître de céans nous reçut avec une exquise courtoisie.",
+    "nuances": [
+      {
+        "word": "ici",
+        "note": {
+          "fr": "équivalent courant",
+          "en": "everyday equivalent"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Ne survit guère que dans « le maître (la maîtresse) de céans », souvent avec une pointe d'humour."
+    ],
+    "sets": [
+      "salon"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin ecce hac intus, « voici ici dedans »."
+  },
+  {
+    "id": "voc-053",
+    "term": "ostensiblement",
+    "partOfSpeech": "adv.",
+    "register": "soutenu",
+    "definition": "De manière à être vu, avec l'intention d'être remarqué.",
+    "gloss": "conspicuously, pointedly",
+    "example": "Il consulta ostensiblement sa montre pendant le discours.",
+    "nuances": [
+      {
+        "word": "manifestement",
+        "note": {
+          "fr": "de façon évidente, sans idée d'intention",
+          "en": "evidently, with no idea of intent"
+        }
+      },
+      {
+        "word": "ostentatoirement",
+        "note": {
+          "fr": "avec vanité, pour faire étalage",
+          "en": "showily, out of vanity"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Faux ami partiel : l'anglais « ostensibly » signifie « en apparence, prétendument »."
+    ],
+    "sets": [
+      "nuances"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin ostendere, « montrer ».",
+    "exercise": {
+      "kind": "complete",
+      "prompt": "Pour marquer son désaccord, elle bâilla ___.",
+      "answers": [
+        "ostensiblement"
+      ]
+    }
+  },
+  {
+    "id": "voc-054",
+    "term": "acception",
+    "partOfSpeech": "n. f.",
+    "register": "soutenu",
+    "definition": "Sens particulier dans lequel un mot est employé.",
+    "gloss": "sense, meaning (of a word)",
+    "example": "Dans son acception première, « pédant » désignait un précepteur.",
+    "nuances": [
+      {
+        "word": "sens",
+        "note": {
+          "fr": "terme général",
+          "en": "general term"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Ne pas confondre avec « acceptation » (fait d'accepter)."
+    ],
+    "sets": [
+      "nuances"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin acceptio, « action de recevoir ».",
+    "exercise": {
+      "kind": "complete",
+      "prompt": "Le mot est pris ici dans son ___ la plus large.",
+      "answers": [
+        "acception"
+      ]
+    }
+  },
+  {
+    "id": "voc-055",
+    "term": "conjecture",
+    "partOfSpeech": "n. f.",
+    "register": "soutenu",
+    "definition": "Supposition fondée sur des apparences, non vérifiée.",
+    "gloss": "conjecture, supposition",
+    "example": "Faute d'archives, nous en sommes réduits aux conjectures.",
+    "nuances": [
+      {
+        "word": "hypothèse",
+        "note": {
+          "fr": "supposition qu'on se propose de vérifier",
+          "en": "a supposition one intends to test"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Ne pas confondre avec « conjoncture » (situation d'ensemble, notamment économique)."
+    ],
+    "sets": [
+      "nuances"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "exercise": {
+      "kind": "complete",
+      "prompt": "Faute de preuves, ce n'est encore qu’une ___.",
+      "answers": [
+        "conjecture"
+      ]
+    }
+  },
+  {
+    "id": "voc-056",
+    "term": "inclination",
+    "partOfSpeech": "n. f.",
+    "register": "soutenu",
+    "definition": "Penchant, goût naturel pour quelque chose ou quelqu'un.",
+    "gloss": "inclination, liking",
+    "example": "Il avait une inclination marquée pour la musique de chambre.",
+    "nuances": [
+      {
+        "word": "penchant",
+        "note": {
+          "fr": "plus courant",
+          "en": "more common"
+        }
+      }
+    ],
+    "pitfalls": [
+      "L'« inclinaison » désigne l'état de ce qui est penché (un toit, un terrain)."
+    ],
+    "sets": [
+      "nuances"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null
+  },
+  {
+    "id": "voc-057",
+    "term": "émérite",
+    "partOfSpeech": "adj.",
+    "register": "soutenu",
+    "definition": "Se dit d'un professeur retraité qui conserve son titre ; par extension, d'une compétence remarquable.",
+    "gloss": "emeritus; highly accomplished",
+    "example": "Professeure émérite, elle continue de diriger des thèses.",
+    "nuances": [
+      {
+        "word": "chevronné",
+        "note": {
+          "fr": "qui a une longue expérience",
+          "en": "highly experienced"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Le sens de « très compétent » est critiqué par certains puristes, mais il est largement admis."
+    ],
+    "sets": [
+      "nuances"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        },
+        {
+          "title": "Dire, ne pas dire",
+          "publisher": "Académie française",
+          "url": "https://www.academie-francaise.fr/dire-ne-pas-dire"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin emeritus, « soldat ayant accompli son service »."
+  },
+  {
+    "id": "voc-058",
+    "term": "péremptoire",
+    "partOfSpeech": "adj.",
+    "register": "soutenu",
+    "definition": "Qui n'admet pas de réplique ; tranchant.",
+    "gloss": "peremptory",
+    "example": "D'un ton péremptoire, elle mit fin au débat.",
+    "nuances": [
+      {
+        "word": "catégorique",
+        "note": {
+          "fr": "qui ne laisse aucune place au doute",
+          "en": "leaving no room for doubt"
+        }
+      }
+    ],
+    "pitfalls": [],
+    "sets": [
+      "nuances"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Du latin peremptorius, « qui détruit, décisif »."
+  },
+  {
+    "id": "voc-059",
+    "term": "sibyllin",
+    "partOfSpeech": "adj.",
+    "register": "soutenu",
+    "definition": "Dont le sens est obscur, énigmatique.",
+    "gloss": "cryptic",
+    "example": "Le communiqué, sibyllin, laissait place à toutes les interprétations.",
+    "nuances": [
+      {
+        "word": "abscons",
+        "note": {
+          "fr": "difficile à comprendre, par complexité",
+          "en": "hard to understand, through complexity"
+        }
+      },
+      {
+        "word": "ésotérique",
+        "note": {
+          "fr": "réservé aux initiés",
+          "en": "reserved for the initiated"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Orthographe : « sibyllin », avec « i », « y » et deux « l »."
+    ],
+    "sets": [
+      "nuances"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "Des Sibylles, prophétesses de l'Antiquité."
+  },
+  {
+    "id": "voc-060",
+    "term": "naguère",
+    "partOfSpeech": "adv.",
+    "register": "litteraire",
+    "definition": "Il y a peu de temps.",
+    "gloss": "not long ago",
+    "example": "Ce quartier, naguère encore populaire, accueille aujourd'hui des galeries.",
+    "nuances": [
+      {
+        "word": "jadis",
+        "note": {
+          "fr": "il y a longtemps",
+          "en": "long ago"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Ne pas confondre avec « jadis » : « naguère » renvoie à un passé récent."
+    ],
+    "sets": [
+      "nuances"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "etymology": "De « n'a guère » (de temps).",
+    "exercise": {
+      "kind": "complete",
+      "prompt": "Ce compositeur, ___ inconnu, remplit aujourd'hui les salles.",
+      "answers": [
+        "naguère"
+      ]
+    }
+  },
+  {
+    "id": "voc-061",
+    "term": "malgré que",
+    "partOfSpeech": "loc. conj.",
+    "register": "familier",
+    "definition": "Tournure critiquée pour « bien que », « quoique ».",
+    "gloss": "although (criticised usage)",
+    "example": "À éviter : « Malgré qu'il pleuve… » — préférer « Bien qu'il pleuve… ».",
+    "nuances": [
+      {
+        "word": "bien que",
+        "note": {
+          "fr": "construction recommandée, avec le subjonctif",
+          "en": "recommended construction, with the subjunctive"
+        }
+      }
+    ],
+    "pitfalls": [
+      "Seule la locution figée « malgré que j'en aie » est admise dans la langue soignée."
+    ],
+    "sets": [
+      "eviter"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        },
+        {
+          "title": "Dire, ne pas dire",
+          "publisher": "Académie française",
+          "url": "https://www.academie-francaise.fr/dire-ne-pas-dire"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "exercise": {
+      "kind": "rewrite",
+      "prompt": "Malgré qu'il soit tard, restons encore un peu.",
+      "answers": [
+        "Bien qu'il soit tard, restons encore un peu."
+      ]
+    }
+  },
+  {
+    "id": "voc-062",
+    "term": "au jour d'aujourd'hui",
+    "partOfSpeech": "loc. adv.",
+    "register": "familier",
+    "definition": "Pléonasme pour « aujourd'hui ».",
+    "gloss": "nowadays (redundant)",
+    "example": "À éviter : « Au jour d'aujourd'hui, la situation… » — dire « Aujourd'hui » ou « À l'heure actuelle ».",
+    "nuances": [
+      {
+        "word": "à l'heure actuelle",
+        "note": {
+          "fr": "équivalent soigné",
+          "en": "polished equivalent"
+        }
+      }
+    ],
+    "pitfalls": [
+      "« Aujourd'hui » contient déjà « hui », qui signifie « ce jour »."
+    ],
+    "sets": [
+      "eviter"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        },
+        {
+          "title": "Dire, ne pas dire",
+          "publisher": "Académie française",
+          "url": "https://www.academie-francaise.fr/dire-ne-pas-dire"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "exercise": {
+      "kind": "rewrite",
+      "prompt": "Au jour d'aujourd'hui, on ne lit plus assez.",
+      "answers": [
+        "Aujourd'hui, on ne lit plus assez.",
+        "À l'heure actuelle, on ne lit plus assez."
+      ]
+    }
+  },
+  {
+    "id": "voc-063",
+    "term": "se rappeler de",
+    "partOfSpeech": "loc. v.",
+    "register": "familier",
+    "definition": "Construction critiquée : on se rappelle quelque chose, on se souvient de quelque chose.",
+    "gloss": "to remember (incorrect construction)",
+    "example": "À éviter : « Je me rappelle de ce concert » — dire « Je me rappelle ce concert » ou « Je me souviens de ce concert ».",
+    "nuances": [
+      {
+        "word": "se souvenir de",
+        "note": {
+          "fr": "construction avec « de », correcte",
+          "en": "correct construction with “de”"
+        }
+      }
+    ],
+    "pitfalls": [
+      "« Se rappeler de » est admis devant un infinitif (« je me rappelle d'avoir lu… »), mais critiqué devant un nom."
+    ],
+    "sets": [
+      "eviter"
+    ],
+    "editorial": {
+      "status": "in_review",
+      "sources": [
+        {
+          "title": "Trésor de la langue française informatisé",
+          "publisher": "CNRTL / ATILF",
+          "url": "https://www.cnrtl.fr"
+        },
+        {
+          "title": "Dictionnaire de l'Académie française, 9e édition",
+          "publisher": "Académie française",
+          "url": "https://www.dictionnaire-academie.fr"
+        },
+        {
+          "title": "Dire, ne pas dire",
+          "publisher": "Académie française",
+          "url": "https://www.academie-francaise.fr/dire-ne-pas-dire"
+        }
+      ],
+      "lastReviewed": null,
+      "reviewer": null
+    },
+    "nativeReviewer": null,
+    "exercise": {
+      "kind": "rewrite",
+      "prompt": "Je me rappelle de cette soirée à Garnier.",
+      "answers": [
+        "Je me rappelle cette soirée à Garnier.",
+        "Je me souviens de cette soirée à Garnier."
+      ]
+    }
+  }
+]
