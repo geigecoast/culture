@@ -1,0 +1,25 @@
+name: Generate Xcode project
+
+# Commits Culture.xcodeproj so the app can be opened in Xcode without installing XcodeGen.
+on:
+  push:
+    paths: ["project.yml", "project-paid.yml", "App/**", "Widgets/**", "UITests/**", "CultureKit/Package.swift", ".github/workflows/xcodeproj.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: macos-15-intel
+    steps:
+      - uses: actions/checkout@v4
+      - run: brew install xcodegen && xcodegen generate
+      - name: Commit project if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f Culture.xcodeproj
+          git diff --cached --quiet && { echo "No change"; exit 0; }
+          git commit -m "Regenerate Culture.xcodeproj from project.yml"
+          git push

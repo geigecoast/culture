@@ -1,5 +1,7 @@
 # Culture
 
+**To install the app on your iPhone or iPad, follow [INSTALL.md](INSTALL.md).**
+
 A bilingual (FR/EN) general-knowledge and cultural-events app for iPhone and iPad, built in the style of Instagram: a feed of visual cards, quick quizzes, a French "soutenu" vocabulary trainer with spaced repetition, and an agenda of cultural events in Paris, Frankfurt and München.
 
 This repository contains:
@@ -21,7 +23,7 @@ This repository contains:
 
 ## Current status
 
-This is a Phase 1 codebase. It has **not been compiled yet**: it was written in a Linux environment with no Swift toolchain. The first run of the `ios` CI job (macOS) is the first real compile and test. Expect a small round of compiler fixes there.
+This is a Phase 1 codebase. CI on GitHub (macOS, Xcode 16) **compiles the app for iPhone and iPad**, runs the 33 domain unit tests, and **launches the app in the iPhone and iPad simulators** to take screenshots. It has not yet been run on a physical device: see [INSTALL.md](INSTALL.md).
 
 | Area | State |
 |---|---|
@@ -33,7 +35,7 @@ This is a Phase 1 codebase. It has **not been compiled yet**: it was written in 
 | Editor, validator, bundle builder | Working and tested (`cd admin && npm test`) |
 | Pictures | Image-first feed: 4:5 photo carousels, a full-screen zoomable viewer with credits, 3-column photo grids for saved and liked cards. 29 of 40 cards carry 51 public-domain images (most with a carousel), and 14 of 15 events carry an illustration |
 | Seed content | 40 cards (8 per topic), 63 vocabulary entries, 15 **sample** events. Spec target: 150 cards and 200 entries. Everything is "in review"; nothing is published |
-| TestFlight build | Not produced: it needs a Mac, an Apple Developer team and App Store Connect keys (see [Release](#release)) |
+| Install on devices | Through Xcode on a Mac with a free Apple ID ([INSTALL.md](INSTALL.md)). TestFlight needs the paid Apple Developer Program (see [Release](#release)) |
 
 ### Decisions taken (spec §1 and §18: please confirm)
 
@@ -47,14 +49,9 @@ This is a Phase 1 codebase. It has **not been compiled yet**: it was written in 
 
 ### iOS app
 
-Requirements: macOS with Xcode 16 or later, and XcodeGen (`brew install xcodegen`).
+Requirements: macOS with Xcode 16 or later. `Culture.xcodeproj` is generated from `project.yml` by CI and committed, so you can open it directly. To regenerate it yourself: `brew install xcodegen && xcodegen generate`.
 
-```sh
-xcodegen generate          # creates Culture.xcodeproj (git-ignored)
-open Culture.xcodeproj
-```
-
-- Set `DEVELOPMENT_TEAM` in `project.yml`, or in Xcode, and change the bundle IDs (`app.culture.ios`), the App Group (`group.app.culture`) and the associated domain (`culture.app`) to your own.
+- Pick your team in Xcode (Signing & Capabilities). `project.yml` works with a free Apple ID; `project-paid.yml` adds Sign in with Apple, App Groups (`group.com.geigecoast.culture`), push and universal links for paid accounts.
 - The app runs fully offline from the bundled seed content. To enable accounts and sync, fill in `CultureBackendURL` and `CultureBackendAnonKey` in `project.yml` (Supabase project URL and anon key; the anon key is public and protected by row-level security). To serve content updates remotely, also fill in `CultureContentBaseURL`.
 - Build configurations: **Debug** and **Beta** (internal TestFlight) also show content that is still in review, marked with an "En relecture" banner. **Release** (App Store) shows only published content. With today's seed, a Release build shows an empty feed, by design.
 - Domain tests run without Xcode: `cd CultureKit && swift test`.
@@ -146,7 +143,6 @@ Snapshot tests are not set up yet. Adding `swift-snapshot-testing` would be the 
 
 ## Known gaps and next steps
 
-- Compile and fix on macOS (first CI run).
 - Seed content: write the remaining 110 cards and about 137 vocabulary entries, attach licensed images, and run every item through expert review (see `docs/CONTENT_REVIEW_REPORT.md`).
 - Replace sample events with verified listings, once source agreements are in place.
 - RSVP sync polls every 3 seconds in the foreground. Replace this with Supabase Realtime to cut traffic.
