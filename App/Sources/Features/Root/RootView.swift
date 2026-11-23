@@ -16,6 +16,7 @@ struct RootView: View {
                 TabRootView()
             }
         }
+        .background(Theme.background.ignoresSafeArea())
         .sheet(item: Binding(get: { model.presentedEventID.map(IdentifiedString.init) },
                              set: { model.presentedEventID = $0?.id })) { item in
             NavigationStack {
@@ -97,6 +98,8 @@ struct SplitRootView: View {
                     }
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(Theme.surface)
             .navigationTitle("Culture")
         } detail: {
             switch model.selectedSection {

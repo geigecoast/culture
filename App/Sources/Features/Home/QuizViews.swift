@@ -31,8 +31,8 @@ struct QuizCardView: View {
                     }
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(background(for: index), in: RoundedRectangle(cornerRadius: 14))
-                    .overlay(RoundedRectangle(cornerRadius: 14).strokeBorder(highlighted == index && focused ? Color.accentColor : .clear, lineWidth: 2))
+                    .background(background(for: index), in: RoundedRectangle(cornerRadius: Theme.cornerRadius))
+                    .overlay(RoundedRectangle(cornerRadius: Theme.cornerRadius).strokeBorder(highlighted == index && focused ? Color.accentColor : .clear, lineWidth: 2))
                 }
                 .buttonStyle(.plain)
                 .disabled(selected != nil)
@@ -49,7 +49,7 @@ struct QuizCardView: View {
             }
         }
         .padding()
-        .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 20))
+        .background(Theme.surface, in: RoundedRectangle(cornerRadius: Theme.cornerRadius))
         // Hardware keyboard: arrows move, Return answers.
         .focusable()
         .focused($focused)
@@ -128,7 +128,7 @@ struct QuizFeedView: View {
                     .onKeyPress(.upArrow) { move(-1); return .handled }
                 }
             }
-            .background(Color(.systemGroupedBackground))
+            .background(Theme.background)
             .navigationTitle(settings.t("quiz.title"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {

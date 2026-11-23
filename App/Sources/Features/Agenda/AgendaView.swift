@@ -97,6 +97,7 @@ private struct AgendaContent<Row: View>: View {
                 }
             }
         }
+        .background(Theme.background)
         .refreshable { await model.refreshContent() }
     }
 
@@ -109,6 +110,7 @@ private struct AgendaContent<Row: View>: View {
             }
         }
         .listStyle(.plain)
+        .scrollContentBackground(.hidden)
     }
 
     private var weekView: some View {
@@ -129,7 +131,7 @@ private struct AgendaContent<Row: View>: View {
                             Text(day.formatted(.dateTime.day())).font(.headline)
                         }
                         .frame(maxWidth: .infinity, minHeight: 48)
-                        .background(isSelected ? Color.accentColor : .clear, in: RoundedRectangle(cornerRadius: 10))
+                        .background(isSelected ? Color.accentColor : .clear, in: RoundedRectangle(cornerRadius: Theme.cornerRadius))
                         .foregroundStyle(isSelected ? .white : .primary)
                     }
                     .buttonStyle(.plain)

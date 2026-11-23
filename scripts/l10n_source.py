@@ -120,7 +120,10 @@ STRINGS = {
  # Settings
  "settings.title": ("Réglages", "Settings"), "settings.language": ("Langue", "Language"),
  "settings.followDevice": ("Suivre la langue de l'appareil", "Follow device language"),
- "settings.cities": ("Villes", "Cities"), "settings.notifications": ("Notifications", "Notifications"),
+ "settings.cities": ("Villes", "Cities"),
+ "settings.appearance": ("Apparence", "Appearance"),
+ "settings.appearance.dark": ("Sombre", "Dark"),
+ "settings.appearance.system": ("Système", "System"), "settings.notifications": ("Notifications", "Notifications"),
  "settings.dailyWord": ("Mot du jour (1 par jour au maximum)", "Word of the day (at most 1 a day)"),
  "settings.quietStart": ("Silence à partir de %ld h", "Quiet from %ld:00"), "settings.quietEnd": ("Silence jusqu'à %ld h", "Quiet until %ld:00"),
  "settings.notificationsNote": ("Une notification par jour au plus, hors rappels que vous avez programmés.", "At most one notification a day, except reminders you set yourself."),

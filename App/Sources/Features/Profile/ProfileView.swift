@@ -38,13 +38,13 @@ struct ProfileView: View {
                     }
                 }
                 .padding()
-                .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 18))
+                .themedSurface()
 
                 let liked = model.content.cards.filter { store.isLiked($0.id) }
                 if !liked.isEmpty {
                     VStack(alignment: .leading, spacing: 8) {
                         Label(settings.t("profile.liked"), systemImage: "heart.fill").font(.headline)
-                        PhotoGrid(cards: liked).clipShape(RoundedRectangle(cornerRadius: 12))
+                        PhotoGrid(cards: liked).clipShape(RoundedRectangle(cornerRadius: Theme.cornerRadius))
                     }
                 }
 
@@ -58,7 +58,7 @@ struct ProfileView: View {
             .frame(maxWidth: 700)
             .frame(maxWidth: .infinity)
         }
-        .background(Color(.systemGroupedBackground))
+        .background(Theme.background)
         .navigationTitle(settings.t("tab.profile"))
     }
 
@@ -69,7 +69,7 @@ struct ProfileView: View {
                 .environment(settings)
                 .frame(width: 360)
                 .padding()
-                .background(Color(.systemBackground)))
+                .background(Theme.background))
         renderer.scale = 3
         return renderer.uiImage ?? UIImage()
     }
@@ -91,13 +91,13 @@ struct ProgressCard: View {
             Text(settings.t("profile.xp", xp)).font(.footnote).foregroundStyle(.secondary)
         }
         .padding()
-        .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 18))
+        .themedSurface()
     }
 
     private func stat(value: String, label: String, symbol: String, tint: Color) -> some View {
         VStack(spacing: 4) {
-            Image(systemName: symbol).foregroundStyle(tint)
-            Text(value).font(.title2.bold().monospacedDigit())
+            Image(systemName: symbol).foregroundStyle(Theme.gold)
+            Text(value).font(.title2.weight(.semibold).monospacedDigit()).fontDesign(.serif)
             Text(label).font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center)
         }
         .frame(maxWidth: .infinity)

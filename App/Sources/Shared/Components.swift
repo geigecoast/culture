@@ -3,19 +3,21 @@ import SafariServices
 import CultureCore
 
 extension Topic {
+    /// Muted jewel tones that sit on near-black.
     var tint: Color {
         switch self {
-        case .art: .pink
-        case .music: .purple
-        case .history: .orange
-        case .politics: .blue
-        case .geopolitics: .teal
-        case .vocabulary: .indigo
+        case .art: Color(red: 0.66, green: 0.29, blue: 0.31)          // oxblood rose
+        case .music: Color(red: 0.55, green: 0.42, blue: 0.62)        // amethyst
+        case .history: Color(red: 0.76, green: 0.60, blue: 0.36)      // aged gold
+        case .politics: Color(red: 0.45, green: 0.55, blue: 0.66)     // slate blue
+        case .geopolitics: Color(red: 0.38, green: 0.58, blue: 0.53)  // verdigris
+        case .vocabulary: Color(red: 0.72, green: 0.55, blue: 0.42)   // bronze
         }
     }
 
+    /// Dark, vignetted backdrop for cards without an image.
     var gradient: LinearGradient {
-        LinearGradient(colors: [tint.opacity(0.85), tint.opacity(0.45)], startPoint: .topLeading, endPoint: .bottomTrailing)
+        LinearGradient(colors: [tint.opacity(0.28), Color.black.opacity(0.9)], startPoint: .top, endPoint: .bottom)
     }
 }
 
@@ -28,7 +30,8 @@ struct TopicBadge: View {
             .font(.caption.weight(.semibold))
             .padding(.horizontal, 10)
             .padding(.vertical, 5)
-            .background(topic.tint.opacity(0.15), in: Capsule())
+            .background(.black.opacity(0.45), in: Capsule())
+            .overlay(Capsule().strokeBorder(topic.tint.opacity(0.6), lineWidth: 0.75))
             .foregroundStyle(topic.tint)
     }
 }
@@ -58,7 +61,7 @@ struct SourcesSection: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text(settings.t("card.sources")).font(.headline)
+            SectionLabel(text: settings.t("card.sources"))
             ForEach(editorial.sources, id: \.self) { source in
                 if let url = source.url {
                     Button { browserURL = url } label: { sourceLabel(source) }
@@ -182,8 +185,9 @@ struct Chip: View {
             }
             .font(.subheadline)
             .padding(.horizontal, 12).padding(.vertical, 7)
-            .background(isOn ? Color.accentColor : Color.secondary.opacity(0.12), in: Capsule())
-            .foregroundStyle(isOn ? Color.white : Color.primary)
+            .background(isOn ? Theme.gold.opacity(0.18) : Color.clear, in: Capsule())
+            .overlay(Capsule().strokeBorder(isOn ? Theme.gold : Theme.hairline, lineWidth: 0.75))
+            .foregroundStyle(isOn ? Theme.gold : Theme.ink)
         }
         .buttonStyle(.plain)
         .accessibilityAddTraits(isOn ? .isSelected : [])
@@ -195,11 +199,16 @@ struct TopicArtwork: View {
     let topic: Topic
     var body: some View {
         ZStack {
+            Theme.background
             topic.gradient
-            Image(systemName: topic.symbolName)
-                .font(.system(size: 56, weight: .light))
-                .foregroundStyle(.white.opacity(0.85))
-                .accessibilityHidden(true)
+            VStack(spacing: 14) {
+                Image(systemName: "laurel.leading").font(.system(size: 22, weight: .ultraLight)).foregroundStyle(Theme.gold.opacity(0.7))
+                Image(systemName: topic.symbolName)
+                    .font(.system(size: 44, weight: .ultraLight))
+                    .foregroundStyle(Theme.gold)
+                Rectangle().fill(Theme.gold.opacity(0.5)).frame(width: 40, height: 0.5)
+            }
+            .accessibilityHidden(true)
         }
     }
 }

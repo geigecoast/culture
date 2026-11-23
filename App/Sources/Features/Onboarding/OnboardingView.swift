@@ -32,6 +32,7 @@ struct OnboardingView: View {
                     .accessibilityIdentifier("onboarding.continue")
                 }
             }
+            .background(Theme.background)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Menu {
@@ -47,9 +48,10 @@ struct OnboardingView: View {
     @ViewBuilder private var content: some View {
         switch step {
         case .welcome:
-            Text("Culture").font(.system(size: 48, weight: .bold, design: .serif))
-            Text(settings.t("onboarding.welcome.title")).font(.title2.weight(.semibold))
-            Text(settings.t("onboarding.welcome.body")).foregroundStyle(.secondary)
+            Text("Culture").font(Theme.display(56)).foregroundStyle(Theme.ink)
+            Ornament().frame(maxWidth: 220)
+            Text(settings.t("onboarding.welcome.title")).font(.title2.weight(.medium)).fontDesign(.serif).foregroundStyle(Theme.ink)
+            Text(settings.t("onboarding.welcome.body")).foregroundStyle(Theme.muted)
         case .interests:
             Text(settings.t("onboarding.interests.title")).font(.title2.bold())
             FlowLayout {
@@ -92,7 +94,7 @@ struct OnboardingView: View {
                         if settings.frenchSelfAssessment == level { Image(systemName: "checkmark.circle.fill") }
                     }
                     .padding()
-                    .background(Color.secondary.opacity(0.1), in: RoundedRectangle(cornerRadius: 12))
+                    .themedSurface()
                 }
                 .buttonStyle(.plain)
                 .accessibilityAddTraits(settings.frenchSelfAssessment == level ? .isSelected : [])

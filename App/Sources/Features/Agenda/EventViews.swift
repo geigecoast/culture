@@ -16,7 +16,7 @@ struct EventRowView: View {
                 ZStack { Color.accentColor.opacity(0.15); Image(systemName: event.category.symbol).font(.title2) }
             }
             .frame(width: 76, height: 96)
-            .clipShape(RoundedRectangle(cornerRadius: 12))
+            .clipShape(RoundedRectangle(cornerRadius: Theme.cornerRadius))
             .accessibilityHidden(true)
 
             VStack(alignment: .leading, spacing: 4) {
@@ -122,7 +122,7 @@ struct EventDetailView: View {
                 ImageCarousel(images: event.image.map { [$0] } ?? [], aspectRatio: 16.0 / 10.0, language: settings.language) {
                     ZStack { Color.accentColor.opacity(0.15); Image(systemName: event.category.symbol).font(.system(size: 48)) }
                 }
-                .clipShape(RoundedRectangle(cornerRadius: 18))
+                .clipShape(RoundedRectangle(cornerRadius: Theme.cornerRadius))
                 if let image = event.image {
                     Text("\(image.credit) · \(image.license)").font(.caption2).foregroundStyle(.secondary)
                 }

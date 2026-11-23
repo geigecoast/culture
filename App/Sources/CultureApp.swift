@@ -24,6 +24,7 @@ struct CultureApp: App {
             settings.setLanguage(.init(rawValue: lang) ?? .fr)
         }
         _model = State(initialValue: AppModel(container: container, settings: settings))
+        Theme.configureUIKitAppearance()
     }
 
     var body: some Scene {
@@ -33,6 +34,8 @@ struct CultureApp: App {
                 .environment(model.settings)
                 .environment(model.store)
                 .environment(\.locale, model.settings.language.locale)
+                .preferredColorScheme(model.settings.followsSystemAppearance ? nil : .dark)
+                .tint(Theme.gold)
                 .task { await model.loadContent() }
                 .onOpenURL { model.handle($0) }
                 .onContinueUserActivity(NSUserActivityTypeBrowsingWeb) { activity in

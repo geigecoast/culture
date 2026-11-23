@@ -32,6 +32,8 @@ final class AppSettings {
         }
     }
     var attendanceVisibility: AttendanceVisibility { didSet { defaults.set(attendanceVisibility.rawValue, forKey: Keys.attendance) } }
+    /// Dark by default (the app's "dark academia" look); "system" follows the device.
+    var followsSystemAppearance: Bool { didSet { defaults.set(followsSystemAppearance, forKey: Keys.appearance) } }
     var showBothLanguagesOnIPad: Bool { didSet { defaults.set(showBothLanguagesOnIPad, forKey: Keys.sideBySide) } }
 
     init(defaults: UserDefaults = UserDefaults(suiteName: AppSettings.appGroupID) ?? .standard) {
@@ -53,6 +55,7 @@ final class AppSettings {
         analyticsConsent = defaults.object(forKey: Keys.analytics) as? Bool
         attendanceVisibility = AttendanceVisibility(rawValue: defaults.string(forKey: Keys.attendance) ?? "") ?? .private
         showBothLanguagesOnIPad = defaults.bool(forKey: Keys.sideBySide)
+        followsSystemAppearance = defaults.bool(forKey: Keys.appearance)
     }
 
     func setLanguage(_ newValue: AppLanguage) {
@@ -75,8 +78,8 @@ final class AppSettings {
         static let onboarding = "hasCompletedOnboarding", screenTime = "screenTimeReminderEnabled"
         static let screenTimeMinutes = "screenTimeReminderMinutes", dailyWord = "dailyWordNotification"
         static let quietStart = "quietHoursStart", quietEnd = "quietHoursEnd", analytics = "analyticsConsent"
-        static let attendance = "attendanceVisibility", sideBySide = "showBothLanguagesOnIPad"
+        static let attendance = "attendanceVisibility", sideBySide = "showBothLanguagesOnIPad", appearance = "followsSystemAppearance"
         static let all = [language, followsDevice, cities, interests, dailyGoal, frenchLevel, onboarding, screenTime,
-                          screenTimeMinutes, dailyWord, quietStart, quietEnd, analytics, attendance, sideBySide]
+                          screenTimeMinutes, dailyWord, quietStart, quietEnd, analytics, attendance, sideBySide, appearance]
     }
 }

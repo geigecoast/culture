@@ -51,6 +51,7 @@ struct HomeView: View {
             }
             .padding(.vertical)
         }
+        .background(Theme.background)
         .refreshable {
             await model.refreshContent()
             feedOrder = model.feedCards.map(\.id)
@@ -109,7 +110,7 @@ struct QuizStoriesRow: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 14) {
-                bubble(title: settings.t("home.quizAll"), symbol: "bolt.fill", tint: .yellow) { onQuiz(nil) }
+                bubble(title: settings.t("home.quizAll"), symbol: "questionmark", tint: Theme.gold) { onQuiz(nil) }
                     .accessibilityIdentifier("quiz.all")
                 bubble(title: settings.t("vocab.wordOfDay"), symbol: Topic.vocabulary.symbolName, tint: Topic.vocabulary.tint, action: onWord)
                 ForEach(Topic.feedTopics) { topic in
@@ -124,12 +125,16 @@ struct QuizStoriesRow: View {
         Button(action: action) {
             VStack(spacing: 6) {
                 Image(systemName: symbol)
-                    .font(.title2)
-                    .foregroundStyle(.white)
-                    .frame(width: 64, height: 64)
-                    .background(tint.gradient, in: Circle())
-                    .overlay(Circle().strokeBorder(LinearGradient(colors: [.orange, .pink, .purple], startPoint: .topLeading, endPoint: .bottomTrailing), lineWidth: 3).padding(-4))
-                Text(title).font(.caption2).lineLimit(1).frame(width: 76)
+                    .font(.system(size: 22, weight: .light))
+                    .foregroundStyle(tint)
+                    .frame(width: 62, height: 62)
+                    .background(Theme.surface, in: Circle())
+                    .overlay(Circle().strokeBorder(Theme.hairline, lineWidth: 0.75))
+                    .overlay(Circle().strokeBorder(
+                        AngularGradient(colors: [Theme.gold, Theme.gold.opacity(0.35), Theme.gold], center: .center),
+                        lineWidth: 1.5).padding(-5))
+                    .padding(5)
+                Text(title).font(.caption2).foregroundStyle(Theme.muted).lineLimit(1).frame(width: 76)
             }
         }
         .buttonStyle(.plain)

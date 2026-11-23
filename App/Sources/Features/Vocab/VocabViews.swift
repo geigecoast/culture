@@ -48,6 +48,8 @@ struct VocabHomeView: View {
                 }
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(Theme.background)
         .navigationTitle(settings.t("tab.vocabulary"))
         .fullScreenCover(isPresented: $reviewing) { ReviewSessionView(queue: sessionQueue) }
         .sheet(item: Binding(get: { model.presentedVocabID.map(IdentifiedString.init) }, set: { model.presentedVocabID = $0?.id })) { item in
@@ -69,7 +71,7 @@ struct VocabSetView: View {
             }
             .padding()
         }
-        .background(Color(.systemGroupedBackground))
+        .background(Theme.background)
         .navigationTitle(set.title[settings.language])
     }
 }
@@ -85,7 +87,7 @@ struct VocabCardView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             HStack(alignment: .firstTextBaseline) {
-                Text(entry.term).font(.title.weight(.bold)).fontDesign(.serif)
+                Text(entry.term).font(.title.weight(.semibold)).fontDesign(.serif).foregroundStyle(Theme.ink)
                 Text(entry.partOfSpeech).font(.subheadline.italic()).foregroundStyle(.secondary)
                 Spacer()
                 RegisterTag(register: entry.register)
@@ -97,17 +99,17 @@ struct VocabCardView: View {
                 } else {
                     Button(settings.t("vocab.showGloss")) { showGloss = true }.font(.footnote)
                 }
-                Text("« \(entry.example) »").font(.callout.italic()).fontDesign(.serif)
-                    .padding(10).frame(maxWidth: .infinity, alignment: .leading)
-                    .background(Topic.vocabulary.tint.opacity(0.08), in: RoundedRectangle(cornerRadius: 10))
+                Text("« \(entry.example) »").font(.callout.italic()).fontDesign(.serif).foregroundStyle(Theme.ink)
+                    .padding(.leading, 12).padding(.vertical, 4).frame(maxWidth: .infinity, alignment: .leading)
+                    .overlay(alignment: .leading) { Rectangle().fill(Theme.gold).frame(width: 1.5) }
                 if !entry.nuances.isEmpty {
-                    Text(settings.t("vocab.nuances")).font(.caption.weight(.heavy)).textCase(.uppercase).foregroundStyle(.secondary)
+                    SectionLabel(text: settings.t("vocab.nuances"))
                     ForEach(entry.nuances, id: \.word) { nuance in
                         (Text(nuance.word).bold() + Text(" — ") + Text(nuance.note[settings.language])).font(.callout)
                     }
                 }
                 if !entry.pitfalls.isEmpty {
-                    Text(settings.t("vocab.pitfalls")).font(.caption.weight(.heavy)).textCase(.uppercase).foregroundStyle(.secondary)
+                    SectionLabel(text: settings.t("vocab.pitfalls"))
                     ForEach(entry.pitfalls, id: \.self) { Label($0, systemImage: "exclamationmark.triangle").font(.callout) }
                 }
                 if let etymology = entry.etymology {
@@ -124,7 +126,7 @@ struct VocabCardView: View {
             }
         }
         .padding()
-        .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 18))
+        .themedSurface()
         .accessibilityElement(children: .contain)
     }
 }
@@ -188,7 +190,7 @@ struct ReviewSessionView: View {
                     .onAppear { if !queue.isEmpty { store.record(.reviewSessionCompleted) } }
                 }
             }
-            .background(Color(.systemGroupedBackground))
+            .background(Theme.background)
             .navigationTitle(settings.t("vocab.review"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar { ToolbarItem(placement: .topBarLeading) { Button(settings.t("common.close")) { dismiss() } } }
@@ -244,7 +246,7 @@ struct ReviewSessionView: View {
             }
         }
         .padding()
-        .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 16))
+        .background(Theme.surface, in: RoundedRectangle(cornerRadius: Theme.cornerRadius))
     }
 
     private func normalize(_ s: String) -> String {

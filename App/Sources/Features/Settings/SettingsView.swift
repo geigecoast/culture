@@ -29,6 +29,14 @@ struct SettingsView: View {
             }
 
             // One tap per city: acceptance criterion "add Paris or München in under two taps".
+            Section(settings.t("settings.appearance")) {
+                Picker(settings.t("settings.appearance"), selection: $settings.followsSystemAppearance) {
+                    Text(settings.t("settings.appearance.dark")).tag(false)
+                    Text(settings.t("settings.appearance.system")).tag(true)
+                }
+                .pickerStyle(.segmented)
+            }
+
             Section(settings.t("settings.cities")) {
                 ForEach(model.content.cities) { city in
                     Toggle(city.name[settings.language], isOn: Binding(
@@ -112,6 +120,8 @@ struct SettingsView: View {
                 Text("Content v\(model.content.version)").font(.caption.monospaced()).foregroundStyle(.secondary)
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(Theme.background)
         .navigationTitle(settings.t("settings.title"))
         .confirmationDialog(settings.t("settings.deleteConfirmTitle"), isPresented: $confirmDelete, titleVisibility: .visible) {
             Button(settings.t("settings.deleteConfirm"), role: .destructive) {

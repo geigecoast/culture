@@ -22,13 +22,13 @@ struct CardDetailView: View {
                 }
                 SourcesSection(editorial: card.editorial, factsAsOf: card.factsAsOf)
                     .padding()
-                    .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 16))
+                    .background(Theme.surface, in: RoundedRectangle(cornerRadius: Theme.cornerRadius))
             }
             .padding()
             .frame(maxWidth: 900)
             .frame(maxWidth: .infinity)
         }
-        .background(Color(.systemGroupedBackground))
+        .background(Theme.background)
         .navigationTitle(card.title[settings.language])
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
@@ -55,7 +55,7 @@ private struct LanguageColumn: View {
         }
         .padding()
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 16))
+        .background(Theme.surface, in: RoundedRectangle(cornerRadius: Theme.cornerRadius))
         .environment(\.locale, language.locale)
     }
 }

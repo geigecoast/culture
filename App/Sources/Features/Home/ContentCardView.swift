@@ -24,16 +24,18 @@ struct ContentCardView: View {
                 }
                 .padding(12)
             }
-            .clipShape(UnevenRoundedRectangle(topLeadingRadius: 20, topTrailingRadius: 20, style: .continuous))
+            .clipShape(UnevenRoundedRectangle(topLeadingRadius: Theme.cornerRadius, topTrailingRadius: Theme.cornerRadius, style: .continuous))
 
             VStack(alignment: .leading, spacing: 10) {
                 HStack(alignment: .top) {
-                    Text(card.title[language]).font(.title3.weight(.bold)).fixedSize(horizontal: false, vertical: true)
+                    Text(card.title[language]).font(.title3.weight(.semibold)).fontDesign(.serif)
+                        .foregroundStyle(Theme.ink).fixedSize(horizontal: false, vertical: true)
                     Spacer(minLength: 8)
                     LanguageToggle(language: Binding(get: { language }, set: { cardLanguage = $0 }))
                 }
                 Text(card.body[language])
                     .font(.body)
+                    .foregroundStyle(Theme.ink.opacity(0.88))
                     .lineLimit(compact ? 4 : nil)
                     .fixedSize(horizontal: false, vertical: true)
                 TakeawayView(text: card.takeaway[language])
@@ -49,9 +51,8 @@ struct ContentCardView: View {
             }
             .padding(14)
         }
-        .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 20, style: .continuous))
-        .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).strokeBorder(.quaternary))
-        .contentShape(RoundedRectangle(cornerRadius: 20))
+        .themedSurface()
+        .contentShape(RoundedRectangle(cornerRadius: Theme.cornerRadius))
         .accessibilityElement(children: .contain)
     }
 
@@ -64,7 +65,7 @@ struct ContentCardView: View {
                 likeBounce.toggle()
             } label: {
                 Image(systemName: liked ? "heart.fill" : "heart")
-                    .foregroundStyle(liked ? .red : .primary)
+                    .foregroundStyle(liked ? Theme.oxblood : Theme.ink)
                     .symbolEffect(.bounce, value: likeBounce)
             }
             .accessibilityLabel(settings.t(liked ? "action.unlike" : "action.like"))
@@ -87,7 +88,8 @@ struct ContentCardView: View {
                     .foregroundStyle(card.topic.tint)
             }
         }
-        .font(.title3)
+        .font(.system(size: 19, weight: .light))
+        .foregroundStyle(Theme.ink)
         .buttonStyle(.plain)
         .padding(.top, 4)
     }
@@ -98,13 +100,15 @@ struct TakeawayView: View {
     let text: String
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 4) {
-            Text(settings.t("card.takeaway")).font(.caption.weight(.heavy)).textCase(.uppercase).foregroundStyle(.secondary)
-            Text(text).font(.callout.weight(.medium)).fixedSize(horizontal: false, vertical: true)
+        VStack(alignment: .leading, spacing: 6) {
+            SectionLabel(text: settings.t("card.takeaway"))
+            Text(text).font(.callout.italic()).fontDesign(.serif).foregroundStyle(Theme.ink)
+                .fixedSize(horizontal: false, vertical: true)
         }
-        .padding(10)
+        .padding(.leading, 12)
+        .padding(.vertical, 4)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Color.accentColor.opacity(0.08), in: RoundedRectangle(cornerRadius: 12))
+        .overlay(alignment: .leading) { Rectangle().fill(Theme.gold).frame(width: 1.5) }
         .accessibilityElement(children: .combine)
     }
 }

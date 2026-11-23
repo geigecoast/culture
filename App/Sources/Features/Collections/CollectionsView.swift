@@ -36,6 +36,8 @@ struct CollectionsView: View {
                 Button { showNew = true } label: { Label(settings.t("collections.new"), systemImage: "plus") }
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(Theme.background)
         .navigationTitle(settings.t("tab.collections"))
         .alert(settings.t("collections.new"), isPresented: $showNew) {
             TextField(settings.t("collections.namePlaceholder"), text: $newName)
