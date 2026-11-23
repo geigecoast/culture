@@ -25,7 +25,7 @@ struct WidgetSnapshot: Codable {
     }
 
     func save() {
-        guard let url else { return }
+        guard let url = Self.url else { return }
         let encoder = JSONEncoder()
         encoder.dateEncodingStrategy = .iso8601
         try? encoder.encode(self).write(to: url, options: .atomic)
